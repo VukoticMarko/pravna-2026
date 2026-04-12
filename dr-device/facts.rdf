@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:lc="http://informatika.ftn.uns.ac.rs/legal-case.rdf#">
+  <lc:case rdf:about="http://informatika.ftn.uns.ac.rs/legal-case.rdf#K_1002_2026">
+      <lc:name>K_1002_2026</lc:name>
+      <lc:defendant>D.Z.</lc:defendant>
+      <lc:money rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">501</lc:money>
+      <lc:steal_type>robbery</lc:steal_type>
+      <lc:intention>keeps_stolen_thing</lc:intention>
+      <lc:steal_way>standard</lc:steal_way>
+  </lc:case>
+</rdf:RDF>

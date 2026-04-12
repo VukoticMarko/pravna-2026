@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lrml:LegalRuleML xmlns:lrml="http://docs.oasis-open.org/legalruleml/ns/v1.0/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legalruleml/ns/v1.0/ xsd-compact/lrml-compact.xsd" xmlns:ruleml="http://ruleml.org/spec">
+	<lrml:Statements>
+		<!-- Razbojništvo Član 242 -->
+		<lrml:PrescriptiveStatement key="ps1">
+			<ruleml:Rule key=":rule1" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:steal_type"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">robbery</ruleml:Data>
+						</ruleml:Atom>
+						<ruleml:Or>
+							<ruleml:Atom>
+								<ruleml:Rel iri="lc:intention"/>
+								<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+								<ruleml:Data xsi:type="xs:string">keeps_stolen_thing</ruleml:Data>
+							</ruleml:Atom>
+							<ruleml:Atom>
+								<ruleml:Rel iri="lc:intention"/>
+								<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+								<ruleml:Data xsi:type="xs:string">uses_force</ruleml:Data>
+							</ruleml:Atom>
+							<ruleml:Atom>
+								<ruleml:Rel iri="lc:intention"/>
+								<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+								<ruleml:Data xsi:type="xs:string">threatens_to_attack</ruleml:Data>
+							</ruleml:Atom>							
+						</ruleml:Or>
+						<ruleml:Atom>
+								<ruleml:Rel iri="lc:steal_way"/>
+								<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+								<ruleml:Data xsi:type="xs:string">standard</ruleml:Data>
+						</ruleml:Atom>
+                    </ruleml:And>
+                </ruleml:if>		
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>robbery_lv1</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+		<lrml:PrescriptiveStatement key="ps2">
+			<ruleml:Rule key=":rule2" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+                    	<ruleml:Atom>
+							<ruleml:Rel iri="lc:money"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Var>Money</ruleml:Var>
+						</ruleml:Atom>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:steal_type"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">robbery</ruleml:Data>
+						</ruleml:Atom>
+						<ruleml:Atom>
+								<ruleml:Expr>
+									<ruleml:Fun>&gt;</ruleml:Fun>
+									<ruleml:Var>Money</ruleml:Var>
+									<ruleml:Ind>3000</ruleml:Ind>
+								</ruleml:Expr>
+						</ruleml:Atom>
+                    </ruleml:And>
+					<ruleml:Atom>
+						<ruleml:Rel iri="lc:steal_way"/>
+						<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+						<ruleml:Data xsi:type="xs:string">standard</ruleml:Data>
+				</ruleml:Atom>
+                </ruleml:if>		
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>robbery_min_imprisonment_lv2_3</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<lrml:PrescriptiveStatement key="ps3">
+			<ruleml:Rule key=":rule3" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+                    	<ruleml:Atom>
+							<ruleml:Rel iri="lc:money"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Var>Money</ruleml:Var>
+						</ruleml:Atom>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:steal_type"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">robbery</ruleml:Data>
+						</ruleml:Atom>
+						<ruleml:Atom>
+								<ruleml:Expr>
+									<ruleml:Fun>&gt;</ruleml:Fun>
+									<ruleml:Var>Money</ruleml:Var>
+									<ruleml:Ind>3000</ruleml:Ind>
+								</ruleml:Expr>
+						</ruleml:Atom>
+						<ruleml:Atom>
+							<ruleml:Expr>
+								<ruleml:Fun>&lt;=</ruleml:Fun>
+								<ruleml:Var>Money</ruleml:Var>
+								<ruleml:Ind>30000</ruleml:Ind>
+							</ruleml:Expr>
+						</ruleml:Atom>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:steal_way"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">standard</ruleml:Data>
+						</ruleml:Atom>
+                    </ruleml:And>
+                </ruleml:if>		
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>robbery_lv2</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<lrml:PrescriptiveStatement key="ps4">
+			<ruleml:Rule key=":rule4" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+                    	<ruleml:Atom>
+							<ruleml:Rel iri="lc:money"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Var>Money</ruleml:Var>
+						</ruleml:Atom>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:steal_type"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">robbery</ruleml:Data>
+						</ruleml:Atom>
+						<ruleml:Atom>
+								<ruleml:Expr>
+									<ruleml:Fun>&gt;</ruleml:Fun>
+									<ruleml:Var>Money</ruleml:Var>
+									<ruleml:Ind>30000</ruleml:Ind>
+								</ruleml:Expr>
+						</ruleml:Atom>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:steal_way"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">standard</ruleml:Data>
+						</ruleml:Atom>
+                    </ruleml:And>
+                </ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>robbery_lv3</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>		
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<lrml:PrescriptiveStatement key="ps5">
+			<ruleml:Rule key=":rule5" closure="universal" strength="defeasible">
+				<ruleml:if>
+						<ruleml:Atom>
+							<ruleml:Rel>robbery_lv2</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>robbery_lv1</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<lrml:PrescriptiveStatement key="ps6">
+			<ruleml:Rule key=":rule6" closure="universal" strength="defeasible">
+				<ruleml:if>
+						<ruleml:Atom>
+							<ruleml:Rel>robbery_lv3</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>robbery_lv1</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<lrml:PrescriptiveStatement key="ps7">
+			<ruleml:Rule key=":rule7" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+                    	<ruleml:Atom>
+							<ruleml:Rel iri="lc:steal_type"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">robbery</ruleml:Data>
+						</ruleml:Atom>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:steal_way"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">group_or_seriously_injured</ruleml:Data>
+						</ruleml:Atom>
+						<ruleml:Or>
+							<ruleml:Atom>
+								<ruleml:Rel iri="lc:intention"/>
+								<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+								<ruleml:Data xsi:type="xs:string">keeps_stolen_thing</ruleml:Data>
+							</ruleml:Atom>
+							<ruleml:Atom>
+								<ruleml:Rel iri="lc:intention"/>
+								<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+								<ruleml:Data xsi:type="xs:string">uses_force</ruleml:Data>
+							</ruleml:Atom>
+							<ruleml:Atom>
+								<ruleml:Rel iri="lc:intention"/>
+								<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+								<ruleml:Data xsi:type="xs:string">threatens_to_attack</ruleml:Data>
+							</ruleml:Atom>								
+						</ruleml:Or>					
+                    </ruleml:And>
+                </ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>robbery_lv4</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>		
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<lrml:PrescriptiveStatement key="ps8">
+			<ruleml:Rule key=":rule8" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+                    	<ruleml:Atom>
+							<ruleml:Rel iri="lc:steal_type"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">robbery</ruleml:Data>
+						</ruleml:Atom>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:steal_way"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">deprived_of_life</ruleml:Data>
+						</ruleml:Atom>
+						<ruleml:Or>
+							<ruleml:Atom>
+								<ruleml:Rel iri="lc:intention"/>
+								<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+								<ruleml:Data xsi:type="xs:string">keeps_stolen_thing</ruleml:Data>
+							</ruleml:Atom>
+							<ruleml:Atom>
+								<ruleml:Rel iri="lc:intention"/>
+								<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+								<ruleml:Data xsi:type="xs:string">uses_force</ruleml:Data>
+							</ruleml:Atom>
+							<ruleml:Atom>
+								<ruleml:Rel iri="lc:intention"/>
+								<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+								<ruleml:Data xsi:type="xs:string">threatens_to_attack</ruleml:Data>
+							</ruleml:Atom>							
+						</ruleml:Or>					
+                    </ruleml:And>
+                </ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>robbery_lv5</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>		
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<lrml:PrescriptiveStatement key="ps9">
+			<ruleml:Rule key=":rule9" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:money"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Var>Money</ruleml:Var>
+						</ruleml:Atom>
+                    	<ruleml:Atom>
+							<ruleml:Rel iri="lc:steal_type"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">robbery</ruleml:Data>
+						</ruleml:Atom>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:steal_way"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">standard</ruleml:Data>
+						</ruleml:Atom>
+						<ruleml:Atom>
+							<ruleml:Expr>
+								<ruleml:Fun>&lt;</ruleml:Fun>
+								<ruleml:Var>Money</ruleml:Var>
+								<ruleml:Ind>150</ruleml:Ind>
+							</ruleml:Expr>
+					</ruleml:Atom>
+						<ruleml:Or>
+							<ruleml:Atom>
+								<ruleml:Rel iri="lc:intention"/>
+								<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+								<ruleml:Data xsi:type="xs:string">keeps_stolen_thing</ruleml:Data>
+							</ruleml:Atom>
+							<ruleml:Atom>
+								<ruleml:Rel iri="lc:intention"/>
+								<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+								<ruleml:Data xsi:type="xs:string">uses_force</ruleml:Data>
+							</ruleml:Atom>
+							<ruleml:Atom>
+								<ruleml:Rel iri="lc:intention"/>
+								<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+								<ruleml:Data xsi:type="xs:string">threatens_to_attack</ruleml:Data>
+							</ruleml:Atom>							
+						</ruleml:Or>					
+                    </ruleml:And>
+                </ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>robbery_lv6</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>		
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<lrml:PrescriptiveStatement key="ps10">
+			<ruleml:Rule key=":rule10" closure="universal" strength="defeasible">
+				<ruleml:if>
+						<ruleml:Atom>
+							<ruleml:Rel>robbery_lv6</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>robbery_lv1</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<!-- Dogovaranje ishoda takmičenja Član 244a -->
+
+		<lrml:PrescriptiveStatement key="ps11">
+			<ruleml:Rule key=":rule11" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+                    	<ruleml:Atom>
+							<ruleml:Rel iri="lc:steal_type"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">competition_outcome_arrangement</ruleml:Data>
+						</ruleml:Atom>
+						<ruleml:Or>
+							<ruleml:Atom>
+								<ruleml:Rel iri="lc:intention"/>
+								<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+								<ruleml:Data xsi:type="xs:string">own_benefit</ruleml:Data>
+							</ruleml:Atom>
+							<ruleml:Atom>
+								<ruleml:Rel iri="lc:intention"/>
+								<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+								<ruleml:Data xsi:type="xs:string">someones_benefit</ruleml:Data>
+							</ruleml:Atom>						
+						</ruleml:Or>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>competition_outcome_arrangement_lv1</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<lrml:PrescriptiveStatement key="ps12">
+			<ruleml:Rule key=":rule12" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:money"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Var>Money</ruleml:Var>
+						</ruleml:Atom>
+                    	<ruleml:Atom>
+							<ruleml:Rel iri="lc:steal_type"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">competition_outcome_arrangement</ruleml:Data>
+						</ruleml:Atom>
+						<ruleml:Atom>
+							<ruleml:Expr>
+								<ruleml:Fun>&gt;</ruleml:Fun>
+								<ruleml:Var>Money</ruleml:Var>
+								<ruleml:Ind>10000</ruleml:Ind>
+							</ruleml:Expr>
+						</ruleml:Atom>
+						<ruleml:Atom>
+							<ruleml:Expr>
+								<ruleml:Fun>&lt;=</ruleml:Fun>
+								<ruleml:Var>Money</ruleml:Var>
+								<ruleml:Ind>40000</ruleml:Ind>
+							</ruleml:Expr>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>competition_outcome_arrangement_lv2</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<lrml:PrescriptiveStatement key="ps13">
+			<ruleml:Rule key=":rule13" closure="universal" strength="defeasible">
+				<ruleml:if>
+					<ruleml:And>
+						<ruleml:Atom>
+							<ruleml:Rel iri="lc:money"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Var>Money</ruleml:Var>
+						</ruleml:Atom>
+                    	<ruleml:Atom>
+							<ruleml:Rel iri="lc:steal_type"/>
+							<ruleml:Var type="lc:defendant">Defendant</ruleml:Var>
+							<ruleml:Data xsi:type="xs:string">competition_outcome_arrangement</ruleml:Data>
+						</ruleml:Atom>
+						<ruleml:Atom>
+							<ruleml:Expr>
+								<ruleml:Fun>&gt;</ruleml:Fun>
+								<ruleml:Var>Money</ruleml:Var>
+								<ruleml:Ind>40000</ruleml:Ind>
+							</ruleml:Expr>
+						</ruleml:Atom>
+					</ruleml:And>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Atom>
+						<ruleml:Rel>competition_outcome_arrangement_lv3</ruleml:Rel>
+						<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+					</ruleml:Atom>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<lrml:PrescriptiveStatement key="ps14">
+			<ruleml:Rule key=":rule14" closure="universal" strength="defeasible">
+				<ruleml:if>
+						<ruleml:Atom>
+							<ruleml:Rel>competition_outcome_arrangement_lv2</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>competition_outcome_arrangement_lv1</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<lrml:PrescriptiveStatement key="ps15">
+			<ruleml:Rule key=":rule15" closure="universal" strength="defeasible">
+				<ruleml:if>
+						<ruleml:Atom>
+							<ruleml:Rel>competition_outcome_arrangement_lv3</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+				</ruleml:if>
+				<ruleml:then>
+					<ruleml:Negation>
+						<ruleml:Atom>
+							<ruleml:Rel>competition_outcome_arrangement_lv1</ruleml:Rel>
+							<ruleml:Var type=":defendant">Defendant</ruleml:Var>
+						</ruleml:Atom>
+					</ruleml:Negation>
+				</ruleml:then>
+			</ruleml:Rule>
+		</lrml:PrescriptiveStatement>
+
+		<lrml:PenaltyStatement key="pen1">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":min_imprisonment_robbery_1"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>1</ruleml:Ind>
+						</ruleml:Atom>						
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen2">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_imprisonment_robbery_1"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>8</ruleml:Ind>
+						</ruleml:Atom>						
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen3">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":min_imprisonment_robbery_2"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>2</ruleml:Ind>
+						</ruleml:Atom>						
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen4">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_imprisonment_robbery_2"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>10</ruleml:Ind>
+						</ruleml:Atom>						
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen5">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_imprisonment_robbery_3"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>12</ruleml:Ind>
+						</ruleml:Atom>						
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen6">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":min_imprisonment_robbery_3"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>3</ruleml:Ind>
+						</ruleml:Atom>						
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen7">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_imprisonment_robbery_4"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>15</ruleml:Ind>
+						</ruleml:Atom>						
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen8">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":min_imprisonment_robbery_4"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>10</ruleml:Ind>
+						</ruleml:Atom>						
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen9">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_imprisonment_robbery_5"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>Forever</ruleml:Ind>
+						</ruleml:Atom>						
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen10">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_imprisonment_robbery_6"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>3</ruleml:Ind>
+						</ruleml:Atom>						
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen11">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_imprisonment_competition_outcome_arrangement_1"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>3</ruleml:Ind>
+						</ruleml:Atom>						
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen12">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":min_imprisonment_competition_outcome_arrangement_1"/>
+							<ruleml:Var>Months</ruleml:Var>
+							<ruleml:Ind>6</ruleml:Ind>
+						</ruleml:Atom>						
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen13">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_imprisonment_competition_outcome_arrangement_2"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>5</ruleml:Ind>
+						</ruleml:Atom>						
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen14">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":min_imprisonment_competition_outcome_arrangement_2"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>1</ruleml:Ind>
+						</ruleml:Atom>						
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:PenaltyStatement key="pen15">
+			<lrml:SuborderList>
+				<lrml:Obligation>
+						<ruleml:Atom>
+							<ruleml:Rel iri=":max_imprisonment_competition_outcome_arrangement_3"/>
+							<ruleml:Var>Years</ruleml:Var>
+							<ruleml:Ind>10</ruleml:Ind>
+						</ruleml:Atom>						
+				</lrml:Obligation>
+			</lrml:SuborderList>
+		</lrml:PenaltyStatement>
+		<lrml:ReparationStatement>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen1"/>
+				<lrml:toPrescriptiveStatement keyref="#ps1"/>
+			</lrml:Reparation>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen2"/>
+				<lrml:toPrescriptiveStatement keyref="#ps1"/>
+			</lrml:Reparation>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen3"/>
+				<lrml:toPrescriptiveStatement keyref="#ps2"/>
+			</lrml:Reparation>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen4"/>
+				<lrml:toPrescriptiveStatement keyref="#ps3"/>
+			</lrml:Reparation>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen5"/>
+				<lrml:toPrescriptiveStatement keyref="#ps4"/>
+			</lrml:Reparation>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen6"/>
+				<lrml:toPrescriptiveStatement keyref="#ps7"/>
+			</lrml:Reparation>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen7"/>
+				<lrml:toPrescriptiveStatement keyref="#ps7"/>
+			</lrml:Reparation>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen8"/>
+				<lrml:toPrescriptiveStatement keyref="#ps8"/>
+			</lrml:Reparation>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen9"/>
+				<lrml:toPrescriptiveStatement keyref="#ps8"/>
+			</lrml:Reparation>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen10"/>
+				<lrml:toPrescriptiveStatement keyref="#ps9"/>
+			</lrml:Reparation>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen11"/>
+				<lrml:toPrescriptiveStatement keyref="#ps11"/>
+			</lrml:Reparation>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen12"/>
+				<lrml:toPrescriptiveStatement keyref="#ps12"/>
+			</lrml:Reparation>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen13"/>
+				<lrml:toPrescriptiveStatement keyref="#ps12"/>
+			</lrml:Reparation>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen14"/>
+				<lrml:toPrescriptiveStatement keyref="#ps13"/>
+			</lrml:Reparation>
+			<lrml:Reparation>
+				<lrml:appliesPenalty keyref="#pen15"/>
+				<lrml:toPrescriptiveStatement keyref="#ps13"/>
+			</lrml:Reparation>
+		</lrml:ReparationStatement>
+		<!-- Ne radi nista 
+		<lrml:OverrideStatement>
+			<lrml:Override under="#ps1" over="#ps3"/>
+		</lrml:OverrideStatement>
+		<lrml:OverrideStatement>
+			<lrml:Override under="#ps1" over="#ps4"/>
+		</lrml:OverrideStatement>
+		<lrml:OverrideStatement>
+			<lrml:Override under="#ps1" over="#ps6"/>
+		</lrml:OverrideStatement>
+		-->
+	</lrml:Statements>
+</lrml:LegalRuleML>
