@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd">
+    <act id="krivicni" name="Krivični zakonik Crne Gore">
+        <meta>
+            <identification source="#palmirani">
+                <FRBRWork>
+                    <FRBRthis value="/akn/krivicni/!main" />
+                    <FRBRuri value="/krivicni" />
+                    <FRBRdate date="2021-03-31" name="Generation" />
+                    <FRBRauthor href="#congress" as="#author" />
+                    <FRBRcountry value="cg" />
+                    <FRBRnumber value="3/20" />
+                    <FRBRname value="krivicniZakonikCrneGore" />
+                    <FRBRprescriptive value="true" />
+                    <FRBRauthoritative value="true" />
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRdate date="2021-03-31" name="Generation" />
+                    <FRBRauthor href="#palmirani" as="#editor" />
+                    <FRBRlanguage language="cg" />
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRdate date="2021-03-31" name="Generation" />
+                    <FRBRauthor href="#palmirani" as="#editor" />
+                    <FRBRformat value="xml" />
+                </FRBRManifestation>
+            </identification>
+            <publication name="sl" date="2008-08-11" showAs="Službeni list Crne Gore"
+                number="76/2008" />
+            <classification source="#palmirani">
+                <keyword value="krivicni" showAs="Krivicni" dictionary="CG" />
+            </classification>
+            <references>
+                <TLCOrganization eId="sl" href="/akn/rs/ontology/organization/sg"
+                    showAs="Službeni list Crne Gore" />
+            </references>
+        </meta>
+        <preface>
+            <p>
+                <docTitle>KRIVIČNI <docType>ZAKONIK</docType> CRNE GORE</docTitle>
+            </p>
+        </preface>
+        <body>
+            <heading>POSEBNI DIO</heading>
+            <chapter eID="chp_21">
+                <num>GLAVA DVADESET PRVA</num>
+                <heading>KRIVIČNA DJELA PROTIV INTELEKTUALNE SVOJINE</heading>
+
+                <section eId="chp_21__sec_233">
+                    <heading>Povreda moralnih prava autora i interpretatora</heading>
+                    <article eId="art_233">
+                        <num>Član 233</num>
+                        <list eId="art_233__list_1">
+                            <point eId="art_233__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_233__list_1__point_1__content">
+                                    <p>Ko pod svojim imenom ili imenom drugog u cjelini ili
+                                        djelimično objavi, stavi u promet primjerke tuđeg autorskog
+                                        djela ili interpretacije ili na drugi način javno saopšti
+                                        tuđe autorsko djelo ili interpretaciju, kazniće se novčanom
+                                        kaznom ili zatvorom do tri godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_233__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_233__list_1__point_2__content">
+                                    <p>Ko pod svojim imenom u cjelini ili djelimično objavi tuđe
+                                        autorsko djelo na osnovu čega bude biran u naučno ili
+                                        nastavno-naučno zvanje, kazniće se novčanom kaznom ili
+                                        kaznom zatvora do četiri godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_233__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_233__list_1__point_3__content">
+                                    <p>Ko bez dozvole autora izmijeni ili preradi tuđe autorsko
+                                        djelo ili izmijeni tuđu snimljenu interpretaciju, kazniće se
+                                        novčanom kaznom ili zatvorom do jedne godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_233__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_233__list_1__point_4__content">
+                                    <p>Ko stavlja u promet primjerke tuđeg autorskog djela ili
+                                        interpretacije na način kojim se vrijeđa čast ili ugled
+                                        autora ili izvođača, kazniće se novčanom kaznom ili zatvorom
+                                        do šest mjeseci.</p>
+                                </content>
+                            </point>
+                            <point eId="art_233__list_1__point_5">
+                                <num>(5) </num>
+                                <content eId="art_233__list_1__point_5__content">
+                                    <p>Predmeti izvršenja krivičnog djela i predmeti koji su bili
+                                        upotrijebljeni ili namijenjeni za izvršenje krivičnog djela
+                                        iz st. <ref
+                                            href="/krivicni#art_233__list_1__point_1">
+                                            1
+                                        </ref>
+                                        do <ref
+                                            href="/krivicni#art_233__list_1__point_5">
+                                            4
+                                        </ref>
+                                        ovog člana oduzeće se, a predmeti izvršenja krivičnog djela
+                                        će se uništiti.</p>
+                                </content>
+                            </point>
+                            <point eId="art_233__list_1__point_6">
+                                <num>(6) </num>
+                                <content eId="art_233__list_1__point_6__content">
+                                    <p>Gonjenje za djelo iz stava <ref
+                                            href="/krivicni#art_233__list_1__point_6">
+                                            4
+                                        </ref>
+                                        ovog člana preduzima se po privatnoj tužbi.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_21__sec_234">
+                    <heading>Neovlašćeno iskorišćavanje autorskog djela ili predmeta srodnog prava</heading>
+                    <article eId="art_234">
+                        <num>Član 234</num>
+                        <list eId="art_234__list_1">
+                            <point eId="art_234__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_234__list_1__point_1__content">
+                                    <p>Ko neovlašćeno objavi, snimi, umnoži ili na drugi način javno
+                                        saopšti ili učini dostupnim, u cjelini ili djelimično,
+                                        autorsko djelo, interpretaciju, fonogram, videogram, emisiju
+                                        ili bazu podataka, kazniće se zatvorom do tri godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_234__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_234__list_1__point_2__content">
+                                    <p>Kaznom iz stava <ref
+                                            href="/krivicni#art_234__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana kazniće se i ko stavi u promet ili, u namjeri
+                                        stavljanja u promet, drži neovlašćeno umnožene ili
+                                        neovlašćeno stavljene u promet primjerke autorskog djela,
+                                        interpretacije, fonograma, videograma, emisije ili baze
+                                        podataka.</p>
+                                </content>
+                            </point>
+                            <point eId="art_234__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_234__list_1__point_3__content">
+                                    <p>Ako je djelo iz st. <ref
+                                            href="/krivicni#art_234__list_1__point_1">
+                                            1
+                                        </ref>
+                                        i <ref
+                                            href="/krivicni#art_234__list_1__point_2">
+                                            2
+                                        </ref>
+                                        ovog člana učinjeno u namjeri pribavljanja imovinske koristi
+                                        za sebe ili drugog, učinilac će se kazniti zatvorom od tri
+                                        mjeseca do pet godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_234__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_234__list_1__point_4__content">
+                                    <p>Predmeti izvršenja krivičnog djela i predmeti koji su bili
+                                        upotrijebljeni ili namijenjeni za izvršenje krivičnog djela
+                                        iz st. <ref
+                                            href="/krivicni#art_234__list_1__point_1">
+                                            1
+                                        </ref>
+                                        i <ref
+                                            href="/krivicni#art_234__list_1__point_2">
+                                            2
+                                        </ref>
+                                        ovog člana oduzeće se, a predmeti izvršenja krivičnog djela
+                                        će se uništiti.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_21__sec_235">
+                    <heading>Neovlašćeno zaobilaženje mjera zaštite namijenjenih sprječavanju
+                        povreda autorskog i srodnih prava i informacija o pravu</heading>
+                    <article eId="art_235">
+                        <num>Član 235</num>
+                        <list eId="art_235__list_1">
+                            <point eId="art_235__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_235__list_1__point_1__content">
+                                    <p>Ko proizvede, uveze, stavi u promet, proda, da u zakup,
+                                        reklamira u cilju prodaje ili davanja u zakup ili drži u
+                                        komercijalne svrhe uređaje ili sredstva čija je osnovna ili
+                                        pretežna namjena uklanjanje, zaobilaženje ili osujećivanje
+                                        tehnoloških mjera namijenjenih sprječavanju povreda
+                                        autorskog i srodnog prava ili ko takve uređaje ili sredstva
+                                        koristi u cilju povreda autorskog ili srodnog prava, kazniće
+                                        se novčanom kaznom ili zatvorom do tri godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_235__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_235__list_1__point_2__content">
+                                    <p>Predmeti izvršenja krivičnog djela i predmeti koji su bili
+                                        upotrijebljeni ili namijenjeni za izvršenje krivičnog djela
+                                        iz stava <ref
+                                            href="/krivicni#art_235__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana oduzeće se, a predmeti izvršenja krivičnog djela
+                                        će se uništiti.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_21__sec_236">
+                    <heading>Neovlašćeno uklanjanje ili mijenjanje elektronske informacije o
+                        autorskom i srodnim pravima</heading>
+                    <article eId="art_236">
+                        <num>Član 236</num>
+                        <list eId="art_236__list_1">
+                            <point eId="art_236__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_236__list_1__point_1__content">
+                                    <p>Ko neovlašćeno ukloni ili izmijeni elektronsku informaciju o
+                                        autorskom i srodnom pravu ili stavi u promet, uveze, emituje
+                                        ili na drugi način javno saopšti ili učini dostupnim
+                                        autorsko djelo ili predmet srodnopravne zaštite sa kojeg je
+                                        elektronska informacija o pravima neovlašćeno uklonjena ili
+                                        izmijenjena, kazniće se novčanom kaznom ili zatvorom do tri
+                                        godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_236__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_236__list_1__point_2__content">
+                                    <p>Predmeti izvršenja krivičnog djela i predmeti koji su bili
+                                        upotrijebljeni ili namijenjeni za izvršenje krivičnog djela
+                                        iz stava <ref
+                                            href="/krivicni#art_236__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana oduzeće se, a predmeti izvršenja krivičnog djela
+                                        će se uništiti.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_21__sec_237">
+                    <heading>Neovlašćeno korišćenje tuđeg patenta</heading>
+                    <article eId="art_237">
+                        <num>Član 237</num>
+                        <list eId="art_237__list_1">
+                            <point eId="art_237__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_237__list_1__point_1__content">
+                                    <p>Ko neovlašćeno proizvodi, uvozi, izvozi, nudi radi stavljanja
+                                        u promet, stavlja u promet, skladišti ili koristi u
+                                        privrednom prometu proizvod ili postupak zaštićen patentom,
+                                        kazniće se novčanom kaznom ili zatvorom do tri godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_237__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_237__list_1__point_2__content">
+                                    <p>Ako je djelom iz stava <ref
+                                            href="/krivicni#art_237__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana pribavljena imovinska korist ili prouzrokovana
+                                        šteta u iznosu koji prelazi trideset hiljada eura, učinilac
+                                        će se kazniti zatvorom od jedne do osam godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_237__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_237__list_1__point_3__content">
+                                    <p>Ko neovlašćeno objavi ili na drugi način učini dostupnim
+                                        suštinu tuđeg prijavljenog pronalaska prije nego što je ovaj
+                                        pronalazak objavljen na način utvrđen zakonom, kazniće se
+                                        novčanom kaznom ili zatvorom do dvije godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_237__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_237__list_1__point_4__content">
+                                    <p>Ko neovlašćeno podnese prijavu patenta ili u prijavi ne
+                                        navede ili lažno navede pronalazača, kazniće se zatvorom od
+                                        šest mjeseci do pet godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_237__list_1__point_5">
+                                <num>(5) </num>
+                                <content eId="art_237__list_1__point_5__content">
+                                    <p>Predmeti izvršenja krivičnog djela i predmeti koji su bili
+                                        upotrijebljeni ili namijenjeni za izvršenje krivičnog djela
+                                        iz st. <ref
+                                            href="/krivicni#art_237__list_1__point_1">
+                                            1
+                                        </ref>
+                                        do <ref
+                                            href="/krivicni#art_237__list_1__point_3">
+                                            3
+                                        </ref>
+                                        ovog člana oduzeće se, a predmeti izvršenja krivičnog djela
+                                        će se uništiti.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_21__sec_238">
+                    <heading>Neovlašćeno korišćenje tuđeg dizajna</heading>
+                    <article eId="art_238">
+                        <num>Član 238</num>
+                        <list eId="art_238__list_1">
+                            <point eId="art_238__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_238__list_1__point_1__content">
+                                    <p>Ko na svom proizvodu u prometu neovlašćeno upotrijebi, u
+                                        cjelosti ili djelimično, tuđi prijavljeni, odnosno zaštićeni
+                                        dizajn proizvoda, kazniće se novčanom kaznom ili zatvorom do
+                                        tri godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_238__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_238__list_1__point_2__content">
+                                    <p>Ko neovlašćeno objavi ili na drugi način učini dostupnim
+                                        javnosti predmet prijave tuđeg dizajna prije nego što je
+                                        objavljen na način utvrđen zakonom, kazniće se novčanom
+                                        kaznom ili zatvorom do jedne godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_238__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_238__list_1__point_3__content">
+                                    <p>Predmeti izvršenja krivičnog djela i predmeti koji su bili
+                                        upotrijebljeni ili namijenjeni za izvršenje krivičnog djela
+                                        iz stava <ref
+                                            href="/krivicni#art_238__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana oduzeće se, a predmeti izvršenja krivičnog djela
+                                        će se uništiti.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+            </chapter>
+
+            <chapter eId="chp_22">
+                <num>GLAVA DVADESET DRUGA</num>
+                <heading>KRIVIČNA DJELA PROTIV IMOVINE</heading>
+
+                <section eId="chp_22__sec_239">
+                    <heading>Krađa</heading>
+                    <article eId="art_239">
+                        <num>Član 239</num>
+                        <list eId="art_239__list_1">
+                            <point eId="art_239__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_239__list_1__point_1__content">
+                                    <p>Ko tuđu pokretnu stvar oduzme drugom u namjeri da njenim
+                                        prisvajanjem sebi ili drugom pribavi protivpravnu imovinsku
+                                        korist, kazniće se novčanom kaznom ili zatvorom do tri
+                                        godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_239__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_239__list_1__point_2__content">
+                                    <p>Za pokušaj djela iz stava <ref
+                                            href="/krivicni#art_239__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana kazniće se. </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <!--Da
+                li podlistu modelovati ovako ili kao listu u listi subList elementa
+                subList element bi se nalazio unutar contenta prvog stava-->
+                <section eId="chp_22__sec_240">
+                    <heading>Teška krađa</heading>
+                    <article eId="art_240">
+                        <num>Član 240</num>
+                        <list eId="art_240__list_1">
+                            <point eId="art_240__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_240__list_1__point_1__content">
+                                    <p>Učinilac djela krađe (član <ref href="/krivicni#art_239">
+                                            239
+                                        </ref>
+                                        ) kazniće se zatvorom od jedne do osam godina, ako je krađa
+                                        izvršena: </p>
+                                </content>
+                            </point>
+                            <point eId="art_240__list_1__point_1_1">
+                                <num>1) </num>
+                                <content eId="art_240__list_1__point_1_1__content">
+                                    <p>obijanjem ili provaljivanjem zatvorenih zgrada, soba, kasa,
+                                        ormana ili drugih zatvorenih prostora ili drugim
+                                        savlađivanjem većih prepreka;</p>
+                                </content>
+                            </point>
+                            <point eId="art_240__list_1__point_1_2">
+                                <num>2) </num>
+                                <content eId="art_240__list_1__point_1_2__content">
+                                    <p>od strane više lica koja su se udružila radi vršenja krađa;</p>
+                                </content>
+                            </point>
+                            <point eId="art_240__list_1__point_1_3">
+                                <num>3) </num>
+                                <content eId="art_240__list_1__point_1_3__content">
+                                    <p>na naročito opasan ili naročito drzak način;</p>
+                                </content>
+                            </point>
+                            <point eId="art_240__list_1__point_1_4">
+                                <num>4) </num>
+                                <content eId="art_240__list_1__point_1_4__content">
+                                    <p>od strane lica koje je pri sebi imalo kakvo oružje ili opasno
+                                        oruđe radi napada ili odbrane;</p>
+                                </content>
+                            </point>
+                            <point eId="art_240__list_1__point_1_5">
+                                <num>5) </num>
+                                <content eId="art_240__list_1__point_1_5__content">
+                                    <p>za vrijeme požara, poplave, zemljotresa ili drugog udesa;</p>
+                                </content>
+                            </point>
+                            <point eId="art_240__list_1__point_1_6">
+                                <num>6) </num>
+                                <content eId="art_240__list_1__point_1_6__content">
+                                    <p>iskorišćavanjem bespomoćnosti ili drugog teškog stanja nekog
+                                        lica;</p>
+                                </content>
+                            </point>
+                            <point eId="art_240__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_240__list_1__point_2__content">
+                                    <p>Kaznom iz stava <ref
+                                            href="/krivicni#art_240__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana kazniće se i učinilac djela krađe ako vrijednost
+                                        ukradenih stvari prelazi iznos od tri hiljade eura ili
+                                        ukradena stvar predstavlja kulturno ili prirodno dobro. </p>
+                                </content>
+                            </point>
+                            <point eId="art_240__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_240__list_1__point_3__content">
+                                    <p>Ako vrijednost ukradenih stvari prelazi iznos od trideset
+                                        hiljada eura, učinilac će se kazniti zatvorom od dvije do
+                                        deset godina.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_241">
+                    <heading>Razbojnička krađa</heading>
+                    <article eId="art_241">
+                        <num>Član 239</num>
+                        <list eId="art_241__list_1">
+                            <point eId="art_241__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_241__list_1__point_1__content">
+                                    <p>Ko je na djelu krađe zatečen, pa u namjeri da ukradenu stvar
+                                        zadrži, upotrijebi silu protiv nekog lica ili prijetnju da
+                                        će neposredno napasti na život ili tijelo, kazniće se
+                                        zatvorom od jedne do osam godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_241__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_241__list_1__point_2__content">
+                                    <p>Ako vrijednost ukradenih stvari prelazi iznos od tri hiljade
+                                        eura, učinilac će se kazniti zatvorom od dvije do deset
+                                        godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_241__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_241__list_1__point_3__content">
+                                    <p>Ako vrijednost ukradenih stvari prelazi iznos od trideset
+                                        hiljada eura, učinilac će se kazniti zatvorom od dvije do
+                                        dvanaest godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_241__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_241__list_1__point_4__content">
+                                    <p>Ako je djelo iz st. <ref
+                                            href="/krivicni#art_241__list_1__point_1">
+                                            1
+                                        </ref>
+                                        do <ref
+                                            href="/krivicni#art_241__list_1__point_3">
+                                            3
+                                        </ref>
+                                        ovog člana učinjeno od strane grupe ili je nekom licu sa
+                                        umišljajem nanesena teška tjelesna povreda, učinilac će se
+                                        kazniti zatvorom od tri do petnaest godina, </p>
+                                </content>
+                            </point>
+                            <point eId="art_241__list_1__point_5">
+                                <num>(5) </num>
+                                <content eId="art_241__list_1__point_5__content">
+                                    <p>Ako je pri izvršenju djela iz st. <ref
+                                            href="/krivicni#art_241__list_1__point_1">
+                                            1
+                                        </ref>
+                                        do <ref
+                                            href="/krivicni#art_241__list_1__point_3">
+                                            3
+                                        </ref>
+                                        ovog člana neko lice sa umišljajem lišeno života, učinilac
+                                        će se kazniti zatvorom najmanje deset godina ili kaznom
+                                        dugotrajnog zatvora. </p>
+                                </content>
+                            </point>
+                            <point eId="art_241__list_1__point_6">
+                                <num>(6) </num>
+                                <content eId="art_241__list_1__point_6__content">
+                                    <p>Ako vrijednost ukradenih stvari iz stava <ref
+                                            href="/krivicni#art_241__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana ne prelazi iznos od stopedeset eura, a učinilac
+                                        je išao za tim da pribavi malu imovinsku korist, učinilac će
+                                        se kazniti zatvorom do tri godine. </p>
+                                </content>
+                            </point>
+                            <point eId="art_241__list_1__point_7">
+                                <num>(7) </num>
+                                <content eId="art_241__list_1__point_7__content">
+                                    <p>Za pokušaj djela iz stava <ref
+                                            href="/krivicni#art_241__list_1__point_6">
+                                            6
+                                        </ref>
+                                        ovog člana kazniće se. </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_242">
+                    <heading>Razbojništvo</heading>
+                    <article eId="art_242">
+                        <num>Član 239</num>
+                        <list eId="art_242__list_1">
+                            <point eId="art_242__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_242__list_1__point_1__content">
+                                    <p>Ko upotrebom sile protiv nekog lica ili prijetnjom da će
+                                        neposredno napasti na život ili tijelo oduzme tuđu pokretnu
+                                        stvar u namjeri da njenim prisvajanjem sebi ili drugom
+                                        pribavi protivpravnu imovinsku korist, kazniće se zatvorom
+                                        od dvije do deset godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_242__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_242__list_1__point_2__content">
+                                    <p>Ako vrijednost oduzetih stvari prelazi iznos od tri hiljade
+                                        eura, učinilac će se kazniti zatvorom od dvije do dvanaest
+                                        godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_242__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_242__list_1__point_3__content">
+                                    <p>Ako vrijednost oduzetih stvari prelazi iznos od trideset
+                                        hiljada eura, učinilac će se kazniti zatvorom od tri do
+                                        petnaest godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_242__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_242__list_1__point_4__content">
+                                    <p>Ako je djelo iz st. <ref
+                                            href="/krivicni#art_242__list_1__point_1">
+                                            1
+                                        </ref>
+                                        do <ref
+                                            href="/krivicni#art_242__list_1__point_3">
+                                            3
+                                        </ref>
+                                        ovog člana učinjeno od strane grupe ili je nekom licu sa
+                                        umišljajem nanesena teška tjelesna povreda, učinilac će se
+                                        kazniti zatvorom od tri do petnaest godina. </p>
+                                </content>
+                            </point>
+                            <point eId="art_242__list_1__point_5">
+                                <num>(5) </num>
+                                <content eId="art_242__list_1__point_5__content">
+                                    <p>Ako je pri izvršenju djela iz st. <ref
+                                            href="/krivicni#art_242__list_1__point_1">
+                                            1
+                                        </ref>
+                                        do <ref
+                                            href="/krivicni#art_242__list_1__point_3">
+                                            3
+                                        </ref>
+                                        ovog člana neko lice sa umišljajem lišeno života, učinilac
+                                        će se kazniti zatvorom najmanje deset godina ili kaznom
+                                        dugotrajnog zatvora. </p>
+                                </content>
+                            </point>
+                            <point eId="art_242__list_1__point_6">
+                                <num>(6) </num>
+                                <content eId="art_242__list_1__point_6__content">
+                                    <p>Ako vrijednost ukradenih stvari iz stava <ref
+                                            href="/krivicni#art_242__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana ne prelazi iznos od sto pedeset eura, a učinilac
+                                        je išao za tim da pribavi malu imovinsku korist, učinilac će
+                                        se kazniti zatvorom do tri godine. </p>
+                                </content>
+                            </point>
+                            <point eId="art_242__list_1__point_7">
+                                <num>(7) </num>
+                                <content eId="art_242__list_1__point_7__content">
+                                    <p>Za pokušaj djela iz stava <ref
+                                            href="/krivicni#art_242__list_1__point_6">
+                                            6
+                                        </ref>
+                                        ovog člana kazniće se. </p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_246">
+                    <heading>Sitna krađa, utaja i prevara</heading>
+                    <article eId="art_246">
+                        <num>Član 246</num>
+                        <list eId="art_246__list_1">
+                            <point eId="art_246__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_246__list_1__point_1__content">
+                                    <p>Ko učini sitnu krađu, utaju ili prevaru, kazniće se novčanom
+                                        kaznom ili zatvorom do šest mjeseci.</p>
+                                </content>
+                            </point>
+                            <point eId="art_246__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_246__list_1__point_2__content">
+                                    <p>Krađa, utaja i prevara smatraju se sitnom, ako vrijednost
+                                        ukradene ili utajene stvari, odnosno šteta prouzrokovana
+                                        prevarom ne prelazi iznos od sto pedeset eura, a učinilac je
+                                        išao za tim da pribavi malu imovinsku korist, odnosno da
+                                        prouzrokuje malu štetu.</p>
+                                </content>
+                            </point>
+                            <point eId="art_246__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_246__list_1__point_3__content">
+                                    <p>Za djelo iz stava <ref
+                                            href="/krivicni#art_246__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana, ako je izvršeno na štetu privatne imovine,
+                                        gonjenje se preduzima po privatnoj tužbi.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_247">
+                    <heading>Oduzimanje tuđe stvari</heading>
+                    <article eId="art_247">
+                        <num>Član 247</num>
+                        <list eId="art_247__list_1">
+                            <point eId="art_247__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_247__list_1__point_1__content">
+                                    <p>Ko bez namjere pribavljanja imovinske koristi protivpravno
+                                        oduzme tuđu pokretnu stvar, kazniće se novčanom kaznom ili
+                                        zatvorom do šest mjeseci.</p>
+                                </content>
+                            </point>
+                            <point eId="art_247__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_247__list_1__point_2__content">
+                                    <p>Ako vrijednost oduzete ili prisvojene stvari prelazi iznos od
+                                        tri hiljade eura, učinilac će se kazniti zatvorom do dvije
+                                        godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_247__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_247__list_1__point_3__content">
+                                    <p>Ako vrijednost oduzete ili prisvojene stvari prelazi iznos od
+                                        trideset hiljada eura ili stvar predstavlja kulturno dobro,
+                                        učinilac će se kazniti zatvorom od tri mjeseca do tri
+                                        godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_247__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_247__list_1__point_4__content">
+                                    <p>Za djelo iz st. <ref
+                                            href="/krivicni#art_247__list_1__point_1">
+                                            1
+                                        </ref>
+                                        do <ref
+                                            href="/krivicni#art_247__list_1__point_3">
+                                            3
+                                        </ref>
+                                        ovog člana, ako je oduzeta stvar u privatnoj svojini,
+                                        gonjenje se preduzima po privatnoj tužbi.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_248">
+                    <heading>Oduzimanje vozila</heading>
+                    <article eId="art_248">
+                        <num>Član 248</num>
+                        <list eId="art_248__list_1">
+                            <point eId="art_248__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_248__list_1__point_1__content">
+                                    <p>Ko protivpravno oduzme tuđe motorno vozilo u namjeri da ga
+                                        upotrijebi za vožnju, kazniće se novčanom kaznom ili
+                                        zatvorom do dvije godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_248__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_248__list_1__point_2__content">
+                                    <p>Ako je učinilac djela iz stava <ref
+                                            href="/krivicni#art_248__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana na oduzetom vozilu iz nehata prouzrokovao štetu
+                                        koja prelazi iznos od hiljadu eura ili omogući da to drugi
+                                        učini, kazniće se novčanom kaznom ili zatvorom do tri
+                                        godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_248__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_248__list_1__point_3__content">
+                                    <p>Za pokušaj djela iz stava <ref
+                                            href="/krivicni#art_248__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana kazniće se.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_249">
+                    <heading>Zloupotreba povjerenja</heading>
+                    <article eId="art_249">
+                        <num>Član 249</num>
+                        <list eId="art_249__list_1">
+                            <point eId="art_249__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_249__list_1__point_1__content">
+                                    <p>Ko zastupajući imovinske interese nekog lica ili starajući se
+                                        o njegovoj imovini zloupotrijebi data mu ovlašćenja u
+                                        namjeri da time sebi ili drugom pribavi imovinsku korist ili
+                                        da ošteti lice čije imovinske interese zastupa ili o čijoj
+                                        se imovini stara, kazniće se novčanom kaznom ili zatvorom do
+                                        tri godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_249__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_249__list_1__point_2__content">
+                                    <p>Ako je djelom iz stava <ref
+                                            href="/krivicni#art_249__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana pribavljena imovinska korist ili prouzrokovana
+                                        šteta u iznosu koji prelazi tri hiljade eura, učinilac će se
+                                        kazniti zatvorom od jedne do šest godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_249__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_249__list_1__point_3__content">
+                                    <p>Ako je djelom iz stava <ref
+                                            href="/krivicni#art_249__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana pribavljena imovinska korist ili prouzrokovana
+                                        šteta u iznosu koji prelazi trideset hiljada eura, učinilac
+                                        će se kazniti zatvorom od jedne do osam godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_249__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_249__list_1__point_4__content">
+                                    <p>Ako djelo iz st. <ref
+                                            href="/krivicni#art_249__list_1__point_1">
+                                            1
+                                        </ref>
+                                        do <ref
+                                            href="/krivicni#art_249__list_1__point_3">
+                                            3
+                                        </ref>
+                                        ovog člana učini staralac ili advokat, kazniće se za djelo
+                                        iz stava <ref
+                                            href="/krivicni#art_249__list_1__point_1">
+                                            1
+                                        </ref>
+                                        zatvorom od šest mjeseci do pet godina, za djelo iz stava <ref
+                                            href="/krivicni#art_249__list_1__point_2">
+                                            2
+                                        </ref>
+                                        zatvorom od jedne do osam godina, a za djelo iz stava <ref
+                                            href="/krivicni#art_249__list_1__point_3">
+                                            3
+                                        </ref>
+                                        zatvorom od dvije do deset godina.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_250">
+                    <heading>Iznuda</heading>
+                    <article eId="art_250">
+                        <num>Član 250</num>
+                        <list eId="art_250__list_1">
+                            <point eId="art_250__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_250__list_1__point_1__content">
+                                    <p>Ko u namjeri da sebi ili drugom pribavi protivpravnu
+                                        imovinsku korist, silom ili prijetnjom prinudi drugog da
+                                        nešto učini ili ne učini na štetu svoje ili tuđe imovine,
+                                        kazniće se zatvorom od jedne do osam godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_250__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_250__list_1__point_2__content">
+                                    <p>Ako je djelom iz stava <ref
+                                            href="/krivicni#art_250__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana pribavljena imovinska korist u iznosu koji
+                                        prelazi tri hiljade eura, učinilac će se kazniti od dvije do
+                                        deset godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_250__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_250__list_1__point_3__content">
+                                    <p>Ako je djelom iz stava <ref
+                                            href="/krivicni#art_250__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana pribavljena imovinska korist u iznosu koji
+                                        prelazi trideset hiljada eura, učinilac će se kazniti
+                                        zatvorom od dvije do dvanaest godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_250__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_250__list_1__point_4__content">
+                                    <p>Ko se bavi vršenjem djela iz st. <ref
+                                            href="/krivicni#art_250__list_1__point_1">
+                                            1
+                                        </ref>
+                                        do <ref
+                                            href="/krivicni#art_250__list_1__point_3">
+                                            3
+                                        </ref>
+                                        ovog člana ili je djelo izvršeno od strane više lica na
+                                        organizovan način, kazniće se zatvorom od tri do petnaest
+                                        godina.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_251">
+                    <heading>Ucjena</heading>
+                    <article eId="art_251">
+                        <num>Član 251</num>
+                        <list eId="art_251__list_1">
+                            <point eId="art_251__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_251__list_1__point_1__content">
+                                    <p>Ko u namjeri da sebi ili drugom pribavi protivpravnu
+                                        imovinsku korist zaprijeti drugom da će protiv njega ili
+                                        njemu bliskog lica otkriti nešto što bi njihovoj časti ili
+                                        ugledu škodilo i time ga prinudi da nešto učini ili ne učini
+                                        na štetu svoje ili tuđe imovine, kazniće se zatvorom od tri
+                                        mjeseca do pet godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_251__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_251__list_1__point_2__content">
+                                    <p>Ako je djelom iz stava <ref
+                                            href="/krivicni#art_251__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana pribavljena imovinska korist u iznosu koji
+                                        prelazi tri hiljade eura, učinilac će se kazniti zatvorom od
+                                        jedne do osam godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_251__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_251__list_1__point_3__content">
+                                    <p>Ako je djelom iz stava <ref
+                                            href="/krivicni#art_251__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana pribavljena imovinska korist u iznosu koji
+                                        prelazi trideset hiljada eura, učinilac će se kazniti
+                                        zatvorom od dvije do deset godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_251__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_251__list_1__point_4__content">
+                                    <p>Ko se bavi vršenjem djela iz st. <ref
+                                            href="/krivicni#art_251__list_1__point_1">
+                                            1
+                                        </ref>
+                                        do <ref
+                                            href="/krivicni#art_251__list_1__point_3">
+                                            3
+                                        </ref>
+                                        ovog člana ili je djelo izvršeno od strane više lica na
+                                        organizovan način, kazniće se zatvorom od dvije do dvanaest
+                                        godina.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_252">
+                    <heading>Zelenaštvo</heading>
+                    <article eId="art_252">
+                        <num>Član 252</num>
+                        <list eId="art_252__list_1">
+                            <point eId="art_252__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_252__list_1__point_1__content">
+                                    <p>Ko daje novac ili druge potrošne stvari na zajam i pri tome
+                                        ugovori nesrazmjernu imovinsku korist, kazniće se zatvorom
+                                        do tri godine i novčanom kaznom.</p>
+                                </content>
+                            </point>
+                            <point eId="art_252__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_252__list_1__point_2__content">
+                                    <p>Ko za davanje novca ili drugih potrošnih stvari na zajam
+                                        nekom licu primi ili ugovori za sebe ili drugog nesrazmjernu
+                                        imovinsku korist, pri čemu iskorišćava teško imovinsko
+                                        stanje, teške prilike, nuždu, lakomislenost ili nedovoljnu
+                                        sposobnost za rasuđivanje oštećenog, kazniće se zatvorom od
+                                        tri mjeseca do tri godine i novčanom kaznom.</p>
+                                </content>
+                            </point>
+                            <point eId="art_252__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_252__list_1__point_3__content">
+                                    <p>Ako su usljed djela iz st. <ref
+                                            href="/krivicni#art_252__list_1__point_1">
+                                            1
+                                        </ref>
+                                        i <ref
+                                            href="/krivicni#art_252__list_1__point_2">
+                                            2
+                                        </ref>
+                                        ovog člana nastupile teške posljedice za oštećenog ili je
+                                        učinilac pribavio imovinsku korist u iznosu koji prelazi tri
+                                        hiljade eura, kazniće se zatvorom od šest mjeseci do pet
+                                        godina i novčanom kaznom.</p>
+                                </content>
+                            </point>
+                            <point eId="art_252__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_252__list_1__point_4__content">
+                                    <p>Ako je djelom iz st. <ref
+                                            href="/krivicni#art_252__list_1__point_1">
+                                            1
+                                        </ref>
+                                        i <ref
+                                            href="/krivicni#art_252__list_1__point_2">
+                                            2
+                                        </ref>
+                                        ovog člana pribavljena imovinska korist u iznosu koji
+                                        prelazi trideset hiljada eura, učinilac će se kazniti
+                                        zatvorom od jedne do osam godina i novčanom kaznom.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_253">
+                    <heading>Uništenje i oštećenje tuđe stvari</heading>
+                    <article eId="art_253">
+                        <num>Član 253</num>
+                        <list eId="art_253__list_1">
+                            <point eId="art_253__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_253__list_1__point_1__content">
+                                    <p>Ko uništi, ošteti ili učini neupotrebljivom tuđu stvar,
+                                        kazniće se novčanom kaznom ili zatvorom do šest mjeseci.</p>
+                                </content>
+                            </point>
+                            <point eId="art_253__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_253__list_1__point_2__content">
+                                    <p>Ako je djelom iz stava <ref
+                                            href="/krivicni#art_253__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana prouzrokovana šteta u iznosu koji prelazi tri
+                                        hiljade eura, učinilac će se kazniti novčanom kaznom ili
+                                        zatvorom do dvije godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_253__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_253__list_1__point_3__content">
+                                    <p>Ako je djelom iz stava <ref
+                                            href="/krivicni#art_253__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana prouzrokovana šteta u iznosu koji prelazi
+                                        trideset hiljada eura, učinilac će se kazniti zatvorom od
+                                        šest mjeseci do pet godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_253__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_253__list_1__point_4__content">
+                                    <p>Za djela iz stava <ref
+                                            href="/krivicni#art_253__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana, ako je oštećena stvar u privatnoj svojini,
+                                        gonjenje se preduzima po privatnoj tužbi.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_253a">
+                    <heading>Uništenje i oštećenje kulturnog dobra</heading>
+                    <article eId="art_253a">
+                        <num>Član 253a</num>
+                        <list eId="art_253a__list_1">
+                            <point eId="art_253a__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_253a__list_1__point_1__content">
+                                    <p>Ko ošteti, uništi ili učini neupotrebljivim kulturno dobro,
+                                        kazniće se zatvorom od jedne do osam godina.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_253b">
+                    <heading>Krijumčarenje kulturnih dobara</heading>
+                    <article eId="art_253b">
+                        <num>Član 253b</num>
+                        <list eId="art_253b__list_1">
+                            <point eId="art_253b__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_253b__list_1__point_1__content">
+                                    <p>Ko bez dozvole nadležnog organa unese ili iznese iz Crne Gore
+                                        kulturno dobro, kazniće se zatvorom do tri godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_253b__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_253b__list_1__point_2__content">
+                                    <p>Ko otuđi kulturno dobro koje je bez dozvole nadležnog organa
+                                        iznio iz Crne Gore, kazniće se zatvorom do pet godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_253b__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_253b__list_1__point_3__content">
+                                    <p>Ko se bavi vršenjem djela iz st. <ref
+                                            href="/krivicni#art_253b__list_1__point_1">
+                                            1
+                                        </ref>
+                                        i <ref
+                                            href="/krivicni#art_253b__list_1__point_2">
+                                            2
+                                        </ref>
+                                        ovog člana ili je djelo izvršeno od strane više lica na
+                                        organizovan način, kazniće se zatvorom od jedne do osam
+                                        godina i novčanom kaznom.</p>
+                                </content>
+                            </point>
+                            <point eId="art_253b__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_253b__list_1__point_4__content">
+                                    <p>Za pokušaj djela iz stava 1 ovog člana kazniće se.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_254">
+                    <heading>Protivpravno zauzimanje zemljišta</heading>
+                    <article eId="art_254">
+                        <num>Član 254</num>
+                        <list eId="art_254__list_1">
+                            <point eId="art_254__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_254__list_1__point_1__content">
+                                    <p>Ko protivpravno zauzme tuđe zemljište, kazniće se novčanom
+                                        kaznom ili zatvorom do jedne godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_254__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_254__list_1__point_2__content">
+                                    <p>Ako je zauzeto zemljište dio zaštitne šume, nacionalnog parka
+                                        ili drugog zemljišta sa posebnom namjenom, učinilac će se
+                                        kazniti zatvorom od tri mjeseca do tri godine.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_255">
+                    <heading>Oštećenje tuđih prava</heading>
+                    <article eId="art_255">
+                        <num>Član 255</num>
+                        <list eId="art_255__list_1">
+                            <point eId="art_255__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_255__list_1__point_1__content">
+                                    <p>Ko u namjeri da osujeti ostvarenje prava na stvari otuđi,
+                                        uništi, ošteti ili oduzme svoju stvar na kojoj drugi ima
+                                        založno pravo ili pravo uživanja i time ga ošteti, kazniće
+                                        se novčanom kaznom ili zatvorom do šest mjeseci.</p>
+                                </content>
+                            </point>
+                            <point eId="art_255__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_255__list_1__point_2__content">
+                                    <p>Kaznom iz stava <ref
+                                            href="/krivicni#art_255__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana kazniće se i ko u namjeri da osujeti izmirenje
+                                        povjerioca u toku prinudnog izvršenja otuđi, uništi, ošteti
+                                        ili sakrije djelove svoje imovine i time ošteti povjerioca.</p>
+                                </content>
+                            </point>
+                            <point eId="art_255__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_255__list_1__point_3__content">
+                                    <p>Za djela iz st. <ref
+                                            href="/krivicni#art_255__list_1__point_1">
+                                            1
+                                        </ref>
+                                        i <ref
+                                            href="/krivicni#art_255__list_1__point_2">
+                                            2
+                                        </ref>
+                                        ovog člana, ako su oštećeni građani, gonjenje se preduzima
+                                        po privatnoj tužbi.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_256">
+                    <heading>Prikrivanje</heading>
+                    <article eId="art_256">
+                        <num>Član 256</num>
+                        <list eId="art_256__list_1">
+                            <point eId="art_256__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_256__list_1__point_1__content">
+                                    <p>Ko stvar za koju zna da je pribavljena krivičnim djelom ili
+                                        ono što je za nju dobijeno prodajom ili zamjenom prikriva,
+                                        protura, kupuje, prima u zalogu ili na drugi način
+                                        pribavlja, kazniće se novčanom kaznom ili zatvorom do tri
+                                        godine, s tim da kazna ne može biti veća od kazne propisane
+                                        za djelo kojim je stvar pribavljena.</p>
+                                </content>
+                            </point>
+                            <point eId="art_256__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_256__list_1__point_2__content">
+                                    <p>Ko djelo iz stava <ref
+                                            href="/krivicni#art_256__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana učini, a mogao je i bio dužan da zna da je stvar
+                                        pribavljena krivičnim djelom, kazniće se novčanom kaznom ili
+                                        zatvorom do jedne godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_256__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_256__list_1__point_3__content">
+                                    <p>Ako se učinilac bavi vršenjem krivičnog djela iz stava <ref
+                                            href="/krivicni#art_256__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana ili je djelo izvršeno od strane više lica na
+                                        organizovan način ili vrijednost prikrivanih stvari prelazi
+                                        iznos od trideset hiljada eura, kazniće se zatvorom od šest
+                                        mjeseci do pet godina.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_256a">
+                    <heading>Prisvajanje, prikrivanje i uništenje arhivske građe</heading>
+                    <article eId="art_256a">
+                        <num>Član 256a</num>
+                        <list eId="art_256a__list_1">
+                            <point eId="art_256a__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_256a__list_1__point_1__content">
+                                    <p>Ko prisvoji, prikrije, u većoj mjeri ošteti, uništi ili na
+                                        drugi način učini neupotrebljivim registraturski materijal
+                                        ili arhivsku građu ili ih iznese u drugu državu bez
+                                        prethodnog odobrenja nadležnog organa ili omogući drugom da
+                                        to učini, kazniće se zatvorom od tri mjeseca do pet godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_256a__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_256a__list_1__point_2__content">
+                                    <p>Ako je djelo iz stava <ref
+                                            href="/krivicni#art_256a__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana izvršeno u odnosu na registraturski materijal ili
+                                        arhivsku građu od velikog značaja, učinilac će se kazniti
+                                        zatvorom od jedne do deset godina.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_22__sec_257">
+                    <heading>Gonjenje u slučaju kada je učinilac u bliskom odnosu sa oštećenim</heading>
+                    <article eId="art_257">
+                        <num>Član 257</num>
+                        <paragraph eId="art_257__para_1">
+                            <content eId="art_257__para_1__content">
+                                <p>Za krivična djela iz čl. <ref
+                                        href="/krivicni#art_239">
+                                        239
+                                    </ref>
+                                    , <ref
+                                        href="/krivicni#art_240">
+                                        240
+                                    </ref>
+                                    , <ref
+                                        href="/krivicni#art_244">
+                                        244
+                                    </ref>
+                                    , <ref
+                                        href="/krivicni#art_248">
+                                        248
+                                    </ref>
+                                    , <ref
+                                        href="/krivicni#art_249">
+                                        249
+                                    </ref>
+                                    st. <ref
+                                        href="/krivicni#art_1">
+                                        1
+                                    </ref>
+                                    do <ref
+                                        href="/krivicni#art_3">
+                                        3
+                                    </ref>
+                                    i <ref
+                                        href="/krivicni#art_256">
+                                        256
+                                    </ref>
+                                    ovog zakonika, ako su učinjena prema bračnom drugu, licu sa
+                                    kojim učinilac živi u trajnoj vanbračnoj zajednici, srodniku po
+                                    krvi u pravoj liniji, bratu ili sestri, usvojiocu ili usvojeniku
+                                    ili drugim licima sa kojima učinilac živi u zajedničkom
+                                    domaćinstvu, gonjenje se preduzima po privatnoj tužbi.</p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+
+            </chapter>
+
+            <chapter eID="chp_23">
+                <num>GLAVA DVADESET TREĆA</num>
+                <heading>KRIVIČNA DJELA PROTIV PLATNOG PROMETA I PRIVREDNOG POSLOVANjA</heading>
+
+                <section eId="chp_23__sec_258">
+                    <heading>Falsifikovanje novca</heading>
+                    <article eId="art_258">
+                        <num>Član 258</num>
+                        <list eId="art_258__list_1">
+                            <point eId="art_258__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_258__list_1__point_1__content">
+                                    <p>Ko napravi lažan novac u namjeri da ga stavi u opticaj kao
+                                        pravi ili ko u istoj namjeri preinači pravi novac, kazniće
+                                        se zatvorom od dvije do dvanaest godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_258__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_258__list_1__point_2__content">
+                                    <p>Ko pribavlja, drži ili prenosi lažan novac u namjeri da ga
+                                        stavi u opticaj kao pravi ili ko lažan novac stavlja u
+                                        opticaj, kazniće se zatvorom od dvije do deset godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_258__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_258__list_1__point_3__content">
+                                    <p>Ako je djelom iz st. <ref
+                                            href="/krivicni#art_258__list_1__point_1">
+                                            1
+                                        </ref>
+                                        i <ref
+                                            href="/krivicni#art_258__list_1__point_2">
+                                            2
+                                        </ref>
+                                        ovog člana napravljen, preinačen, stavljen u promet ili
+                                        pribavljen lažan novac u iznosu koji prelazi petnaest
+                                        hiljada eura, odnosno odgovarajući iznos u stranom novcu,
+                                        učinilac će se kazniti zatvorom od pet do petnaest godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_258__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_258__list_1__point_4__content">
+                                    <p>Ko lažan novac koji je primio kao pravi, pa saznavši da je
+                                        lažan, stavi u opticaj ili ko zna da je načinjen lažan novac
+                                        ili da je lažan novac stavljen u opticaj, pa to ne prijavi,
+                                        kazniće se novčanom kaznom ili zatvorom do jedne godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_258__list_1__point_5">
+                                <num>(5) </num>
+                                <content eId="art_258__list_1__point_5__content">
+                                    <p>Lažan novac oduzeće se.</p>
+                                </content>
+                            </point>
+                            <point eId="art_258__list_1__point_6">
+                                <num>(6) </num>
+                                <content eId="art_258__list_1__point_6__content">
+                                    <p>Lažnim novcem, u smislu ovog krivičnog djela, smatra se i
+                                        novac izrađen na način i od materijala kao pravi novac,
+                                        suprotno propisima kojima se uređuje izrada novca.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_23__sec_259">
+                    <heading>Falsifikovanje hartija od vrijednosti</heading>
+                    <article eId="art_259">
+                        <num>Član 259</num>
+                        <list eId="art_259__list_1">
+                            <point eId="art_259__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_259__list_1__point_1__content">
+                                    <p>Ko napravi lažne hartije od vrijednosti ili preinači prave
+                                        hartije od vrijednosti u namjeri da ih upotrijebi kao prave
+                                        ili da ih drugom da na upotrebu ili ko takve lažne hartije
+                                        upotrijebi kao prave ili ih u toj namjeri pribavi, kazniće
+                                        se zatvorom od jedne do pet godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_259__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_259__list_1__point_2__content">
+                                    <p>Ako ukupan iznos na koji glase falsifikovane hartije od
+                                        vrijednosti iz stava <ref
+                                            href="/krivicni#art_259__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana prelazi tri hiljade eura, učinilac će se kazniti
+                                        zatvorom od jedne do osam godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_259__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_259__list_1__point_3__content">
+                                    <p>Ako ukupan iznos na koji glase falsifikovane hartije od
+                                        vrijednosti iz stava <ref
+                                            href="/krivicni#art_259__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana prelazi trideset hiljada eura, učinilac će se
+                                        kazniti zatvorom od dvije do deset godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_259__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_259__list_1__point_4__content">
+                                    <p>Ko lažne hartije od vrijednosti koje je primio kao prave, pa
+                                        saznavši da su lažne, stavi u promet, kazniće se novčanom
+                                        kaznom ili zatvorom do jedne godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_259__list_1__point_5">
+                                <num>(5) </num>
+                                <content eId="art_259__list_1__point_5__content">
+                                    <p>Lažne hartije od vrijednosti oduzeće se.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+
+                <section eId="chp_23__sec_260">
+                    <heading>Falsifikovanje i zloupotreba kreditnih kartica i kartica za
+                        bezgotovinsko plaćanje</heading>
+                    <article eId="art_260">
+                        <num>Član 260</num>
+                        <list eId="art_260__list_1">
+                            <point eId="art_260__list_1__point_1">
+                                <num>(1) </num>
+                                <content eId="art_260__list_1__point_1__content">
+                                    <p>Ko napravi lažnu platnu karticu ili ko preinači pravu platnu
+                                        karticu u namjeri da je upotrijebi kao pravu, ili ko takvu
+                                        lažnu platnu karticu ili tuđu pravu platnu karticu koja je
+                                        neovlašćeno pribavljena nabavi, drži ili prenese radi
+                                        upotrebe ili takvu karticu upotrijebi, kazniće se zatvorom
+                                        do tri godine.</p>
+                                </content>
+                            </point>
+                            <point eId="art_260__list_1__point_2">
+                                <num>(2) </num>
+                                <content eId="art_260__list_1__point_2__content">
+                                    <p>Ako je učinilac djela iz stava <ref
+                                            href="/krivicni#art_260__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana upotrebom kartice pribavio protivpravnu imovinsku
+                                        korist, kazniće se zatvorom od šest mjeseci do pet godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_260__list_1__point_3">
+                                <num>(3) </num>
+                                <content eId="art_260__list_1__point_3__content">
+                                    <p>Ako je učinilac djela iz stava <ref
+                                            href="/krivicni#art_260__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana pribavio protivpravnu imovinsku korist u iznosu
+                                        koji prelazi tri hiljade eura, kazniće se zatvorom od jedne
+                                        do osam godina.</p>
+                                </content>
+                            </point>
+                            <point eId="art_260__list_1__point_4">
+                                <num>(4) </num>
+                                <content eId="art_260__list_1__point_4__content">
+                                    <p>Ako je učinilac djela iz stava <ref
+                                            href="/krivicni#art_260__list_1__point_1">
+                                            1
+                                        </ref>
+                                        ovog člana pribavio protivpravnu imovinsku korist u iznosu
+                                        koji prelazi trideset hiljada eura, kazniće se zatvorom od
+                                        dvije do deset godina.</p>
+                                </content>
+                            </point>
+                        </list>
+                    </article>
+                </section>
+            </chapter>
+        </body>
+    </act>
+
+
+</akomaNtoso>

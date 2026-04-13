@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Viši Sud u Podgorici
+					</FRBRauthor>
+					<FRBRdate date="2021-3-22">
+						2021-3-22
+					</FRBRdate>
+					<FRBRtitle>
+						K 144/2020
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="vspodgorica" href="/ontology/organization/VisiSud.Podgorica" showAs="Viši Sud u Podgorici" />
+				<TLCOrganization eId="ospodgorica" href="/ontology/organization/OsnovniSud.Podgorica" showAs="Osnovni Sud u Podgorici" />
+				<TLCOrganization eId="oskotor" href="/ontology/organization/OsnovniSud.Kotor" showAs="Osnovni Sud u Kotoru" />
+				<TLCOrganization eId="oscetinje" href="/ontology/organization/OsnovniSud.Cetinje" showAs="Osnovni Sud u Cetinju" />
+				<TLCOrganization eId="osdanilovgrad" href="/ontology/organization/OsnovniSud.Danilovgrad" showAs="Osnovni Sud u Danilovgradu" />
+				<TLCOrganization eId="vdt" href="/ontology/organization/VrhovnoDrzavnoTuzilastvo.Podgorica" showAs="Vrhovno državno tužilaštvo u Podgorici" />
+
+				<TLCPerson eId="kvesna" href="/ontology/person/kvesna" showAs="Kovačević Vesna" />
+				<TLCPerson eId="mtamara" href="/ontology/person/mtamara" showAs="Mijović Tamara" />
+				<TLCPerson eId="zcelebic" href="/ontology/person/zcelebic" showAs="Zoran Čelebić" />
+				<TLCPerson eId="md" href="/ontology/person/md" showAs="M.D." />
+
+
+				<TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="advisor" href="/ontology/role/advisor" showAs="Advisor" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+				<TLCRole eId="lawyer" href="/ontology/role/lawyer" showAs="Lawyer" />
+			</references>
+		</meta>
+		<judgmentBody>
+			<p>
+				<organization id="vspodgorica" referesTo="#vspodgorica">
+					VIŠI SUD U PODGORICI
+				</organization>
+				, kao prvostepeni krivični, sudija 
+				<party id="kvesna" refersTo="#kvesna" as="#judge">
+					Kovačević Vesna
+				</party>
+				, uz učešće 
+				<party id="mtamara" refersTo="#mtamara" as="#clerk">
+					Mijović Tamare 
+				</party>
+				kao zapisničara, u predmetu protiv optuženog 
+				<party id="md" refersTo="#md" as="#defendant">
+					M.D.
+				</party>
+				, koga brani 
+				<party id="zcelebic" refersTo="#zcelebic" as="#lawyer">
+					Zoran Čelebić
+				</party>
+				, zbog krivičnog djela razbojništvo iz 
+				<ref href="/krivicni#art_242__list_1__point_4">
+					čl. 242 st. 4 
+				</ref>
+				u vezi
+				<ref href="/krivicni#art_242__list_1__point_1">
+					st. 1 Krivičnog zakonika Crne Gore
+				</ref>				
+				, nakon donesenog rješenja o usvajanju sporazuma o priznanju krivice, dana 
+				12.03.2021. godine, a dana 22.03.2021. godine donio je 
+			</p>
+			<p style="text-align: center;">P R E S U D U</p>
+			<p>Optuženi: </p>
+			<p>
+				<party id="md" refersTo="#md" as="#defendant">
+					M.D.
+				</party>
+				, JMB .., zvani ''T.a'', od oca D. i majke M., rođene Đ., rođen 26.05.1986. godine 
+				u P., sa prebavilštem u P. - ulica Du. Du. M. br.., državljanin Crne Gore, 
+				mašinski tehničar, radi privatno kao moler, neoženjen, bez djece, završio srednju 
+				mašinsku školu, lošeg imovnog stanja, osuđivan presudom 
+				<organization id="vspodgorica" referesTo="#vspodgorica">
+					Višeg suda u Podgorici 
+				</organization>
+				 K.br. 2397/03 od 03.07.2006.godine, za krivično djelo iz
+				<ref href="/krivicni#art_146__list_1__point_1">
+					čl. 146 st. 1 KZ CG 
+				</ref>				
+				na kaznu zatvora u trajanju od 2 (dvije) godine, presudom
+				<organization id="ospodgorica" referesTo="#ospodgorica">
+					Osnovnog suda u Podgorici 
+				</organization>
+				K.br. 894/05 od 08.10.2009.godine, za krivično djelo iz
+				<ref href="/krivicni#art_252__list_1__point_1">
+					čl. 242 st. 1 KZ CG 
+				</ref>	
+				na kaznu zatvora u trajnju od 2 (dvije) godine, presudom
+				<organization id="ospodgorica" referesTo="#ospodgorica">
+					Osnovnog suda u Podgorici 
+				</organization>
+				K.br. 1505/09 od 13.03.2010.godine, za krivično djelo iz
+				<ref href="/krivicni#art_251">
+					čl 251 KZ CG 
+				</ref>	
+				na kaznu zatvora u trajanju od 4 (četiri) mjeseca, presudom
+				<organization id="vspodgorica" referesTo="#vspodgorica">
+					Višeg suda u Podgorici 
+				</organization>				 
+				K.br. 123/10 od 29.11.2010.godine, za krivično djelo iz
+				<ref href="/krivicni#art_300__list_1__point_1">
+					čl. 300 st. 1 KZ CG 
+				</ref>				
+				na kaznu zatvora u trajanju od 2 (dvije) godine, presudom
+				<organization id="ospodgorica" referesTo="#ospodgorica">
+					Osnovnog suda u Podgorici 
+				</organization>
+				K.br. 1001/07 od 28.05.2011.godine, za krivično djelo iz
+				<ref href="/krivicni#art_242__list_1__point_1">
+					čl. 242 st. 1 KZ CG 
+				</ref>	
+				na kaznu zatvora od 2 (dvije) godine, presudom 
+				<organization id="oskotor" referesTo="#oskotor">
+					Osnovnog suda u Kotoru 
+				</organization>				
+				K.br. 49/16/16 od 06.07.2016.godine za krivično djelo iz
+				<ref href="/krivicni#art_241__list_1__point_6">
+					čl. 241 st. 6 
+				</ref>
+				u vezi
+				<ref href="/krivicni#art_242__list_1__point_1">
+					st. 1 KZ CG 
+				</ref>
+				na kaznu zatvora u trajanju od 6 (šest) mjeseci, presudom
+				<organization id="oscetinje" referesTo="#oscetinje">
+					Osnovnog suda na Cetinju 
+				</organization>				 
+				K.br. 6/16 od 27.10.2016.godine, za krivično djelo iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl. 239 st. 1 
+				</ref>
+				na kaznu zatvora u trajanju od 3 (tri) mjeseca, presudom
+				<organization id="ospodgorica" referesTo="#ospodgorica">
+					Osnovnog suda na Podgorici 
+				</organization>	
+				K.br. 696/16 od 20.03.2017.godine, za krivično djelo iz
+				<ref href="/krivicni#art_240__list_1__point_1_3">
+					čl. 240 st. 1 tč. 3 
+				</ref>				
+				u vezi
+				<ref href="/krivicni#art_49">
+					 čl. 49 KZ CG 
+				</ref>				
+				na kaznu zatvora u trajanju od 1 (jedne) godine i 8 (osam) mjeseci i izrečena mu 
+				je mjera bezbijednosti obavezno liječenje narkomana i presudom 
+				<organization id="osdanilovgrad" referesTo="#osdanilovgrad">
+					Osnovnog suda u Danilovgradu 
+				</organization>					
+				K.br. 6/17 od 08.11.2017. godine, za krivično djelo iz
+				<ref href="/krivicni#art_239__list_1__point_1">
+					 čl. 239 st. 1 KZ CG 
+				</ref>					
+				na kaznu zatvora u trajanju od 1 (jedne) godine i izrečena mu je mjera 
+				bezbijednosti obavezno liječenje narkomana. 
+			</p>
+			<p style="text-align: center;">K R I V J E</p>
+			<p>
+				Zato što je: 
+			</p>
+			<p>
+				Dana 08.06.2020.godine, oko 20,00 časova, u Podgorici, u ul. B.a i je., upotrebom 
+				sile protiv oštećene R. B., oduzeo tuđu pokretnu stvar u namjeri da njenim 
+				prisvajanjem sebi pribavi protivpravnu imovinsku korist u iznosu preko 150,00 eura
+				, pri čemu je sa umišljajem oštećenoj nanio tešku tjelesnu povredu na način što je 
+				nakon što je, nakon što je oštećena ušla u ulaz u kojem stanuje, ušao za njom, 
+				prišao joj sa leđa i povukao je za tašnu, oborio je na pod i vukao niz stepenice 
+				kojom prilikom je ista zadobila tešku tjelesnu povredu u vidu preloma velike kvrge 
+				desne nadlaktne kosti i istrgao joj tašnu iz ruke, u kojoj se nalazio novčanik u 
+				kom je bio novac u iznosu od 15,00 eura i mobilni telefon vrijednosti 120,20 eura, 
+				pri čemu je bo svjestan svog djela i hito je njegovo izvršenje 
+			</p>
+			<p>
+				- čime je izvršio krivično djelo razbojništvo iz
+				<ref href="/krivicni#art_242__list_1__point_4">
+					 čl. 242 st. 4 
+				</ref>
+				u vezi
+				<ref href="/krivicni#art_242__list_1__point_1">
+					 st. 1 Krivičnog zakonika Crne Gore
+				</ref>				
+				.
+			</p>
+			<conclusions>
+				<p>
+					Pa
+					<organization id="ospodgorica" referesTo="#ospodgorica">
+						sud
+					</organization>
+					<party id="md" refersTo="#md" as="#defendant">
+						optuženog 
+					</party>
+					primjenom citiranih zakonskih odredbi, te odredbi
+					<ref href="/krivicni#art_4__list_1__point_2">
+						čl.4 st. 2
+					</ref>
+					, 
+					<ref href="/krivicni#art_5">
+						čl.5
+					</ref>
+					, 
+					<ref href="/krivicni#art_13">
+						čl.13
+					</ref>
+					, 
+					<ref href="/krivicni#art_32">
+						čl.32
+					</ref>
+					, 
+					<ref href="/krivicni#art_33">
+						čl.33 
+					</ref>
+					i 
+					<ref href="/krivicni#art_36">
+						čl.36
+					</ref>
+					, 
+					<ref href="/krivicni#art_42">
+						čl.42 Krivičnog zakonika Crne Gore
+					</ref>
+					, te odredbi 
+					<ref href="/postupak#art_226">
+						čl. 226
+					</ref>
+					, 
+					<ref href="/postupak#art_229">
+						čl. 229 
+					</ref>
+					i
+					<ref href="/postupak#art_303">
+						čl. 303 Zakonika o krivičnom postupku 
+					</ref>
+				</p>
+				<p style="text-align: center;">O S U Đ U J E</p>
+				<p>
+					Na kaznu zatvora u trajanju od 3 (tri) godine i 2 (dva) mjeseca, koju kaznu je
+					 <party id="md" refersTo="#md" as="#defendant">
+						optuženi 
+					</party>
+					dužan izdržati po pravosnažnosti presude. 
+				</p>
+				<p>OBAVEZUJE SE</p>
+				<p>
+					<party id="md" refersTo="#md" as="#defendant">
+						optuženi 
+					</party>
+					da na ime troškova krivičnog postupka plati iznose od po 50,00 € na ime paušala
+					<organization id="vdt" referesTo="#vdt">
+						Vrhovnom državnom tužilaštvu u Podgorici
+					</organization>
+					 na broj žiro računa .. i 
+					<organization id="vspodgorica" referesTo="#vspodgorica">
+						Višem sudu u Podgorici
+					</organization>
+					 na broj žiro računa .., te se 
+					<party id="md" refersTo="#md" as="#defendant">
+						optuženi 
+					</party>
+					obavezuje da na ime troškova odbrane po službenoj dužnosti uplati iznos od 
+					1.375,00 € u korist Budžeta Crne Gore na broj žiro računa .., sve u roku od 15 
+					dana od dana pravosnažnosti presude donijete na osnovu sporazuma o priznanju 
+					krivice.					 					 
+				</p> 
+				
+				<p style="text-align: center;">O B R A Z L O Ž E Nj E</p> 
+		
+				<p>
+				<span>OptužnicomVišegdržavnogtužilaštva u Podgorici Kt.br. 148/20 od 01.10.2020. godine, optuženomM.D.u, stavljeno je nateretizvršenjekrivičnogdjelarazbojništvoizčl. 242 st. 4 u vezist. 1 KrivičnogzakonikaCrne Gore.</span>
+				</p> 
+				<p>
+				<span>Dana 10.03.2021. godine, VišeDržavnotužilaštvodostavilo je sudusporazum o priznanjukrivice, zapisnik o pregovaranjuizapisnik o saslušanjuoptuženog.</span>
+				</p> 
+				<p>
+				<span>Izsadržinezapisnika o pregovoranju, zapisnika o saslušanjuoptuženogisporazuma o priznanjukriviceproizilazi da suzastupnikoptužbeioptuženisaglasni da Višisud u PodgoricioptuženomM.D.uzakrivičnodjelorazbojništvoizčl. 242 st. 4 u vezist. 1 KrivičnogzakonikaCrne Gore, stavljeno mu nateretoptužnicom VDT u Podgorici Kt.br. 148/20 od 01.10.2020. godineizreknekaznazatvora u trajanju od 3 (tri) godinei 2 (dva) mjesecaukaoi da se optuženiobavežeinaplaćanjetroškovakrivičnogpostupkai to iznos od 50,00 euranaimepaušalanaračunVrhovnogdržavnogtužilaštvabroj.., kaoiiznos od 50,00 euranaimesudskogpaušalaVišemsudu u Podgoricinabrojžiroračuna..inaimetroškovaodbraneposlužbenojdužnostiuplatiiznos od 1.375,00 € u koristbudžetaCrne Gore naračunbroj 832-7113-04, sve u roku od 15 dana od danapravosnažnostipresudedonijetenaosnovusporazuma o priznanjukrivice.</span>
+				</p> 
+				<p>
+				<span>Izsadržinedokazakoji se nalaze u spisimapredmetaikojisupredloženioptužnicomi to: zapisnika o uviđajuUpravepolicije - CB Podgorica Ku.br. 901/20 od 06.08.2020. godine, dvijepotvrde o privremenooduzetimpredmetimaUpravepolicije - CB Podgorica Ku.br. 901/20 od 06.08.2020.godine, iskazaoštećenogsvjedoka B.R..datnazapisnikupredVišimdržavnimtužilaštvom Kti.br. 84/20 od 29.09.2020.godine, nalazaimišljenjavještakamedicinskestrukeD.Č.. od 15.09.2020.godine, nalazaimišljenjavještakakomercijalnestruke od 25.09.2020.godine, sudzaključuje da je državnitužilacpružiodovoljnodokaza o krivicioptuženog M. D.., te da je optuženiizvršiokrivičnodjelorazbojništvoizčl. 242 st. 4 u vezist. 1 KrivičnogzakonikaCrne Gore nanačin, u vrijemeinamjestukako je to opisanoizrekomovepresude, a nakonšto je u svemuprihvatiosporazum o priznanjukrivice.</span>
+				</p> 
+				<p>
+				<span>Odlučujući o visini kazne za optuženog iz sporazuma o priznanju krivice, zaključenog između stranaka, sud je našao da je predlog stranaka u vezi sa kaznom prihvatljiv. Naime, sud je od olakšavajućih okolnosti na strani optuženog cijenio priznanje optuženog za izvršeno krivično djelo te prihvatanje krivice, a što je dovelo do brzog i efikasnog razrešenja ove pravne stvari, dok je kao otežavajuću okolnost cijenio njegov raniji život tj. osuđivanost, a što je utvrđeno iz izvoda iz kaznene evidencije za optuženog, pa je cijeneći naprijed navedene olakšavajuće i otežavajuće okolnosti na strani optuženog, tako da je po ocjeni ovog suda shodno čl. 36 KZ CG kazna zatvora iz sporazuma o priznanju krivice u trajanju od 3 (tri) godine i 2 (dva) srazmjerna stepenu krivice optuženog i težini počinjenog krivičnog djela i da predstavlja onu mjeru, koja je neophodno potrebna za postizanje svrhe kažnjavanja iz čl. 32. Krivičnog zakonika Crne Gore, da optuženi ubuduće ne vrši krivična djela, u okviru opšte svrhe propisivanja i izricanja krivičnih sankcija iz čl. 4. st. 2. Krivičnog zakonika Crne Gore.</span>
+				</p>
+				<p>
+				<span>Kako je optuženioglašenkrivim, sudgashodnočl. 226. i 229. Zakonika o krivičnompostupku, obavezujeinaplaćanjetroškovakrivičnogpostupkai to iznos od 50,00 euranaimepaušala,  naračunVrhovnogdržavnogtužilaštvabroj 832-1187-31 kaoiiznos od 50,00 euranaimesudskogpaušalaVišemsudu u Podgoricinabrojžiroračuna 832-7113-04 inaimetroškovaodbraneposlužbenojdužnostiuplatiiznos od 1.375,00 € u koristBudžetaCrne Gore nabroj 832-7113-04 u roku od 15 dana od danapravosnažnostipresudedonijetenaosnovusporazuma o priznanjukrivice, a sve u skladusasporazumom o priznanjukrivice, koji je zaključenizmeđustranaka.</span>
+				</p>
+				<p>
+				<span>Saizloženog, a shodnoodredbičl. 303. st. 1. Zakonika o krivičnompostupku, odlučeno je kao u izrecipresude.</span>
+				</p>
+				<p style="text-align:center;">
+				<span>VIŠI SUD U PODGORICI</span>
+				</p>
+				<p style="text-align:center;">
+				<span>Dana, 22.03.2021.godine</span>
+				</p>
+				<p>
+				<span>                                                                                                                    SUDIJA</span>
+				</p>
+				<p style="text-align:right">
+				<span>     Kovačević Vesna</span>
+				</p>
+				<p>
+				<span>DN-a:</span>
+				</p>
+				<p>
+				<span>- Višem državnom tužilaštvu Podgorica</span>
+				</p>
+				<p>
+				<span>- Okrivljenom M.D.u, Specijalna psihjatrijska bolnica Dobrota - Kotor</span>
+				</p>
+				<p>
+				<span>- Braniocu okrivljenog, advokatu Čelebić Zoranu, Ivana Crnojevića br. 85, Podgorica</span>
+				</p>
+				<p>
+				<span>- a/a</span>
+				</p>
+				<p>
+				<span>Postupljeno dana:  ________________________</span>
+				</p>
+				<p>
+				<span>Namještenik suda: ______________________</span>
+				</p>
+				<p>
+				<span>Zapisničar                                                                                    SUDIJA</span>
+				</p>
+				<p>
+				<span>Mijović Tamara, s.r.     Kovačević Vesna, s.r.</span>
+				</p>
+				<p>
+				<span>PRAVNA POUKA:</span>
+				</p>
+				<p>
+				<span>Protiv ove presude je dozvoljena žalba samo ako presuda nije u skaldu sa zaključenim sporazumom.</span>
+				</p>
+				<p style="text-align:center;">
+				<span>Za tačnost otpravka tvrdi i ovjerava namještenik suda</span>
+				</p>
+				<p style="text-align:center;">
+				<span>__________________</span>
+				</p>
+			</conclusions>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>

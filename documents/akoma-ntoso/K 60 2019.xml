@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Osnovni Sud u Baru
+					</FRBRauthor>
+					<FRBRdate date="2019-06-04">
+						2019-06-04
+					</FRBRdate>
+					<FRBRtitle>
+						K 60/2019
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="osulcinj" href="/ontology/organization/OsnovniSud.Ulcinj" showAs="Osnovni sud u Ulcinju" />
+				<TLCOrganization eId="oskolasin" href="/ontology/organization/OsnovniSud.Kolašin" showAs="Osnovni sud u Kolašinu" />
+				<TLCOrganization eId="oskotor" href="/ontology/organization/OsnovniSud.Kotor" showAs="Osnovni sud u Kotoru" />
+				<TLCOrganization eId="osbar" href="/ontology/organization/OsnovniSud.Bar" showAs="Osnovni sud u Baru" />
+				<TLCOrganization eId="odt" href="/ontology/organization/OsnovnoDrzavnoTuzilastvo" showAs="Osnovno državno tužilaštvo" />
+				<TLCPerson eId="gscepanovic" href="/ontology/person/gscepanovic" showAs="Goran Šćepanović" />
+				<TLCPerson eId="mminic" href="/ontology/person/mminic" showAs="Milijana Minić" />
+				<TLCPerson eId="irajkovic" href="/ontology/person/irajkovic" showAs="Irena Rajković" />
+				<TLCPerson eId="rm" href="/ontology/person/rm" showAs="R. M." />
+				<TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="advisor" href="/ontology/role/advisor" showAs="Advisor" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+			</references>
+		</meta>
+		<judgmentBody>
+			<p>
+				<organization id="osbar" referesTo="#osbar">
+					OSNOVNI SUD U BARU
+				</organization>
+				, kao prvostepeni krivični, sudija 
+				<party id="gscepanovic" refersTo="#gscepanovic" as="#judge">
+					Goran Šćepanović
+				</party>
+				, kao sudija pojedinac, sa zapisničarom 
+				<party id="mminic" refersTo="#mminic" as="#clerk">
+					Milijanom Minić
+				</party>
+				, u krivičnom predmetu optuženog 
+				<party id="rm" refersTo="#rm" as="#defendant">
+					R. M. 
+				</party> 
+				, zbog krivičnog djela teška krađa iz 
+				<ref href="/krivicni#art_240__list_1__point_1_1">
+					čl. 240 st.1 tč. 1 Krivičnog zakonika
+				</ref>
+				, po optužnici 
+				<organization id="odt" referesTo="#odt">
+					Osnovnog državnog tužilaštva u Baru 
+				</organization>
+				Kt.br. 55/19 od 28.03.2019. godine, nakon održanog glavnog javnog pretresa u 
+				prisustvu Osnovnog državnog tužioca 
+				<party id="irajkovic" refersTo="#irajkovic" as="#plaintiff">
+					Irene Rajković 
+				</party>
+				i 
+				<party id="rm" refersTo="#rm" as="#defendant">
+					optuženog
+				</party>
+				, dana 04.06.2019. godine donio je, a dana 05.06.2019. godine javno objavio,
+			</p>
+			<p style="text-align: center;">P R E S U D U</p>
+			<p>
+				<party id="rm" refersTo="#rm" as="#defendant">
+					Optuženi R. M.
+				</party>
+				, od oca V. i majke S. , rođene V. , rođen... , u B. , sa prebivalištem u B. , 
+				naselje Š., državljanin C. G. , konobar, oženjen, otac jednog djeteta, pismen, 
+				sa završenom srednjom školom, lošeg imovnog stanja, osuđivan presudom 
+				<organization id="osulcinj" referesTo="#osulcinj">
+					Osnovnog suda u Ulcinju 
+				</organization>
+				K.br.93/06 od 01.05.2007.godine zbog krivičnog djela krađa iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl.239 st.1 KZ 
+				</ref>
+				na kaznu zatvora u trajanju od četri mjeseca, presudom 
+				<organization id="osbar" referesTo="#osbar">
+					Osnovnog suda u Baru 
+				</organization> 
+				K.br.442/05 od 14.05.2007.godine zbog krivičnog djela krađa iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl.239 st.1 KZ 
+				</ref> 
+				na kaznu zatvora u trajanju od tri mjeseca, presudom 
+				<organization id="osbar" referesTo="#osbar">
+					Osnovnog suda u Baru 
+				</organization> 
+				K.br.35/06 od 07.06.2007.godine zbog krivičnog djela krađa iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl.239 st.1 KZ 
+				</ref> 
+				na kaznu zatvora u trajanju od tri mjeseca, presudom 
+				<organization id="oskotor" referesTo="#oskotor">
+					Osnovnog suda u Kotoru 
+				</organization> 
+				K.br. 416/06 od 18.09.2007. godine zbog krivičnog djela krađa iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl.239 st.1 KZ 
+				</ref> 
+				na kaznu zatvora u trajanju od trideset dana, presudom 
+				<organization id="oskotor" referesTo="#oskotor">
+					Osnovnog suda u Kotoru 
+				</organization> 
+				K.br. 635/06 od 12.05.2008. godine zbog krivičnog djela teška krađa iz 
+				<ref href="/krivicni#art_240__list_1__point_1_1">
+					čl 240 st.1 tač.1 KZ CG 
+				</ref>
+				na kaznu zatvora u trajanju od jedne godine, presudom 
+				<organization id="osbar" referesTo="#osbar">
+					Osnovnog suda u Baru 
+				</organization> 
+				K.br.317/07 od 02.06.2008.godine zbog krivičnog djela krađa iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl.239 st.1 KZ 
+				</ref> 
+				na kaznu zatvora u trajanju od tri mjeseca, presudom 
+				<organization id="osbar" referesTo="#osbar">
+					Osnovnog suda u Baru 
+				</organization> 
+				K.br. 58/07 od 06.11.2008.godine zbog krivičnog djela krađa iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl.239 st. 1 u vezi čl. 49 KZ 
+				</ref> 
+				na kaznu zatvora u trajanju od jedne godine, presudom 
+				<organization id="osbar" referesTo="#osbar">
+					Osnovnog suda u Baru 
+				</organization> 
+				K.br.25/08 od 22.01.2009.godine zbog krivičnog djela teška krađa iz 
+				<ref href="/krivicni#art_240__list_1__point_1_1">
+					čl.240 st.1 tač.1 u vezi čl. 49 KZ 
+				</ref>
+				na kaznu zatvora u trajanju od jedne godine, presudom 
+				<organization id="osbar" referesTo="#osbar">
+					Osnovnog suda u Baru 
+				</organization> 
+				K.br. 45/07 od 22.01.2009. godine zbog krivičnog djela teška krađa iz 
+				<ref href="/krivicni#art_240__list_1__point_1_1">
+					čl.240 st.1 tač. 1 u vezi čl.49 KZ 
+				</ref>
+				na kaznu zatvora u trajanju od jedne godine i četri mjeseca, presudom 
+				<organization id="osbar" referesTo="#osbar">
+					Osnovnog suda u Baru 
+				</organization> 
+				K.br.140/06 od 04.02.2009. godine zbog krivičnog djela teška krađa iz 
+				<ref href="/krivicni#art_240__list_1__point_1_1">
+					čl.240 st.1 tč.1 KZ 
+				</ref> 
+				na kaznu zatvora u trajanju od jedne godine, presudom 
+				<organization id="osbar" referesTo="#osbar">
+					Osnovnog suda u Baru 
+				</organization> 
+				K.br.491/12 od 13.05.2013.godine zbog krivičnog djela krađa iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl.239 st.1 KZ 
+				</ref> 
+				na kaznu zatvora u trajanju od tri mjeseca, presudom 
+				<organization id="osbar" referesTo="#osbar">
+					Osnovnog suda u Baru 
+				</organization> 
+				K.br.457/12 od 30.05.2013.godine zbog krivičnog djela krađa iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl.239 st.1 KZ 
+				</ref> 
+				na kaznu zatvora u trajanju od šest mjeseci, presudom 
+				<organization id="oskolasin" referesTo="#oskolasin">
+					Osnovnog suda u Kolašinu 
+				</organization> 
+				K.br.8/13-12 od 14.06.2013.godine zbog krivičnog djela zloupotreba povjerenja iz 
+				<ref href="/krivicni#art_249__list_1__point_1">
+					čl.249 st.1 KZ 
+				</ref>
+				na kaznu zatvora u trajanju od 12 mjeseca, presudom 
+				<organization id="osulcinj" referesTo="#osulcinj">
+					Osnovnog suda u Ulcinju 
+				</organization> 
+				K.br.15/13 od 21.03.2007.godine zbog krivičnog djela teška krađa iz 
+				<ref href="/krivicni#art_240__list_1__point_1_1">
+					čl.240 st.1 tč.1 u vezi čl. 49 KZ 
+				</ref>
+				na kaznu zatvora u trajanju od tri godine, presudom 
+				<organization id="osbar" referesTo="#osbar">
+					Osnovnog suda u Baru 
+				</organization> 
+				K.br.242/13 od 19.03.2014.godine, zbog krivičnog djela teška krađa iz 
+				<ref href="/krivicni#art_240__list_1__point_1">
+					čl.240 st.1 KZ 
+				</ref>
+				na kaznu zatvora u trajanju od tri godine, presudom 
+				<organization id="osbar" referesTo="#osbar">
+					Osnovnog suda u Baru 
+				</organization> 
+				K.br.179/14 od 30.09.2014.godine zbog krivičnog djela teška krađa iz 
+				<ref href="/krivicni#art_240__list_1__point_1_1">
+					čl.240 st.1 tč. 1 u vezi čl. 20 KZ 
+				</ref> 
+				na kaznu zatvora u trajanju od jedne godine,
+			</p>
+			<p style="text-align: center;">K R I V J E</p>
+			<p>Što je:</p>
+			<p>
+				Dana 13.decembra 2012.godine, u stambenom objektu, vlasništvo oštećene G. N. , 
+				u naselju Partizanski put, u Sutomoru, Opština Bar, svjestan svog djela čije je 
+				izvršenje htio, iako je znao da je njegovo djelo zabranjeno, obijanjern oduzeo 
+				tuđe pokretne stvari, u namjeri da njihovim prisvajanjem sebi pribavi 
+				protivpravnu imovinsku korist, na način što je upotrebom podesnog sredstva i 
+				fizičke snage, djelovao na prozorsko staklo u prizemlju objekta, koje je 
+				polomio, te otvorio prozor i kroz isti ušao u unutrašnjost stambenog objekta, 
+				gdje je izvršio premetačinu i iz istog oduzeo lap top nepoznate marke, novčane 
+				vrijednosti od 165,00 eura, kao i razni sitni alat, novčane vrijednosti od 30,00 
+				eura, vlasništvo oštećene G. N. , sve prednje ukupne novčane vrijednosti pod 
+				195,00 eura,
+			</p>
+			<p>
+				- čime je izvršio - krivično djelo teška krađa iz 
+				<ref href="/krivicni#art_240__list_1__point_1_1">
+					čl. 240 st.1 tač.1 Krivičnog zakonika
+				</ref>
+			</p>
+
+			<conclusions>
+				<p>
+					Pa ga 
+					<organization id="osbar" referesTo="#osbar">
+						sud 
+					</organization>
+					primjenom 
+					<ref href="/krivicni#art_4">
+						čl.4
+					</ref>
+					, 
+					<ref href="/krivicni#art_32">
+						32
+					</ref>
+					, 
+					<ref href="/krivicni#art_36">
+						36 
+					</ref> 
+					i 
+					<ref href="/krivicni#art_42">
+						42 Krivičnog zakonika 
+					</ref>
+					i 
+					<ref href="/postupak#art_226">
+						čl. 226
+					</ref>
+					, 
+					<ref href="/postupak#art_229">
+						229 
+					</ref> 
+					i 
+					<ref href="/postupak#art_374">
+						374 ZKP-a
+					</ref>
+					, 
+				</p>
+
+				<p style="text-align: center;">O S U Đ U J E</p>
+
+				<p>Na kaznu zatvora u trajanju od 2 (dvije) godine.</p>
+				<p>
+					<party id="rm" refersTo="#rm" as="#defendant">
+						Optuženi 
+					</party>
+					je dužan da plati troškove krivičnog postupka u iznosu od 50,00 €, 
+					u roku od 15 dana od dana pravosnažnosti, pod prijetnjom izvršenja.
+				</p> 
+				<p style="text-align: center;">O B R A Z L O Ž E Nj E</p>  
+				<li>
+				<span>Optužnicom Osnovnog državnog tužilaštva u Baru Kt.br. 55/19 od 28.03.2019. godine stavljeno je na teret optuženom izvršenje krivičnog djela bliže opisanog u izreci presude.</span>
+				</li>
+				<li>
+				<span>Optuženi je u svojoj odbrani u izjavio da je u decembru 2012. godine bio na Žabljaku na zimovanju sa suprugom i to od početka decembra do 04.-05 januara 2013. godine. On ne pozonaje G. N. niti zna gdje se nalazi njena kuća, niti gdje se nalazi to naselje. Nije mu jasno kako se mogla pronaći krv u njenoj kući.</span>
+				</li>
+				<p>
+				<span>Na glavnom pretresu je dodao da se na izdržavanju kazne zatvora nalazi od 19 marta 2013. godine. On je u svojoj odbrani naveo da je se u vrijeme koje je navedeno kao vrijeme izvršenja krivična djela nalazio na odmoru u Žabljaku. Na odmoru je bio  sa svojom suprugom. Vezano za konkretno krivično djelo njemu ništa ne znači adresa P p. . Takođe ime oštećene mu ništa ne znači. On poznaje puno ljudi, neke zna po imenu, neke po nadimku tako da oštećenu po imenu i prezimenu on ne poznaje i još jednom navodi on ne zna na koji način je njegov biološki materijal pronađen u kući oštećene.</span>
+				</p>
+				<p>
+				<span>U dokaznom postupku pročitani su : zapisnik o uviđaju UP CB Bar od 13.12.2012. godine, izvještaj o DNK vještačenju Forenzičkog centra Danilovgrad 5105/3/12 od 19.02.2019. godine, nalaz i mišljenje sudskog vještaka ekonomsko finansijske struke D. N. KT br. 55/19 od 07.03.2019. godine, izvod iz kaznen evidencije na ime okrivljenog Ministarstva pravde KE br.164/19 od 10.04.2019. godine, saslušana je vještak forenzičke genetike J. J. , izvršen je uvid u </span><span class="span3">Vrši se uvid u 32 fotografije sa CD – a Uprave policije CB Bar. .  </span>
+				</p>
+				<li>
+				<span>Iz zapisnika o uviđaju UP CB Bar od 13.12.2012. godine utvrđeno je da je lice mjesta u naselju Partizanski put, u pitanju je dvospratna kuća sagrađena od tvrde gradnje, u prizemlju kuće sa jugoistočne strane zatečeno je polomljeno staklo na prozoru, a prozor je otvoren. U unutrašnjosti prizemlja zatečena je djelimična premetačina unutar prostorija, a po izjavi oštećene iz dnevnog boravka otuđen je jedan laptop , dok je iz spavaće sobe otuđen sitan alat. Uviđajna ekipa je izuzela tragove koji su naznačeni o izvještaju o uzorkovanju tragova sa lica mjesta, koji će biti dostavljeni Forenzičkom centru na vještačenje.</span>
+				</li>
+				<li>
+				<span>Iz izvještaja o DNK vještačenju Forenzičkog centra Danilovgrad 5105/3/12 od 19.02.2019. godine, utvrđeno je da je provjerom iz baze DNK registra utvrđeno podudaranje DNK profila utvrđenog na uzorcima sa mrlje na tkanini- trag br.5. i mrlji na parčetu od najlonskog prekrivača - trag br.7, sa referentnim DNK profilom R. M. , dobijeni razultat DNK analize daje ekstremno jaku podršku da biološki materijal tj. krv potiče od R. M. .</span>
+				</li>
+				<li>
+				<span>Iz nalaza i mišljenje sudskog vještaka ekonomsko finansijske struke D. N. KT br. 55/19 od 07.03.2019. godine, utvrđena je vrijednost oduzetih stvari. </span>
+				</li>
+				<li>
+				<span>Iz izvoda iz kaznen evidencije na ime okrivljenog Ministarstva pravde KE br.164/19 od 10.04.2019. godine, utvrđeno je da je optuženi </span><span class="span3">osuđivan presudom Osnovnog suda u Ulcinju K.br.93/06 od 01.05.2007.godine zbog krivičnog djela krađa iz čl.239 st.1 KZ na kaznu zatvora u trajanju od četri mjeseca, presudom Osnovnog suda u Baru K.br.442/05 od 14.05.2007.godine zbog krivičnog djela krađa iz čl.239 st.1 KZ na kaznu zatvora u trajanju od tri mjeseca, presudom Osnovnog suda u Baru K.br.35/06 od 07.06.2007.godine zbog krivičnog djela krađa iz čl.239 st.1 KZ na kaznu zatvora u trajanju od tri mjeseca, presudom Osnovnog suda u Kotoru K.br.416/06 od 18.09.2007.godine zbog krivičnog djela krađa iz čl.239 st.1 KZ na kaznu zatvora u trajanju od trideset dana, presudom Osnovnog suda u Kotoru K.br. 635/06 od 12.05.2008.godine zbog krivičnog djela teška krađa iz čl 240 st.1 tač.1 KZ CG na kaznu zatvora u trajanju od jedne godine, presudom Osnovnog suda u Baru K.br.317/07 od 02.06.2008.godine zbog krivičnog djela krađa iz čl.239 st.1 KZ na kaznu zatvora u trajanju od tri mjeseca, presudom Osnovnog suda u Baru K.br.58/07 od 06.11.2008. godine zbog krivičnog djela krađa iz čl.239 st. 1 u vezi čl. 49 KZ na kaznu zatvora u trajanju od jedne godine, presudom Osnovnog suda u Baru K.br.25/08 od 22.01.2009.godine zbog krivičnog djela teška krađa iz čl.240 st.1 tač.1 u vezi čl. 49 KZ na kaznu zatvora u trajanju od jedne godine, presudom Osnovnog suda u Baru K.br. 45/07 od 22.01.2009. godine zbog krivičnog djela teška krađa iz čl.240  st.1 tač. 1 u vezi čl.49 KZ na kaznu zatvora u trajanju od jedne godine i četri mjeseca, presudom Osnovnog suda u Baru K.br.140/06 od 04.02.2009. godine zbog krivičnog djela teška krađa iz čl.240 st.1 tč.1 KZ na kaznu zatvora u trajanju od jedne godine, presudom Osnovnog suda u Baru K.br.491/12 od 13.05.2013. godine zbog krivičnog djela krađa iz čl.239 st.1 KZ na kaznu zatvora u trajanju od tri mjeseca, presudom Osnovnog suda u Baru K.br.457/12 od 30.05.2013. godine zbog krivičnog djela krađa iz čl.239 st.1 KZ na kaznu zatvora u trajanju od šest mjeseci, presudom Osnovnog suda u Kolašinu  K.br.8/13-12 od 14.06.2013.godine zbog krivičnog djela zloupotreba povjerenja iz čl.249 st.1 KZ na kaznu zatvora u trajanju od 12 mjeseca, presudom Osnovnog suda u Ulcinju K.br.15/13 od 21.03.2007. godine zbog krivičnog djela teška krađa iz čl.240 st.1 tč.1 u vezi čl. 49 KZ na kaznu zatvora u trajanju od tri godine, presudom Osnovnog suda u Baru K.br.242/13 od 19.03.2014. godine, zbog krivičnog djela teška krađa iz čl.240 st.1 KZ na kaznu zatvora u trajanju od tri godine, presudom Osnovnog suda u Baru K.br.179/14 od 30.09.2014. godine zbog krivičnog djela teška krađa iz čl.240  st.1 tč. 1 u vezi čl. 20 KZ na kaznu zatvora u trajanju od jedne godine.</span>
+				</li>
+				<li>
+				<span>Vještak forenzičke genetike J. J. je izjavila da su povodom </span><span class="span3">predmetnog slučaja vršili vještačenje tragova krvi koji su pronađeni u stanu oštećene. Kada je u pitanju krv ista je veoma bogata biološkim materijalom i duže ostaje na nekom materijalu od kontaktnih tragova, budući da je krv tečnost i kao što je navela bogata je živim ćelijama. Imajući u vidu karakteristike krvi ne vidi nikakvu mogućnost da se nečija krv prenese slučajno u neku prostoriju, a da ta osoba nije boravila u toj prostoriji. Teorijski bi postojala mogućnost da je neko ciljno uzeo krv optuženog i prenio je namjenski na mjesto na koje je krv pronađena.</span>
+				</li>
+				<p>
+				<span class="span3">Uvidom u 32 fotografije sa CD – a, utvrđeno je da je iste sačinila Uprava policije prilikom  vršenja uviđaja, a iste prikazuju lice mjesta – kuću oštećene </span><span class="span3">G. N. </span><span class="span3">. </span>
+				</p> 
+				<p>
+				<span class="span3">Sud je izdao naredbu za prinudno dovođenje oštećene, međutim, po naredbi nije postupljeno uz konstataciju Uprave policije da oštećena nije pronađena na datoj adresi i da je nepoznata. Oštećena nije saslušana u prethodnom postupku  ni na glavnom pretresu i nije bilo moguće obezbjediti njeno prisustvo, a uvidom u spise predmeta utvrđuje se da je nadležnom državnom organu Ruske Federacije upućena zamolnica za saslušanje oštećene. Imajući u vidu datum izvršenja krivičnog djela, utvrđeno činjenično stanje, ocjenjeno je da nije potrebno saslušanje oštećene iz kojih razloga je donijeto rješenje da se u dokaznom postupku neće saslušati oštećena </span><span class="span3">G. N. </span><span class="span3">.</span>
+				</p>
+				<li>
+				<span>Ocjenom izvedenih dokaza utvrđeno je da je optuženi izvršio krivično djelo u vrijeme, na mjestu i na način predstavljen u dispozitivu. Optuženi iznoseći svoju odbranu ne priznaje izvršenje krivičnog djela, navodeći da se u vrijeme koje je navedeno nalazio na odmoru u Žabljaku. Adresa kuće oštećene i ime oštećene mu ništa ne znače. </span>
+				</li>
+				<li>
+				<span>Sud je odbranu optuženog cijenio kao neosnovanu i kao pokušaj izbjegavanja krivice. Iz izvještaja o DNK vještačenju Forenzičkog centra utvrđeno je podudaranje DNK profila utvrđenog na uzorcima sa mrlje na tkanini- trag br.5. i mrlji na parčetu od najlonskog prekrivača - trag br.7, sa referentnim DNK profilom R. M. . Kada je u pitanju dokazna snaga dobijenih rezultata, u izvještaju je navedeno da dobijeni razultat DNK analize daje ekstremno jaku podršku da biološki materijal tj. krv potiče od R. M. . U izvještaju je navedena tabela iz koje proizilazi da ekstremno jaka podrška predstavlja najjači stepen dokazne snage. Sud je na glavnom pretresu saslušao i vještaka J. J. koja je navela da je </span><span class="span3">krv veoma bogata biološkim materijalom i duže ostaje na nekom materijalu od kontaktnih tragova, da ne vidi nikakvu mogućnost da se nečija krv prenese slučajno u neku prostoriju, a da ta osoba nije boravila u toj prostoriji, a da bi teorijski bilo moguće da je neko ciljno uzeo krv optuženog i prenio je namjenski na mjesto na koje je krv pronađena. Cijeneći navedene dokaze, za sud nema nikakve sumnje da je optuženi boravio u kući oštećene, kojom prilikom je oduzeo njene stvari, jer je trag krvi pronađen na dva mjesta u kući, pri čemu biološki materijal pripada optuženom. Odbrana optuženog da on nije boravio u kući oštećene, pored prisustva njegovog biološkog materijala u kući, po ocjeni suda, predstavlja samo pokušaj izbjegavanja krivice, jer teorijska mogućnost koju je vještak J. J. iznijela na glavnom pretresu da bi bilo moguće da neko ciljno uzme krv optuženog i da je namjenski prenese na lice mjesta, za sud nije nije realna ni osnovana. </span>
+				</li>
+				<li>
+				<span>Optuženi je krivično djelo izvršio postupajući sa direktnim umišljajem jer je bio svjestan da oduzima tuđe pokretne stvari, a utvrđena je i njegova namjera da oduzimanjem tuđih pokretnih stvari pribavi sebi protivpravnu imovinsku korist.              </span>
+				</li>
+				<li>
+				<span>Sud je prihvatio pravnu kvalifikaciju iz optužnice pravno kvalifikujući krivično djelo kao krivično djelo teška krađa iz čl 240 st. 1 tč.1. Krivičnog zakonika. Otvaranje prozora kuće razbijanjem stakla na prozoru predstavlja obijanje zatvorenog prostora. </span>
+				</li>
+				<li>
+				<span>Sud je optuženog osudio na kaznu zatvora u trajanju od dvije godine. Za krivično djelo teška krađa iz čl. 240 st.1 tč.1 KZ propisana je kazna zatvora od 1 do 8 godina. Na strani optuženog cijenjene su sve olakšavajuće i otežavajuće okolnosti iz čl. 42. Krivičnog zakonika. Od olakšavajućih okolnosti sud je cijenio porodične prilike jer je optuženi oženjen i otac jednog djeteta. Od otežavajućih okolnosti sud je cijenio da je optuženi osuđivan. Optuženi je sedam puta osuđivan zbog krivičnog djela teška krađa iz čl. 240 st.1 tač.1 KZ CG, a osam puta zbog krivičnog djela krađa iz čl.239 st.1 KZ CG, što je utvrđeno iz izvoda iz kaznene evidencije, a što ga čini višestrukim specijalnim povratnikom u vršenju imovinskih krivičnih djela i licem sklonim vršenju imovinskih krivičnih djela. Izrečena kazna zatvora po ocjeni suda odgovara težini krivičnog djela i krivici optuženog i predstavlja mjeru koja je neophodna da bi se postigla svrha kažnjavanja.</span>
+				</li>
+				<li>
+				<span>Odluka o troškovima krivičnog postupka zasniva se na odredbi čl. 229 ZKP, a ista se odnosi na troškove finansijskog vještačenja vještaka D. N. u iznosu od 38,50, troškove vještaka Forenzičke genetike J. J. u iznosu od 49,50 € i troškove rada suda koji su određeni prema trajanju, složenosti krivičnog postupka i imovinskim prilikama optuženog. </span>
+				</li>
+				<li>
+				<span>Na osnovu izloženog odlučeno je kao u izreci presude.</span>
+				</li> 
+				<li style="text-align:center;">
+				<span>OSNOVNI SUD U BARU</span>
+				</li>
+				<li style="text-align:center;">
+				<span>Dana 05.06.2019 godine</span>
+				</li> 
+				<li>
+				<span>ZAPISNIČAR,        S U D I J A</span>
+				</li>
+				<li>
+				<span>Milijana MinićGoran Šćepanović</span>
+				</li>  
+				<li>
+				<span>PRAVNA POUKA:Protiv ove presude može se </span>
+				</li>
+				<li>
+				<span>izjaviti žalba Višem sudu u Podgorici u roku od</span>
+				</li>
+				<li>
+				<span>15 (petnaest) dana od dana prijema pismenog otpravka.</span>
+				</li>
+				<li>
+				<span>Žalba se predaje ovom sudu u dva primjerka.</span>
+				</li>  
+				<p>
+				<span>DNA:- 1 x ODT</span>
+				</p>
+				<p>
+				<span>          - 1 x optuženom</span>
+				</p>
+				<p>
+				<span>          - u spise</span>
+				</p> 
+			</conclusions>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>

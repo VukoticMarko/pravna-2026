@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Osnovni Sud u Podgorici
+					</FRBRauthor>
+					<FRBRdate date="2018-5-28">
+						2018-5-28
+					</FRBRdate>
+					<FRBRtitle>
+						K 103/2018
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="ospodgorica" href="/ontology/organization/OsnovniSud.Podgorica" showAs="Osnovni sud u Podgorici" />
+				<TLCOrganization eId="odtpodgorica" href="/ontology/organization/OsnovnoDrzavnoTuzilastvo.Podgorica" showAs="Osnovno državno tužilaštvo iz Podgorice" />
+
+
+				<TLCPerson eId="lmstamatovic" href="/ontology/person/lmstamatovic" showAs=" Larisa Mijušković-Stamatović" />
+				<TLCPerson eId="msekulic" href="/ontology/person/msekulic" showAs="Marina Sekulić" />
+				<TLCPerson eId="rv" href="/ontology/person/rv" showAs="R.V." />
+				<TLCPerson eId="mzorica" href="/ontology/person/mzorica" showAs="Milanović Zorica" />
+
+				<TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="advisor" href="/ontology/role/advisor" showAs="Advisor" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+				<TLCRole eId="defender" href="/ontology/role/defender" showAs="Defender" />
+			</references>
+		</meta>
+		<judgmentBody>
+			<p>
+				<organization id="ospodgorica" referesTo="#ospodgorica">
+					OSNOVNI SUD U PODGORICI
+				</organization>
+				, prvostepeni, krivični, po sudiji 
+				<party id="lmstamatovic" refersTo="#lmstamatovic" as="#judge">
+					Larisi Mijušković-Stamatović
+				</party>
+				, uz učešće zapisničara 
+				<party id="msekulic" refersTo="#msekulic" as="#clerk">
+					Marine Sekulić
+				</party>
+				, u krivičnom predmetu protiv okrivljenog
+				<party id="rv" refersTo="#rv" as="#defendant">
+					R. V.
+				</party>
+				 iz Podgorice, zbog četiri krivična djela razbojništvo iz 
+				<ref href="/krivicni#art_242__list_1__point_1">
+					čl.242 st.1 Krivičnog zakonika Crne Gore
+				</ref>
+				, postupajući po optužnici 
+				<organization id="odtpodgorica" referesTo="#odtpodgorica">
+					Osnovnog državnog tužilaštva Podgorica
+				</organization>
+				 Kt.br.80/18 od 13.02.2018. godine, koju je na glavnom pretresu zastupala
+				<party id="mzorica" refersTo="#mzorica" as="#plaintiff">
+					Milanović Zorica
+				</party>
+				državna tužiteljka u 
+				<organization id="odtpodgorica" referesTo="#odtpodgorica">
+					Osnovnom državnom tužilaštvu Podgorica
+				</organization>
+				, nakon glavnog i javnog pretresa održanog dana 28.05.2018. godine u prisustvu zastupnika 
+				optužbe i
+				<party id="rv" refersTo="#rv" as="#defendant">				
+					okrivljenog
+				</party>
+				sa braniocem po službenoj dužnosti
+				<party id="rv" refersTo="#rv" as="#defendant">				
+					R.V.
+				</party>
+				adv. iz Podgorice, donio je, a dana 31.05.2018.godine i javno objavio, 
+			</p>
+			<p style="text-align: center;">P R E S U D U</p>
+			<p>Okrivljeni: </p>
+			<p>
+				<party id="rv" refersTo="#rv" as="#defendant">				
+					R.V.
+				</party>
+				, jmbg ..., od oca V. i majke J., rođene Ć., rođen ..... godine u P., sa prebivalištem 
+				u P., ulica D. N. M. bb, crnogorski državljanin, po zanimanju sportski menadžer, oženjen, 
+				otac troje djece, pismen, govori srpski jezik, crnogorski jezik razumije, lošeg imovnog 
+				stanja, u pritvoru od 23.01.2018. godine od 01, 30 časova po rješenju sudije za istragu
+				<organization id="ospodgorica" referesTo="#ospodgorica">
+					Osnovnog suda u Podgorici 
+				</organization>
+				Kri br. 23/18 od 25.01.2018. godine, osuđivan presudom
+				<organization id="ospodgorica" referesTo="#ospodgorica">
+					Osnovnog suda u Podgorici 
+				</organization>
+				K.br. 07/234 od 13.10.2008. godine zbog krivičnog djela iz
+				<ref href="/krivicni#art_399__list_1__point_2">
+					399 st. 2 u vezi st. 1 Krivičnog zakonika 
+				</ref>			
+				na kaznu zatvora u trajanju od 3 mjeseca, 
+			</p>
+			
+			<p style="text-align: center;">K R I V J E</p>
+			<p>Zato što je:</p>
+			<p>
+				1. Dana 22. novembra 2017. godine , oko 19,00 časova u Podgorici, u ul. S. br. .., u 
+				prostorijama kladionice „B.“, koja posluje u okviru oštećenog privrednog društva 
+				“ S. G.“ d.o.o. iz B., prijetnjom da će neposredno napasti na život i tijelo oštećene 
+				M. N., oduzeo tuđu pokretnu stvar – novac, u namjeri da njegovim prisvajanjem sebi 
+				pribavi protivpravnu imovinsku korist, iako je bio svjestan svog djela, čije izvršenje 
+				je htio, znajući da je njegovo djelo zabranjeno, na način što je premaskiran, sa kapom 
+				navučenom preko lica, ušao u prostorije navedene kladionice i držeći nož u ruci usmjeren 
+				u pravcu oštećene M. N., koja je stajala za naplatnim pultom kada joj je rekao „ daj 
+				mi novac“ , nakon čega je prošao do pulta i iz fioke uzeo kutiju u kojoj se nalazio novac 
+				u iznosu od 400 eura, vlasništvo oštećenog privrednog društva “ S. Gr.“ d.o.o. iz B., a 
+				potom pobjegao sa lica mjesta
+			</p>
+			<p>
+				2. Dana 06.decembra 2017. godine oko 19,00 časova, u P., u ul. S. br. .., u prostorijama 
+				kladionice „B.“, koja posluje u okviru oštećenog privrednog društva “ S. G.“ d.o.o. B., 
+				prijetnjom da će neposredno napasti na život i tijelo oštećene O. A., oduzeo tuđu pokretnu 
+				stvar – novac, u namjeri da njegovim prisvajanjem sebi pribavi protivpravnu imovinsku 
+				korist, iako je bio svjestan svog djela, čije izvršenje je htio, znajući da je njegovo 
+				djelo zabranjeno, na način što je premaskiran sa kapom navučenom preko lica i sa kapuljačom 
+				od dukserice navučenom preko glave, ušao u prostorije kladionice i držeći nož usmjeren u 
+				pravcu oštećene O. A. rekao joj “vadi pare, daj pare”, nakon čega je iz fioke oduzeo novac 
+				u iznosu od 260,00 eura vlasništvo oštećenog privrednog društva “ S. G.“ d.o.o. iz Budve 
+				i pobjegao sa lica mjesta
+			</p>
+			<p>
+				3. Dana 26. decembra 2017. godine oko 19,30 časova u P., u ul. Z., u prostorijama apoteke 
+				„M.P. 1“ , koja posluje u okviru oštećenog privrednog društva „F. M.“ DOO D., prijetnjom 
+				da će neposredno napasti na život i tijelo oštećene J. B., oduzeo tuđu pokretnu stvar-novac, 
+				u namjeri da njegovim prisvajanjem sebi pribavi protivpravnu imovinsku korist, iako je bio 
+				svjestan svog djela, čije izvršenje je htio, znajući da je njegovo djelo zabranjeno, na način 
+				što je premaskiran sa kapom navučenom preko lica i kapom od dukserice navučenom preko glave, 
+				ušao u prostorije navedene apoteke, nakon čega je izvadio pištolj koji je usmjerio u pravcu 
+				oštećene B. J. i prijetio joj “pucaću, daj pare”, nakon čega je ista otvorila kasu, izvadila 
+				novac u iznosu od 400,00 eura, vlasništvo oštećenog privrednog društva „F.M.“ DOO D. i predala 
+				ga 
+			</p>
+			<p>
+				<party id="rv" refersTo="#rv" as="#defendant">				
+					okrivljenom
+				</party>
+				, kojem je pri izlasku iz apoteke ispala novčanica u apoenu od 5,00 eura, pa je isti prisvojio 
+				novac u iznosu od 395,00 eura,
+			</p>
+			<p>
+				4. Dana 12. januara 2018. godine oko 19,00 časova, u P., u ulici S. br. .., u prostorijama 
+				apoteke “J. p. ”, koja posluje u okviru oštećenog privrednog društva DOO „J. F.“ P., 
+				prijetnjom da će neposredno napasti na život i tijelo oštećenih M. J. – Đ. i S.P., oduzeo 
+				tuđu pokretnu stvar-novac, u namjeri da njegovim prisvajanjem sebi pribavi protivpravnu 
+				imovinsku korist, iako je bio svjestan svog djela, čije izvršenje je htio, znajući da je 
+				njegovo djelo zabranjeno, na način što je premaskiran sa kapom navučenom preko lica, ušao 
+				u prostorije apoteke i iz džepa izvadio crni pištolj koji je usmjerio u pravcu oštećenih, 
+				govoreći im “ ovo je klasična pljačka, vadi pare” , nakon čega su iste otvorile kasu i novac 
+				u iznosu od 835,00 eura vlasništvo oštećenog privrednog društva DOO „J. F.“ Podgorica stavile 
+				na pult, koji novac je 
+				<party id="rv" refersTo="#rv" as="#defendant">				
+					okrivljeni
+				</party>
+				uzeo, a potom pobjegao sa lica mjesta.
+			</p>
+			<p>
+				- čime je učinio četiri krivična djela - razbojništvo iz
+				<ref href="/krivicni#art_242__list_1__point_1">
+					člana 242 stav 1 Krivičnog zakonika Crne Gore
+				</ref>
+				
+			</p>
+			<conclusions>
+				<p>
+					- pa
+					<party id="rv" refersTo="#rv" as="#defendant">
+						mu
+					</party>
+					<organization id="ospodgorica" referesTo="#ospodgorica">
+						Sud
+					</organization>
+					 primjenom citiranog zakonskog propisa te
+					<ref href="/krivicni#art_3">
+						čl.3
+					</ref>
+					,
+					<ref href="/krivicni#art_4">
+						4
+					</ref>
+					,
+					<ref href="/krivicni#art_5">
+						5
+					</ref>
+					,
+					<ref href="/krivicni#art_13">
+						13
+					</ref>
+					,
+					<ref href="/krivicni#art_15">
+						15
+					</ref>
+					,
+					<ref href="/krivicni#art_32">
+						32
+					</ref>
+					,
+					<ref href="/krivicni#art_36">
+						36
+					</ref>
+					,
+					<ref href="/krivicni#art_42">
+						42
+					</ref>
+					,
+					<ref href="/krivicni#art_45">
+						45
+					</ref>
+					,
+					<ref href="/krivicni#art_46">
+						46
+					</ref>
+					i
+					<ref href="/krivicni#art_48__list_1__point_1">
+						48 st. 1
+					</ref>
+					Krivičnog zakonika Crne Gore prethodno utvrđuje: 
+				</p>
+				<p>
+					- za krivično djelo razbojništvo iz 
+					<ref href="/krivicni#art_242__list_1__point_1">
+						čl. 242 st. 1 Krivičnog zakonika Crne Gore 
+					</ref>
+					bliže opisano tačkom 1 izreke ove presude, kaznu zatvora u trajanju od 1 (jedne) godine; 
+				</p>
+				<p>
+					- za krivično djelo razbojništvo iz			
+					<ref href="/krivicni#art_242__list_1__point_1">
+						čl. 242 st. 1 Krivičnog zakonika Crne Gore 
+					</ref>					
+					bliže opisano tačkom 2 izreke ove presude, kaznu zatvora u trajanju od 1 (jedne) godine; 
+				</p>
+				<p>
+					- za krivično djelo razbojništvo iz
+					<ref href="/krivicni#art_242__list_1__point_1">
+						čl. 242 st. 1 Krivičnog zakonika Crne Gore 
+					</ref>
+					bliže opisano tačkom 3 izreke ove presude, kaznu zatvora u trajanju od 1 (jedne) godine; 
+				</p>
+				<p>
+					- za krivično djelo razbojništvo iz
+					<ref href="/krivicni#art_242__list_1__point_1">
+						čl. 242 st. 1 Krivičnog zakonika Crne Gore 
+					</ref>					
+					bliže opisano tačkom 4 izreke ove presude, kaznu zatvora u trajanju od 1 (jedne) godine; 
+				</p>
+				<p>
+					Za ovim
+					<organization id="ospodgorica" referesTo="#ospodgorica">
+						sud
+					</organization>
+					<party id="rv" refersTo="#rv" as="#defendant">
+						okrivljenog R. V. 
+					</party>
+					primjenom citiranih zakonskih odredbi te
+					<ref href="/krivicni#art_48__list_1__point_2_2">
+						čl. 48 st. 2 tač. 2 
+					</ref>		
+					i
+					<ref href="/krivicni#art_51">
+						51 Krivičnog zakonika Crne Gore
+					</ref>
+					, te članova
+					<ref href="/postupak#art_226">
+						226
+					</ref>
+					,
+					<ref href="/postupak#art_227">
+						227
+					</ref>
+					,
+					<ref href="/postupak#art_229">
+						229
+					</ref>
+					,
+					<ref href="/postupak#art_239">
+						239
+					</ref>
+					,
+					<ref href="/postupak#art_374">
+						374 Zakonika o krivičnom postupku
+					</ref>
+					, 
+				</p>
+				<p style="text-align: center;">O S U Đ U J E</p>
+				<p>
+					 Na jedinstvenu kaznu zatvora u trajanju od 3 (tri) godine i 6 (šest) mjeseci u koju kaznu
+					<party id="rv" refersTo="#rv" as="#defendant">
+						mu 
+					</party>	
+					se uračunava i vrijeme provedeno u pritvoru počev od 23.01.2018. godine od 01,30 časova, 
+					kao dana i časa lišenja slobode, pa nadalje. 
+				</p>
+				<p>
+					Obavezuje se
+					<party id="rv" refersTo="#rv" as="#defendant">
+						okrivljeni 
+					</party>
+					da na ime sudskog paušala, a na račun budžetskih sredstava	
+					<organization id="ospodgorica" referesTo="#ospodgorica">
+						suda
+					</organization>		
+					 uplati iznos od 50,00 € (pedeseteura) u roku od 15 dana po pravnosnažnosti presude, pod 
+					 prijetnjom prinudne naplate; kao i troškove službene odbrane o kojima će sud odlučiti 
+					 posebnim rješenjem nakon pravnosnažnosti presude. 
+				</p>
+				<p>
+					Obavezuje se 
+					<party id="rv" refersTo="#rv" as="#defendant">
+						okrivljeni 
+					</party>
+					da oštećenima na ime imovinsko-pravnog zahtjeva isplati, i to: Oštećenom DOO "S. G." 
+					iznos od 660,00 €, a oštećenom DOO "J. F." iznos od 835,00 €, sve u roku od 2 (dva) 
+					mjeseca po pravnosnažnosti presude, pod prijetnjom prinudne naplate.						
+				</p> 
+				<p style="text-align: center;">O B R A Z L O Ž E Nj E</p> 
+		
+				<p>
+				<span>Optužnicom ODT-a Podgorica Kt.br.80/18 od 13.02.2018.godine, koju je na glavnom pretresu zastupala Milanović Zorica, državna tužiteljka u Osnovnom državnom tužilaštvu Podgorica okrivljenom R. V. iz Podgorice stavljeno je na teret izvršenje četiri krivična djela razbojništvo iz čl.242 st.1 Krivičnog zakonika Crne Gore, činjenično bliže opisanih izrekom ove presude.</span>
+				</p> 
+				<p>
+				<span>Zastupnik optužbe je do kraja glavnog pretresa ostala pri podignutoj optužnici, i u završnoj riječi navela da cijeneći sadržinu provedenih dokaza pred sudom, kako materijalnih, tako i svjedoka, te cijeneći navode odbrane okrivljenog, smatra da je na nesumnjiv način utvrđeno da je okrivljeni izvršio četiri krivična djela razbojništvo iz čl. 242 st. 1 Krivičnog zakonika Crne Gore, i to upravo na način kako je to predstavljeno dispozitivom optužnice. Predložila je sudu da okrivljenog oglasi krivim i osudi po Zakonu. </span>
+				</p> 
+				<p>
+				<span>Okrivljeni R. V. je u navodima odbrane  kako u prethodnom postupku pred ODT-om Podgorica, tako i na glavnom pretresu naveo da radi kao projekt menadžer u NVO „K. C. G. i S.“. Porodičan je čovjek i ima suprugu i troje maloljetne djece. Od 2015. godine zapao je u finansijske probleme koje ni dan danas nije riješio. Između ostalih problema koje je imao i njegov otac je poginuo, tako da je i to ostavilo traume, kao i problem u finansiranju porodice. Zbog toga je od određenih lica, čija imena nije htio  da saopšti, uzimao novac na kamatu. Kako nije uspijevao da vrati novac, a bio je u obavezi prema tim licima, odlučio je da mora na bilo koji način doći do novca. Stoga je  22. novembra prošle godine, opterećen problemima koje je opisao, odlučio da opljačka neki objekat i tako riješi probleme. Tog dana u večernjim časovima, uputio se do kladionice „B.“ u S. ., u naselju M., kako bi opljačkao ovu kladionicu. Na sebi je imao jaknu crne boje, crnu trenerku, kao i kapuljaču preko čitavog lica, a na glavi kapuljaču od dukserice svijetle boje. U ruci je držao nož, sječiva od oko desetak centimetara, koji je držao u džepu, sve dok nije došao na nekih pet metara udaljenosti od kladionice, kada je izvadio nož i držao ga u ruci. Sa nožem u ruci, i ovako maskiran je ušao u kladionicu, bez želje da ikoga povrijedi, uputio se prema radnici kladionice, koja je bila za pultom, i okrenutim nožem prema njoj rekao joj „daj mi novac“. Tada je ta radnica otvorila fioku i on je iz fioke uzeo novac, a zatim pobjegao iz kladionice. Kada je stigao kući, izvadio je novac iz džepa i vidio da je otuđio nekih 170,00 eura. Poslije ovog događaja, kamataši su ga opet zvali i tražili od njega kamatu, pa kako nije imao novca da im da, a morao je zbog prijetnji koje su mu konstantno upućivali, odlučio je da opet obije sportsku kladionicu „B.“. Stoga je 6. decembra prošle godine, oko 19,00 časova, krenuo u pravcu kladionice u Maslinama, kako bi je opljačkao. Tom prilikom je  na sebi imao crnu jaknu, tamne pantalone, svijetlo-sivu duksericu sa kapuljačom, koju je  stavio na glavu, a preko lica je imao kapu, misli da je bila crvene boje. Sa sobom je  ponio nož, sječiva dužine desetak centimetara i držao ga u ruci. Kada je stigao u blizinu kladionice, dok je imao pletenu kapu preko čitavog lica, izvadio je nož, držao ga u ruci i ušao u kladionicu, sa okrenutim nožem prema radnici, kada joj je rekao „vadi pare, daj pare“, nakon čega se radnica pomjerila u stranu, a on je ušao u pult i iz fioke uzeo novac, koji se nalazio u nekoj kutiji, a zatim pobjegao kući. Kad je došao kući, vidio je da je na ovaj način oduzeo oko 270,00 eura, koje je već sjutra predao kamatašima. I nakon ovog događaja, kamataši nijesu prestali da ga zovu, pa je opet morao da se snađe za novac. Dana 25. decembra kamataši su poslali dvojicu momaka na njegovu kućnu adresu i rekli mu da 27. decembra mora da donese 500,00 eura i time se zatvara cijeli krug njegovog dugovanja prema njima. Zbog toga je 26. decembra prošle godine odlučio da opljačka apoteku koja se nalazi u M.. U večernjim časovima je pošao u pravcu ove apoteke, kada je na sebi imao crnu jaknu, preko cijelog lica pletenu kapu šarene boje, a na glavi kapuljaču od dukserice. Tom prilikom je kod sebe imao crni plastični pištolj. Držeći taj pištolj u ruci, ušao je u apoteku, uperio ga u pravcu radnice i rekao joj „pucaću daj pare“, iako nije imao namjeru da je povrijedi. Radnica u apoteci je otvorila kasu i izvadila novac, stavila ga na pult, odakle  ga je  uzeo i pobjegao. Kada je došao kući, izbrojao je novac i vidio da je otuđio oko 360,00 eura. Ovaj novac je dao kamatašima i na taj način za određeni period izmirio svoju obavezu. Međutim, oni su nakon ovoga nastavili da ga zovu i rekli su mu da će svaki dan kašnjenja da ga košta 20,00 eura. Zbog toga je  12. januara ove godine odlučio da opet pokuša da se snađe za novac. Svo vrijeme se bojao za sebe i svoju djecu, bio je primoran da se na bilo koji način snađe za novac. Zbog ovih razloga je 12. januara ove godine, u večernjim časovima, misli da je bilo 18,00 časova, krenuo ka kladionici „B.“ u S. u., kada je na sebi imao crnu jaknu, sa plavim i bijelom štraftama, crno-plavu kapuljaču i farmerice tamne boje, kako bi pogledao rezultate, a zatim se vratio kući. Iste večeri, negdje nakon sat vremena, opet je  otišao u istu ulicu, sada u crnoj jakni sa plavom linijom, i svijetlo sivom kapuljačom na glavi, držeći opet pri sebi plastični pištolj. Imao je  namjeru da uzme novac iz apoteke. Prije nego što je  ušao u apoteku, stavio je kapu preko čitavog lica, izvadio plastični pištolj iz džepa i uperio ga u pravcu dvije radnice, koje su bile u apoteci i rekao im „ovo je pljačka, vadite pare“. One su tada zajedno izvadile pare iz kase, stavile ga na pult, odakle  ga je uzeo i pobjegao. Kada je  došao kući, novac je izbrojao i vidio je da je oduzeo oko 505,00 eura. Sjutradan je predao novac kamatašima i to 500,00 eura. Na ovaj način je  sva dugovanja prema njima izmirio i od ovog dana ga niko više nije pozvao za bilo kakav novac, niti mu bilo kako prijetio. Napomenuo je da nikada u životu ne bi radio ovo da nije bio u ovako teškoj situaciji, a naročito zbog toga što se bojao za bezbjednost svoje djece.</span>
+				</p> 
+				<p>
+				<span>Branilac okrivljenog po službenoj dužnosti adv. R. V. iz Podgorice, je u završnoj riječi navela da na osnovu cjelokupnih dokaza sprovedenih u ovom krivičnom postupku, savjesne analize svakog dokaza pojedinačno i u vezi sa ostalim dokazima, sud može zaključiti da je optuženi dao istinit i vjerodostojan iskaz u kojem je priznao izvršenje krivičnog djela i izrazio iskreno kajanje. Isti je doprinio da se činjenično stanje u potpunosti rasvijetli. Njegovo protivpravno ponašanje je posljedica životnih poteškoća nastalih zbog loših materijalnih prilika, koje je morao u relativno kratkom vremenu riješiti. Optuženi koji se odjednom našao u beznađe u krajnjoj nuždi učinio je pogrešan korak sve u cilju da otkloni neposredno predstojeću neskrivenu opasnost koju nije mogao na drugi način riješiti i da zaštiti porodicu koju sačinjavaju supruga i 3 maloljetne djece - uzrasta 13, 8 i 3 godine. Učinjena krivično-pravna radnja nije veća od zla koje prijeti mu prema odredbama Krivičnog zakonika. Nije krivično djelo učinjeno u krajnoj nuždi ako je učinilac prekoračio granice krajnje nužde može se blaže kazniti, a ako je prekoračenje učinjeno pod naročito olakšavajućim okolnostima može se i osloboditi od kazne. Ukoliko sud nađe da je optuženi svojim radnjama prekoračio granice krajnje nužde, molila je da se uzmu u obzir sve navedene olakšavajuće okolnosti i donese odluka u skladu sa Medjunarodnim nacionalnim propisima uporednom sudskom praksom i interesima pravičnosti. </span>
+				</p> 
+				<p>
+				<span>Okrivljeni je u završnoj riječi ostao pri navodima odbrane, prihvatio završnu riječ svog branioca, i dodao da je sve ovo čega je svjestan da je napravio uradio samo da bi spasio svoju porodicu, prevashodno svoju djecu od ljudi od kojih je pozajmljivao novac, zelenaša koji su ga u sve to i uvukli. Da je  u tom trenutku mogao, odnosno da je imao bilo šta da proda, kao mogućnost zasigurno bi pribjegao tome. Na kraju je  istakao da on nije kriminalac, a to što se jednom potukao i za to osudjen za nasilničko ponašanje to nije poteklo iz njegove kriminogene prirode, već samo jedne psovke njegovih roditelja. </span>
+				</p> 
+				<p>
+				<span>Sud je u dokaznom postupku: Saslušao ovlašćenog predstavnika oštećenog "J. F." - S. P., na saglastan predlog stranaka pročitao iskaz ovlašćenog predstavnika oštećenog DOO "S. G." iz B. - V. J. dat pred ODT-om Podgorica Kti.br. 4/18 od 08.02.2018. godine, pročitao iskaz ovlašćenog predstavnika oštećenog DOO "F. M." iz D. - P. P. dat pred ODT-om Podgorica Kti.br.4/18 od 08.02.2018. godine, pročitao iskaz oštećene M.N. dat pred ODT-om Podgorica Kti.br. 4/18 od 06.02.2018. godine, pročitao iskaz oštećene A. O. dat pred ODT-om Podgorica Kti.br. 4/18 od 06.02.2018. godine, pročitao iskaz oštećene S. P. dat pred ODT-om Podgorica Kti.br. 4/18 od 06.02.2018. godine, pročitao iskaz oštećene M. J. - Đ. dat pred ODT-om Podgorica Kti.br. 4/18 od 06.02.2018. godine pročitao iskaz oštećene B.J. dat pred ODT-om Podgorica Kti.br. 4/18 od 06.02.2018. godine, pročitao zapisnik o uviđaju UP CB Podgorica Ku.br. 921/18 od 23.01.2018. godine, pročitao zapisnik o uviđaju UP CB Podgorica Ku.br. 952/18 od 07.12.2017. godine, pročitao zapisnik o uviđaju UP CB Podgorica Ku.br. 1028/17 od 29.12.2017. godine, pročitao zapisnik o uviđaju UP CB Podgorica Ku.br. 45/18 od 23.01.2018. godine, pročitao službenu zabilješku UP CB Podgorica Ku.br. 45/18 od 23.01.2018. godine, pročitao izvod iz kaznene evidencije na ime okrivljenog izdat od Ministarstva pravde Crne Gore pod brojem 309/18 od 08.03.2018. godine, izvršio uvid u fotodokumentaciju UP CB Podgorica br. 59-10-244-2564/2637 od 22.11.2017. godine koja čini sastavni dio zapisnika o uviđaju Ku.br. 921/18 od 23.01.2018. godine, izvršio uvid u fotodokumentaciju UP CB Podgorica br. 59-10-244-2722/2808 od 06.12.2017. godine koja čini sastavni dio zapisnika o uviđaju Ku.br. 952/17 od 07.12.2017. godine, izvršio uvid u fotodokumentaciju UP CB Podgorica br. 59-10-244-2871/2998 od 26.12.2017. godine koja čini sastavni dio zapisnika o uviđaju Ku.br.1028/17 od 29.12.2017. godine, izvršio uvid u  fotodokumentaciju UP CB Podgorica br. 61-10-244-71/83 od 12.01.2018. godine koja čini sastavni dio zapisnika o uviđaju Ku.br. 45/18 od 23.01.2018. godine, te izvršio uvid u CD video zapisa sa nadzornih kamera apoteke "J. F." i CD video zapisa sa nadzornih kamera kladionice "B.".</span>
+				</p> 
+				<p>
+				<span>Slijedeći provedeni dokazni postupak, te s jednakom pažnjom ispitujući sve činjenice kako one koje terete okrivljenog, tako i one koje mu idu u korist, Ovaj sud je zaključio da su se u radnjama okrivljenog ostvariti svi subjektivni i objektivni elementi bića krivičnih djela koja mu se stavljaju na teret, pa je sud, imajući u vidu međusobni odnos otežavajućih i olakšavajućih okolnosti koje stoje na strani okrivljenog, istog osudio na jedinstvenu kaznu zatvora kao u dispozitivu ove presude. </span>
+				</p> 
+				<li>
+				<span>Saslušan kako u prethodnom postupku pred ODT-om Podgorica, tako i na glavnom pretresu ovlašćeni predstavnik oštećenog "J. F." - S. P. je posvjedočio da je zaposlen u privrednom društvu DOO „J. F.“ kao konsultant. Ovo privredno društvo ima apoteku koja se nalazi u M. u ul. S. br.... Poznato mu je da je 12. januara, izvršeno krivično djelo u toj apoteci, i tom prilikom oduzet novac privrednog društva u iznosu od 835,00 eura, što su ustanovili popisom nakon izvršenog krivičnog djela. Kao ovlašćeni predstavnik oštećenog privrednog društva pridružio se  krivičnom gonjenju okrivljenog i postavio je imovinsko pravni zahtjev u visini oduzetog novca.</span>
+				</li> 
+				<p>
+				<span>Saslušan u prethodnom postupku pred ODT-om Podgorica ovlašćeni predstavnik oštećenog DOO "S. G." iz Budve - V. J. je naveo da je zaposlen u privrednom društvu „S. g. B.“ u okviru kojeg posluju sportske kladionice „S.-B.“, kao regionalni menadžer. Upoznat je sa činjenicom da je u sportskoj kladionici „S. B.“ koja se nalazi u M. u ul. S. izvršeno razbojništvo i to dva puta. Naime, 22. novembra 2017.godine u ovoj kladionici izvršeno je razbojništvo kada je oduzeto 400,00 eura novca od pazara. Nadalje, 06. decembra 2017.decembra je u istoj kladionici izvršeno razbojništvo i tom prilikom oduzeto 260,00 eura novca od pazara. U ime oštećenog privrednog društva, pridružio se  krivičnom gonjenju okrivljenog i postavio je imovinsko pravni zahtjev u visini oduzetog novca iz kladionica. </span>
+				</p> 
+				<p>
+				<span>Saslušan u prethodnom posutpku pred ODT-om Podgorica ovlašćeni predstavnik oštećenog DOO "F. M." iz D. - P. P. je posvjedočio da je on izvršni direktor firme „F. M.“ DOO Danilovgrad u sklopu koje posluje apoteka „M. F. 1“ koja se nalazi u M. u blizini Doma zdravlja. Od radnice apoteke je obaviješten da je u apoteci u toku decembra prošle godine, nepoznati momak ušao u apoteku, prijetio pištoljem radnici i tom prilikom oduzeo 395,00 eura od pazara. Kao ovlašćeni predstavnik oštećenog privrednog društva pridružio se krivičnom gonjenju okrivljenog, dok nije postavio imovinsko-pravni zahtjev.</span>
+				</p> 
+				<p>
+				<span>Svjedok oštećena M. N. je u prethodnom postupku  pred ODT-om Podgorica  navela da je zaposlena u kladionici „B.“ koja se nalazi u M.. Sjeća se da je 22. novembra prošle godine radila drugu smjenu koja je po pravilima kladionice od 15,00 do 21,00 čas. Oko 19,00 časova u kladionici se nalazila sama i tada je u istu ušlo jedno nepoznato muško lice koje je imalo kapuljaču preko čitavog lica i nož u ruci. Uplašila se jer je bila sama u kladionici. Ovo muško lice je držeći nož u ruci krenulo u njenom pravcu, tj. tačnije u pravcu pulta gdje je sjedjela, i držeći nož u ruci uperen u njenom pravcu povikalo „daj mi novac“. Ona je zatim otvorila fioku u kojoj se nalazio novac i pomjerila se u stranu, a ovo lice je uzelo novac i pobjeglo iz kladionice. Te večeri, nakon popisa, utvrdila je da je ovom prilikom nepoznato muško lice oduzelo novac u iznosu od 400,00 eura. Ovom licu nije mogla da vidi lice, ali bi ga opisala kao muškarca srednjih godina, dok se drugih detalja zbog pretrpljenog šoka vezanih za karakteristike ovog lica nije mogla sjetiti. Nije se pridružuila krivičnom gonjenju protiv okrivljenog i nije postavila imovinsko pravni zahtjev.</span>
+				</p> 
+				<p>
+				<span>Svjedok oštećena A. O. je u prethodnom postupku  pred ODT-om Podgorica navela da je zaposlena u kladionici „.“ koja se nalazi u ul. S. br... u M.. 06. decembra prošle godine radila je drugu smjenu, kada je oko 19,00 časova u kladionicu ušlo jedno muško lice, koje je na glavi imalo kapuljaču od dukserice a preko lica neki šal ili kapu, i držeći nož u desnoj ruci krenulo u njenom pravcu govoreći joj „vadi pare, daj pare“. Ovo lice je zatim ušlo u pult, ona se pomjerila u stranu, a on je iz fioke uzeo novac i pobjegao iz kladionice. Nakon što je ovo lice pobjeglo iz kladionice, izvršila je  popis i utvrdila da je oduzeo 260,00 eura. Pojasnila je da je ovaj novac bio u dvije kutije, u jednoj kutiji je stajao papirni novac, a u drugoj kutiji metalni. Zapazila je da je ovo lice visoko oko 1,90m, da na lijevoj ruci ima brojanicu i tanke prste. Iako je pretrpjela stres i nakon ovog događaja izgubila bebu, kao oštećena se nije pridružila krivičnom gonjenju okrivljenog i nije postavila imovinsko pravni zahtjev, jer je u međuvremenu saznala ko je lice koje je izvršilo ovo krivično djelo i zna da on ima djecu, pa nije željela da zbog njenog stava u postupku njegova djeca imaju neku posljedicu.</span>
+				</p> 
+				<li>
+				<span>Svjedok oštećena S. P. je u prethodnom postupku pred ODT-om Podgorica, navela da radi u apoteci „J. F.“ koja se nalazi u M. Ul. S. br... kao farmaceutski tehničar. Dana 12. januara, radila je drugu smjenu sa koleginicom M. Đ.. Tog dana oko 19,20 časova nalazila se za kasom, tačnije sa unutrašnje strane naplatnog punkta, kada je u apoteku ušlo maskirano muško lice sa pištoljem u ruci koji je mahao pištoljem po apoteci i u pravcu nje i njene koleginice, govoreći „ovo je pljačka, vadite pare“. Njena koleginica Maja je bila pored nje i njih dvije su zajedno izvadile novac iz kase i stavile ga na pult odakle je ovo muško lice uzelo novac i izašlo iz apoteke. Navela je da je ovo lice bilo visočije, dok se drugih karakteristika nije mogla sjetiti, ali lice sigurno nije uspjela da vidi jer je preko lica imao neki šal ili kapu. Nakon što je ovo lice napustilo apoteku utvrdila je da je oduzeo 835,00 eura. Kao oštećena nije se pridružila krivičnom gonjenju i nije postavila imovinsko pravni zahtjev. Vidjela je da to lice u ruci drži crni pištolj dok se drugih karakteristika nije mogla sjetiti.</span>
+				</li> 
+				<p>
+				<span>Svjedok oštećena M. J. - Đ. je u prethodnom postupku pred ODT-om Podgorica navela da radi u apoteci „J. F.“ koja se nalazi u Maslinama kao diplomirani farmaceut. Dana 12. januara, radila je drugu smjenu sa koleginicom S. P., kada je oko 19,20 časova, koliko se sjeća, u apoteku ušao visoki maskirani momak, sa pištoljem u ruci. Tom prilikom je sa pištoljem u ruci, usmjeravajući ga prema njoj kao i plafonu, obratio se njoj i koleginici riječima „ovo je pljačka, vadite pare“. Kako su se ona i koleginica nalazile za pultom, odmah su počele da vade novac iz kase koji su stavili na pult, a odatle ga je to lice oduzelo, a zatim izašlo iz apoteke. Nakon kritičnog događaja su izvršile popis i utvrdile da je oduzeto 835,00 eura. Kao što je navela, primijetila je da je to lice bilo visočije građe ali detalje vezana za njegov lični opis nije mogla saopštiti jer je bio maskiran. Kao što je navela navela držao je pištolj u ruci ali se detalja vezanih za karakteristike pištolja ne sjeća. Kao oštećena nije se pridružila krivičnom gonjenju i nije postavila imovinsko pravni zahtjev. </span>
+				</p> 
+				<p>
+				<span>Svjedok oštećena B. J. je u prethodnom postupku pred ODT-om Podgorica navela da je u apoteci „M. F. ....“ koja se nalazi u Maslinama u blizini Doma zdravlja zaposlena kao farmaceutski tehničar. Dana 26. decembra bila je na radnom mjestu i radila drugu smjenu. Tog dana oko 19,45 časova nalazila se za pultom kada je u apoteku ušlo maskirano muško lice, visočije, i koje je imalo preko lica pletenu kapu šarene boje, tako da mu se nijesu mogle vidjeti ni oči, a kapuljaču dukserice preko glave. Čim je ovo lice ušlo u apoteku primijetila je da u ruci drži pištolj i da je isti okrenuo u njenom pravcu govoreći joj „pucaću, daj pare“. Kako se nalazila za pultom, ona je  odmah počela da vadi novac iz kase i da ga stavlja na pult. Svo vrijeme ovo lice joj je držalo pištolj iznad glave. Kada je  izvadila na pult sav krupni novac koji je bio u kasi to lice je sa pulta uzelo novac i pobjeglo iz apoteke. Nakon događaja pozvala je vlasnika apoteke, a zatim ubrzo i policiju. Utvrdila je da je iz kase to lice otuđilo 400,00 eura. Međutim, kada je to lice bježalo iz apoteke ispalo mu je 5,00 eura, tako da je oduzelo 395,00 eura. To lice je u ruci držalo pištolj koji joj  je izgledao kao pravi, a imala je priliku i ranije da vidi pištolj jer joj je suprug službenik Uprave policije. Kao oštećena nije se pridružila krivičnom gonjenju i nije postavila imovinsko pravni zahtjev. </span>
+				</p> 
+				<p>
+				<span>Iz zapisnika o uviđaju UP CB Podgorica Ku.br. xxxx od 23.01.2018. godine,  sa uvidom u fotodokumentaciju UP CB Podgorica br. xxxxxxxxod 22.11.2017. godine proizilazi da su isti sačinjeni povodom obavještenja da je dana 22.11.2017. godine u vremenu od 18,49 časova izvršeno krivično djelo razbojništvo od strane jednog NN lica u sportskoj kladionici "B.", vlasništvo Š. A., koja je locirana u Ul. S. br. .. u Podgorici. Sportska kladionica se nalazi u prizemlju spratne kuće koja je vlasništvo Đ.. Po izjavi radnice sportske kladionice ulazna vrata su bila zatvorena, ali nezaključana. Objekat sportske kladionice se sastoji od jedne prostorije i toaleta, a gledajući od ulaznih vrata sportske kladionice lijevo se nalazi sto sa dvije stolice, a nadalje naplatni pult. Gledajući pravo od ulaza u sportsku kladionicu nalazi se aparat za igre na sreću i stolica. Na podu sportske kladionice zatečen je rasuti kovani novac, a ispred samog naplatnog pulta zatečena je plastična zdjela. Objekat je površine 10 m2, a rastojanje od ulaznih vrata do naplatnog pulta iznosi 400cm, dok je visina naplatnog pulta 140 cm. Dana 22.11.2017. godine u vremenu od 18,49 časova jedno NN lice sa nožem i pletenom kapom plave boje preko lica, je ušlo  u sportsku kladionicu, zatvorilo ulazna vrata, ušlo unutar naplatnog pulta i uz prijetnju nožem tražio od radnice novac. Radnica N. M. je otvorila gornju fioku naplatnog pulta, a NN lice je iz fioke prisvojilo 400,00 € i udaljilo se u NN pravcu. Nadalje proizilazi da objekat posjeduje sistem video nadzora, te da je krim.tehničar izvršio pregled lica mjesta, ali nije pronašao tragove papilarnih linija podesne za identifikaciju izvršioca. </span>
+				</p> 
+				<p>
+				<span>Iz zapisnika o uviđaju UP CB Podgorica Ku.br. 952/18 od 07.12.2017. godine, sa uvidom u fotodokumentaciju UP CB Podgorica br. 59-10-244-2722/2808 od 06.12.2017. godine proizilazi da su isti sačinjeni povodom obavještenja da je izvršeno krivično djelo razbojništvo u kladionici "S. B." lociranoj u Ul. S. br. ... Lice mjesta je Ul. S. br. .., tj. kladionica "S. B.", a pregledom lica mjesta konstatovano je da nema vidljivih oštećenja na istoj, kao ni u unutrašnjosti iste, te da je otuđeno oko 200,00 € u papirnim apoenima. Dana 06.12.2017. godine oko 18,40 časova izvršeno je razbojništvo u kladionici "S.B.", na način što je NN izvršilac ili više njih, ušao u kladionicu, došao do pulta za uplaćivanje, prošao do kase i uz prijetnju nožem otuđio oko 200,00 € iz kase u papirnim apoenima. Krim. tehničar je izvršio pregled lica mjesta kojom prilikom nije pronašao tragove podobne za identifikaciju izvršioca. </span>
+				</p> 
+				<p>
+				<span>Iz zapisnika o uviđaju UP CB Podgorica Ku.br. 1028/17 od 29.12.2017. godine, sa uvidom u fotodokumentaciju UP CB Podgorica br. 59-10-244-2871/2998 od 26.12.2017. godine proizilazi da su isti sačinjeni povodom obavještenja da je dana 26.12.2017. godine u vremenu od 19,45 časova izvršeno krivično djelo razbojništvo od strane jednog NN lica u apoteci "M. F.", vlasništvo P. M., koja je locirana u Ul. Z. o. ... u P.. Ulazna vrata apoteke su bila zatvorena, ali nezaključana. Gledano od ulaza u apoteku pravo se nalazi jedna prostorija površine 50 m2, a duž cijele te prostorije se nalazi naplatni pult. Rastojanje od ulaznih vrata do naplatnog pulta iznosi 4 m, a visina naplatnog pulta je 150 cm. Na krajevima naplatnog pulta tj. desno od ulaznih vrata i pravo od ulaznih vrata nalaze se dvije registar kase. Iza te prve prostorije nalazi se magacin i kupatilo, a unutar apoteke nema premetačine. Dana 26.12.2017. godine u vremenu od 19,45 časova NN osoba naoružana vatrenim oružjem - pištoljem i sa pletenom šarenom kapom preko lica ušlo je u apoteku i uz prijetnju pištoljem tražilo od J. B. novac. Apotekarka J. B. je otvorila registar kasu koja se nalazi desno od ulaznih vrata i NN izvršiocu dala novac u iznosu od 420,00€. Objekat posjeduje sistem video nadzora, a krim. tehničar je fotografisao lice mjesta. </span>
+				</p> 
+				<p>
+				<span>Iz zapisnika o uviđaju UP CB Podgorica Ku.br. 45/18 od 23.01.2018. godine, sa uvidom u </span>
+				</p>
+				<p>
+				<span>fotodokumentaciju UP CB Podgorica br. 61-10-244-71/83 od 12.01.2018. godine proizilazi da su isti sačinjeni povodom obavještenja da je dana 12.01.2018. godine oko 19,30 časova, izvršeno krivično djelo razbojništvo u apoteci "J. F.", vlasništvo P.I., u Ulici S. br. .... Objekat je zatečen otvoren, i obezbijeđen video nadzorom, a isti se sastoji iz jedne velike prostorije gdje se na kraju prostorije naspram ulaznih vrata nalazi naplatni pult sa registar kasom. Unutar objekta nema tragova vršenja premetačine. Prije dolaska ekipe za vršenje uviđaja nakon izvršenog krivičnog djela, objekat je nastavio sa radom i usluživanjem mušterija. Dana 12.01.2018. godine u objekat je ušlo jedno maskirano NN lice sa pištoljem u ruci i uz prijetnju po život od prodavačica koje su se nalazile iza pulta iznudio novac u iznosu od oko 100,00 €, koje su mu izvadile iz kase i stavile na pult. Nakon što je uzeo novac izvršilac se udaljio u nepoznatom pravcu. </span>
+				</p> 
+				<p>
+				<span>Iz službene zabilješke UP CB Podgorica Ku.br. 45/18 od 23.01.2018. godine, proizilazi da je ista sačinjena u vezi izvršene ispravke u zapisniku o uviđaju koji je vršen dana 12.01.2018. godine, a povodom krivičnog djela razbojništvo izvršenog u apoteci "J. F." u U. S. br. .... Dalje proizilazi da je prilikom sačinjavanja zapisnik tehničkom greškom u zapisniku uneseno da su prodavačice izvršiocu iz kase dale iznos od 100,00 €, a ustvari se radilo o iznosu od oko 1000,00€, kako su tada iste izjavile, a nakon primijećene greške iznos iznuđenog novca u zapisniku je ispravljen.</span>
+				</p> 
+				<p>
+				<span>Iz izvoda iz kaznene evidencije na ime okrivljenog izdat od Ministarstva pravde Crne Gore pod brojem 309/18 od 08.03.2018. godine, proizilazi da je isti ranije osuđivan presudom Osnovnog suda u Podgorici K.br. 07/234 od 13.10.2008. godine zbog krivičnog djela iz čl. 399 st. 2 u vezi st. 1 Krivičnog zakonika na kaznu zatvora u trajanju od 3 mjeseca.</span>
+				</p> 
+				<p>
+				<span>Uvidom u CD video zapis sa nadzornih kamera apoteke "J. F." konstatuje se da snimak počinje 12.01.2018. godine bez naznačenja vremena gdje se vidi radnica za pultom, kojoj prilazi lice u tamnoj garderobi sa oružjem u desnoj ruci, prekrivenog lica, sa svijetlom kapuljačom na glavi i držeći upereno oružje u pravcu radnice uzima novac sa pulta koji je radnica prethodno izvadila iz kase i brzim hodom se udaljava iz objekta. </span>
+				</p>
+				<p>
+				<span>Na drugom snimku istog događaja se vidi tačno vrijeme kada lice prilazi pultu, a to je 19:21:56. Nakon odgledanog CD video zapisa okrivljeni je  izjavio da je on lice koje se vidi na navedenom snimku. </span>
+				</p> 
+				<p>
+				<span>Uvidom u CD video zapis sa nadzornih kamera kladionice "B." konstatuje se da    snimak počinje 06.12.2017. godine u 18:38:47 časova i na istom se vidi radnica koja sjedi za pultom da bi u 18:38:49 časova, ušlo lice u tamnoj garderobi sa svijetlom kapuljačom i zaštićenim licem nekom tkaninom držeći u desnoj ruci nož, ulazi u pult, držeći nož u njenom pravcu, radnica se pomjera, otvara ladicu sa novcem, a on lijevom rukom uzima hrpu novčanica i brzim hodom se udaljava u 18:38:55 časova. Nakon odgledanog CD video zapisa okrivljeni je izjavio da je on lice koje se vidi na navedenom snimku.</span>
+				</p> 
+				<p>
+				<span>Okrivljeni R. V. tokom postupka nije sporio izvršenje krivičnih djela koja mu se činjeničnim navodima optuženja ovlašćenog tužioca ODT-a u Podgorici stavljaju na teret, a koja su bliže opisana tačkama 1, 2, 3 i 4 izreke ove presude, braneći se u bitnom da je zbog finansijskih problema u koje je zapao i koje na drugačiji način nije mogao riješiti, budući da je uzimao novac na kamatu, odlučio da na bilo koji način dođe do novca, zbog čega je i izvršio predmetna krivična djela. Okrivljeni je takođe, u navodima odbrane detaljno opisao način, vrijeme i mjesto izvršenja predmetnih krivičnih djela, koja mu se stavljaju na teret.</span>
+				</p> 
+				<p>
+				<span>Kada je u pitanju krivično djelo bliže opisano tačkom 1 izreke ove presude, a koje je učinjeno na štetu oštećene N. M. sud činjenično utvrđenje pored navoda odbrane okrivljenog zasniva i na iskazu oštećene N. M. koja je bila određena i decidna da je predmetnom prilikom muško lice koje je imalo kapuljaču preko čitavog lica i nož u ruci uperen u njenom pravcu, uz upotrebu riječi "Daj mi novac" oduzelo novac u iznosu od 400,00 €. Iskaz oštećene N.M. sud prihvata cijeni ga istinitim, obzirom da je oštećena N. M. svjedočila o onome što joj je poznato za predmetni događaj, a to što se ista zbog pretrpljenog šoka prema sopstvenom kazivanju, nije mogla sjetiti drugih detalja vezanih za karakteristike lica koje je predmetnom prilikom oduzelo novac, za sud nema značajnijeg uticaja. Za sud je relevantan i zapisnik o uviđaju UP CB Podgorica Ku.br. xxxx od 23.01.2018. godine sa fotodokumentacijom UP CB Podgorica broj xxxxx od 22.11.2017. godine, budući da se iz istih utvrđuje bliži izgled lica mjesta, karakteristike naplatnog pulta i površina samog objekta, kao i to da objekat posjeduje sistem video nadzora. </span>
+				</p> 
+				<p>
+				<span>U odnosu na tačku 2 izreke ove presude, i krivično djelo učinjeno na štetu oštećene O. A., sud činjenično utvrđenje osim navoda odbrane okrivljenog koji nije sporio izvršenje navedenog krivičnog djela, bazira i na iskazu oštećene O. A., čiji iskaz sud cijeni istinitim i vjerodostojnim, a koja je prema stanovištu Ovog suda detaljno opisala način izvršenja krivičnog djela, te karakteristike lica koje je izvršilo krivično djelo, te iznos novca koji je to lice kritičnom prilikom oduzelo.  Iz zapisnika o uviđaju UP CB Podgorica Ku.br. xxx od 07.12.2017. godine sa fotodokumentacijom UP CB Podgorica br. xxxxxxxxxxxxxxxod 06.12.2017. godine, utvrđuje se bliži izgled lica mjesta izvršenja krivičnog djela, te način izvršenja odnosnog krivičnog djela. </span>
+				</p> 
+				<p>
+				<span>U sklopu ocjene dokaza sud istinitim, i sa stanovišta odlučnih činjenica vjerodostojnim cijeni i iskaz oštećene J. B., a kada je u pitanju životni događaj bliže opisan tačkom 3 izreke ove presude, budući da je oštećena bila sasvim jasna, decidna i određena da je predmetnom prilikom u apoteku u kojoj je zaposlena, dok se nalazila za pultom, ušlo visočije maskirano muško lice, koje je imalo preko lica pletenu kapu šarene boje i kapuljaču dukserice preko glave, i koje joj je uputilo riječi "Pucaću daj pare", nakon čega je počela da vadi novac iz kase i stavila ga na pult, da bi poslije toga to lice sa pulta uzelo novac i pobjeglo iz apoteke. Osim toga, u odnosu na kriivčno djelo bliže opisano tačkom 3 izreke ove presude za sud je relevantan i zapisnik o uviđaju UP CB Podgorica Ku.br. od 29.12.2017. godine sa fotodokumentacijom UP CB Podgorica br. xxxxxxxx od 26.12.2017. godine, obzirom da se iz istih utvrđuje bliži opis lica mjesta izvršenja predmetnog krivičnog djela, površina objekta u kojem je izvršeno krivično djelo, te sami unutrašnji raspored objekta u kojem je izvršeno krivično djelo, kao i način izvršenja istog. </span>
+				</p> 
+				<p>
+				<span>Sud prihvata, cijeni istinitim, ali i međusobno saglasnim iskaze svjedoka oštećenih M. J.-Đ. i P. S., a u odnosu na krivično djelo koje je bliže opisano tačkom 4 izreke ove presude, budući da su obije oštećene nedvosmisleno, sasvim određeno i jasno opisale način izvršenja krivičnog djela, te izgled lica koje je odnosnom prilikom iz apoteke u kojoj su one zaposlene oduzelo novac, opisujući ga kao maskirano lice, te koje im se obratilo riječima "Ovo je pljačka vadite pare",  nakon čega je iz kase oduzelo novac, za koji su kasnije, nakon izvršenog popisa utvrdile da se radi o iznosu od 835,00 €.</span>
+				</p>
+				<p>
+				<span>Iskaze ovlašćenih predstavnika oštećenih privrednih društava i to "J. F." - S. P., DOO "S. G." iz Budve - V. J. i DOO "F. M." iz Danilovgrada - P. P., sud je cijenio istinitim, i saglasnim sa drugim provedenim personalnim i materijalnim dokazima u ovom postupku. Osim toga, a u sklopu ocjene dokaza sud je cijenio i CD video zapise sa nadzornih kamera apoteke "J. F." i kladionice "B.", a čiju vjerodostojnost i autentičnost nije sporio ni sam okrivljeni na glavnom pretresu, budući da je nakon odgledanih video zapisa izjavio da je on lice koje se vidi na navedenim snimcima.</span>
+				</p> 
+				<p>
+				<span>Sud je cijenio i navode branioca okrivljenog da je njen branjenik doprinio da se činjenično stanje u potpunosti rasvijetli, te da je isti dao istinit i vjerodostojan iskaz u kojem je priznao izvršenje krivičnog djela i izrazio iskreno kajanje. Ovakvi navodi branioca okrivljenog nemaju posebnog uticaja na drugačije zaključivanje suda, a ovo zbog toga što je za priznanje u krivično-pravnom smislu neophodno da isto uslijedi prije nego što su protiv okrivljenog prikupljeni dokazi koji ukazuju na njega kao na izvršioca krivičnog djela, dok navodi branioca koji se tiču toga da je njen branjenik izrazio iskreno kajanje, ne mogu predstavljati olakšavajuću okolnost u smislu čl. 42 Krivičnog zakonika  Crne Gore, budući da nije dovoljno da to "iskreno kajanje" bude izraženo samo na verbalan način kroz navode odbrane, obzirom da odredbe Zakonika o krivičnom postupku iz razloga samoodržanja u postupku dozvoljavaju okrivljenom da se brani na način koji smatra najpovoljnijim za sebe. U odnosu na navode branioca da je u konkretnom slučaju njen branjenik postupao u krajnjoj nuždi, zbog toga što se odjednom našao u beznađu, te što je otklonio neposredno predstojeću neskrivljenu opasnost koju nije mogao na drugi način riješiti, a učinjene radnje nijesu veće od zla koje je prijetilo, sud takođe smatra da isti nemaju utemeljenja i oslonca ni u provednim dokazima tokom postupka, ali ni u odredbama Krivičnog zakonika Crne Gore. </span>
+				</p> 
+				<p>
+				<span>Rezimirajući činjenične i pravne aspekte predmetne krivično-pravne stvari, Ovaj sud zaključuje da su se u radnjama okrivljenog R. V. ostvarili svi subjektivni i objektivni elementi bića četiri krivična djela razbojništvo iz čl. 242 st. 1 Krivičnog zakonika Crne Gore, pa je okrivljeni, na subjektivnom planu, postupao sa direktnim umišljajem kao oblikom krivice, budući da je bio svjestan svojih djela i htio njihova izvršenja.</span>
+				</p> 
+				<p>
+				<span>Vrjednujući sve okolnosti u smislu čl. 42 Krivičnog zakonika Crne Gore od kojih zavisi izbor i visina krivične sankcije, Sud je od otežavajućih okolnosti cijenio njegovu raniju osuđivanost utvrdjenu iz izvoda iz registra kaznenih evidencija za okrivljenog, i to za krivično djelo sa elementima nasilja, dok je od olakšavajućih okolnosti na njegovoj strani cijenio njegove porodične prilike, odnosno okolnost da se radi o ocu troje djece, njegove imovinske prilike, odnosno okolnost da se radi o licu lošeg imovnog stanja, stavove oštećenih M. N., A. O., S. P., M. J. -Đ. i B. J. koje se nijesu pridružile krivičnom gonjenju protiv okrivljenog i nijesu postavile imovinsko-pravne zahtjeve, koje okolnosti je sud shodno čl. 45 st. 3 Krivičnog zakonika Crne Gore cijenio naročito olakšavajućim, i okrivljenom kaznu ublažio po mjeri, poštujući granice ublažavanja propisane čl. 46 st. 1 tač.3 Krivičnog zakonika Crne Gore, pa je sud prethodno primjenom čl. 48 st.1 Krivičnog zakonika Crne Gore za svako od četiri krivična djela razbojništvo iz čl. 242 st. 1 Krivičnog zakonika Crne Gore okrivljenom utvrdio kazne zatvora u trajanjima od po 1 (jednu) godinu, a potom primjenom čl. 48 st. 2 tač.2 Krivičnog zakonika Crne Gore okrivljenog osudio na jedinstvenu kaznu zatvora u trajanju od 3 (tri) godine i 6 (šest) mjeseci, u koju kaznu mu se uračunava i vrijeme provedeno u pritvoru počev od 23.01.2018. godine, od 01,30 časova kao dana i časa lišenja slobode, pa nadalje, shodno čl. 51 Krivičnog zakonika Crne Gore, čime će se prema uvjerenju suda ostvariti svrha kažnjavanja propisana čl. 32 Krivičnog zakonika Crne Gore, a u okviru opšte svrhe propisivanja i izricanja krivičnih sankcija iz čl. 4 st. 2 Krivičnog zakonika Crne Gore. </span>
+				</p> 
+				<p>
+				<span>Primjenom čl. 239 Zakonika o krivičnom postupku sud je obavezao okrivljenog da na ime imovinsko-pravnog zahtjeva oštećenima isplati iznose, i to: DOO "S. G." iznos od 660,00 €, a oštećenom DOO "J.F." iznos od 835,00 €, sve u roku od 2 (dva) mjeseca po pravnosnažnosti presude, pod prijetnjom prinudne naplate, budući da su činjenice utvrđene u ovom postupku pružile pouzdanog osnova za dosuđenje istih. </span>
+				</p> 
+				<p>
+				<span>Odluku o troškovima krivičnog postupka sud je donio primjenom odredbi čl. 226, 227 i 229  Zakonika o krivičnom postupku i obavezao okrivljenog da na račun budžetkih sredstava suda na ime sudskog paušala uplati iznos od 50,00 eura, a koji paušal je odmjeren shodno dužini trajanja postupka, složenosti predmeta i imovinskim prilikama okrivljenog; kao i troškove službene odbrane o kojima će sud nakon pravnosnažnosti presude odlučiti posebnim rješenjem. </span>
+				</p> 
+				<p>
+				<span>Na osnovu svega izloženog, a u smislu čl.374 Zakonika o krivičnom postupku, odlučeno je kao u izreci presude.</span>
+				</p> 
+				<p style="text-align:center;">
+				<span>OSNOVNI SUD U PODGORICI</span>
+				</p>
+				<p style="text-align:center;">
+				<span>Dana, 31.05.2018. godine</span>
+				</p> 
+				<p>
+				<span>ZAPISNIČAR SUDIJA</span>
+				</p>
+				<p>
+				<span>Marina Sekulić, s.r. Larisa Mijušković-Stamatović, s.r.</span>
+				</p>  
+				<p>
+				<span>PRAVNA POUKA:</span>
+				</p>
+				<p>
+				<span>Protiv ove presude može se izjaviti žalba</span>
+				</p>
+				<p>
+				<span>u roku od 15 (petnaest) dana od dana prijema</span>
+				</p>
+				<p>
+				<span>pismenog otpravka, Višem sudu u Podgorici, </span>
+				</p>
+				<p>
+				<span>a preko Ovog suda.</span>
+				</p>  
+				<li style="text-align:center;">
+				<span>ZTO:  Marina Sekulić </span>
+				</li>      
+				
+			</conclusions>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>
