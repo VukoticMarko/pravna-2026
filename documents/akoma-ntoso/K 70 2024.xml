@@ -1,0 +1,343 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd ">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Osnovni Sud U Baru
+					</FRBRauthor>
+					<FRBRdate date="06. Jun 2024">
+						06. Jun 2024
+					</FRBRdate>
+					<FRBRtitle>
+						K 70/2024
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="osnovnisudubaru" href="/ontology/organization/osnovnisudubaru" showAs="Osnovni Sud U Baru"/>
+				<TLCPerson eId="tamaraspasojevic" href="/ontology/person/tamaraspasojevic" showAs="Tamara Spasojevic"/>
+				<TLCPerson eId="anomstanisic" href="/ontology/person/anomstanisic" showAs="Anom Stanisic"/>
+				<TLCPerson eId="si" href="/ontology/person/si" showAs="S. I."/>
+				<TLCPerson eId="dš" href="/ontology/person/dš" showAs="D. Š."/>
+				<TLCPerson eId="br" href="/ontology/person/br" showAs="B. R."/>
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge"/>
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk"/>
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant"/>
+				<TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff"/>
+				<TLCRole eId="defender" href="/ontology/role/defender" showAs="Defender"/>
+			</references>
+		</meta>
+		<judgmentBody>
+			<p>Osnovni Sud u Baru</p>
+			<p>K 70/2024</p>
+			<p>06. Jun 2024</p>
+			<p>K.br.70/24</p>
+			<p>U IME CRNE GORE</p>
+			<p>
+				OSNOVNI SUD U BARU, sudija 
+				<party id="tamaraspasojevic" refersTo="#tamaraspasojevic" as="#judge">Tamara Spasojevic</party>
+				, sa zapisnicarom 
+				<party id="anomstanisic" refersTo="#anomstanisic" as="#clerk">Anom Stanisic</party>
+				, u krivicnom predmetu
+			</p>
+			<p>
+				okrivljenog 
+				<party id="si" refersTo="#si" as="#defendant">S. I.</party>
+				 zbog produzenog krivicnog djela - kradja iz cl. 239 st. 1 u vezi cl. 49 Krivicnog zakonika Crne
+			</p>
+			<p>Gore, po optuznom predlogu Osnovnog drzavnog tuzilastva u Baru Kt.br.94/24 od 22.04.2024.godine,</p>
+			<p>nakon odrzanog glavnog javnog pretresa dana 05.06.2024.godine u prisustvu zastupnika optuzbe</p>
+			<p>
+				savjetnika u Osnovnom drzavnom tuzilastvu 
+				<party id="dš" refersTo="#dš" as="#plaintiff">D. Š.</party>
+				, okrivljenog 
+				<party id="si" refersTo="#si" as="#defendant">S. I.</party>
+				 i branioca okrivljenog po sluzbenoj
+			</p>
+			<p>
+				duznosti 
+				<party id="br" refersTo="#br" as="#defender">B. R.</party>
+				, advokata iz B., po zamjenickom punomocju M. R., advokata iz B., dana 06.06.2024. godine
+			</p>
+			<p>donio je i javno objavio,</p>
+			<p style="text-align: center;">P R E S U D U</p>
+			<p>Okrivljeni,</p>
+			<p>
+				<party id="si" refersTo="#si" as="#defendant">S. I.</party>
+				, JMB ...., od oca A. i majke A., rodjene H., rodjen 03.05.1958. godine u B., sa prebivalistem u B., S.,
+			</p>
+			<p>naselje H. N., drzavljanin Crne Gore, neozenjen, bez djece, zavrsio osnovnu skolu, govori crnogorskim</p>
+			<p>jezikom, nezaposlen, loseg imovnog stanja, osudjivan i to presudom Osnovnog suda u Baru K.br.152/23 od</p>
+			<p>16.10.2023.godine, zbog produzenog krivicnog djela - kradja iz cl. 239 st. 1 u vezi cl.49 KZ CG na kaznu</p>
+			<p>zatvora u trajanju od 6 (sest) mjeseci, presudom Osnovnog suda u Beranama K.br.12/01 od</p>
+			<p>21.01.2021.godine, na kaznu zatvora u trajanju od 1 (jedne) godine; presudom Osnovnog suda u Rozajama</p>
+			<p>K br. 424/98 od 28.01.1998. godine, zbog krivicnog djela iz cl.153 st.1 tac.1 KZ RCG (teska kradja), na kaznu</p>
+			<p>zatvora u trajanju od 90 (devedeset) dana; pravosnaznom presudom Osnovnog suda u Baru K.br.227/98</p>
+			<p>od 14.12.1998. godine, zbog krivicnog djela iz cl.153 st.1 tac.1 KZ RCG (teska kradja), na kaznu zatvora u</p>
+			<p>trajanju od 3 (tri) mjeseca; presudom Osnovnog suda u Beranama K.br.399/98 od 30.10.1998.godine, zbog</p>
+			<p>krivicnog djela iz cl.145 st.1 tac.1 KZ CG (teska kradja), na kaznu zatvora u trajanju od 2 (dvije) godine i 2</p>
+			<p>(dva) mjeseca; pravosnaznom presudom Osnovnog suda u Beranama K.br.286/95 od 17.11.1995.godine,</p>
+			<p>zbog krivicnog djela iz cl.153 st.1 tac.1 KZ RCG (teska kradja) i krivicnog djela iz cl.46 st.2 KZ RCG, na</p>
+			<p>jedinstvenu kaznu zatvora u trajanju od 90 (devedeset) dana; presudom Osnovnog suda u Ivangradu K br.</p>
+			<p>251/88 od 31.01.1989. godine, zbog krivicnog djela iz cl.153 st. 1 tac.1 KZ RCG (kradja), na kaznu zatvora u</p>
+			<p>trajanju od 1 (jedne) godine; presudom Okruznog suda u Bijelom Polju K.br.57/88 od 05.12.1988.godine,</p>
+			<p>zbog krivicnog djela iz cl.158 st. 1 KZ RCG (pljacka), na kaznu zatvora u trajanju od 3 (tri) godine; presudom</p>
+			<p>Osnovnog suda u Beranama K.br.21/88 od 21.10.1988.godine, zbog krivicnog djela iz cl.152 st.1 KZ RCG</p>
+			<p>(kradja), na kaznu zatvora u trajanju od 120 (stodvadeset) dana; presudom Opstinskog suda u Subotici</p>
+			<p>K.br.264/83 od 27.11.1986.godine, zbog krivicnog djela iz cl.128 st. 1 tac. 1 KZ RS (kradja), na kaznu zatvora</p>
+			<p>u trajanju od 1 (jedne) godine i 6 (sest) mjeseci; presudom Opcinskog kaznenog suda u Zagrebu KO</p>
+			<p>br.2723/81 od 25.09.1984.godine, zbog krivicnog djela iz cl.130 st.1 KZ (kradja), na kaznu zatvora u trajanju</p>
+			<p>od 9 (devet) mjeseci; pravosnaznom presudom Opstinskog suda u Kranju K.br.187/82 od</p>
+			<p>19.10.1982.godine, zbog krivicnog djela iz cl.166 st.1 tac.1 KZ (velika kradja), na kaznu zatvora u trajanju</p>
+			<p>od 1 (jedne) godine i 6 (sest) mjeseci; presudom Opcinskog kaznenog suda u Zagrebu Ko.br.1606/81 od</p>
+			<p>03.09.1981.godine, zbog krivicnog djela iz cl.130 st.1 KZ (kradja), na kaznu zatvora u trajanju od 1 (jedne)</p>
+			<p>godine i 20 (dvadeset) dana; presudom Opstinskog suda u Kranju Ks.br.37/81 od 19.02.1981.godine, zbog</p>
+			<p>krivicnog djela iz cl.171 st.5 KZ (prevara), na novcanu kaznu; presudom Opstinskog suda u Rijeci</p>
+			<p>K.br.1498/80-11 od 13.01.1981.godine, zbog krivicnog djela iz cl.130 st.1 KZ (kradja), na kaznu zatvora u</p>
+			<p>trajanju od 6 (sest) mjeseci; presudom Osnovnog suda u Ljubljani IV K.br.982/79 od 17.08.1979.godine,</p>
+			<p>zbog krivicnog djela iz cl.165 st.1 KZ (kradja), na kaznu zatvora u trajanju od 1 (jedne) godine i 2 (dva)</p>
+			<p>mjeseca; presudom Opstinskog suda u Kranju K.br.46/79-19 od 01.03.1979.godine, zbog krivicnog djela iz</p>
+			<p>cl.171 KZ (prevara), na novcanu kaznu i presudom Temeljnog suda u Ljubljani K.br.132/79 od</p>
+			<p>24.01.1979.godine, zbog krivicnog djela iz cl.166 st.1 tac.1 KZ (teska kradja), na kaznu zatvora u trajanju od</p>
+			<p>3 (tri) mjeseca.</p>
+			<p>KRIV JE</p>
+			<p>Zato sto je:</p>
+			<p>1. U toku noci 22/23.02.2024.godine u ul. J. S. br. 6, u B., Opstina B., svjestan svog djela i htio njegovo</p>
+			<p>izvrsenje, iako je znao da je isto zabranjeno, u namjeri da sebi pribavi protivpravnu imovinsku korist vecu</p>
+			<p>od 150,00 eura, oduzeo tudju pokretnu stvar - jedno biciklo marke „Capriolo", zelene boje, vlasnistvo</p>
+			<p>ostecenog A. A., u vrijednosti od 250,00 eura, na nacin sto je zazvonio na interfon i kada mu je neko otvorio</p>
+			<p>ulazna vrata, usao je i oduzeo navedeno biciklo, cime je pribavio protivpravnu imovinsku korist u</p>
+			<p>navedenom iznosu:</p>
+			<p>2.Dana 26.03.2024.godine, tokom noci u ul. J. S. br. 6, u B., Opstina B., svjestan svog djela i htio njegovo</p>
+			<p>izvrsenje, iako je znao da je isto zabranjeno, u namjeri da sebi pribavi protivpravnu imovinsku korist vecu</p>
+			<p>od 150,00 eura, pokusao da oduzme tudju pokretnu stvar - jedno biciklo marke „Capriolo", crno-crvene</p>
+			<p>boje, vlasnistvo ostecenog D. M., na nacin sto je zazvonio na interfon i kada mu je neko otvorio ulazna</p>
+			<p>vrata, usao je i sa biciklom krenuo da izadje iz zgrade, ali je primijecen od strane A.A., nakon cega je biciklo</p>
+			<p>ostavio u hodniku i udaljio se u nepoznatom pravcu;</p>
+			<p>-cime je izvrsio produzeno krivicno djelo - kradja iz cl.239. st.1. u vezi cl. 49 Krivicnog zakonika Crne Gore.</p>
+			<p>Pa sud okrivljenog primjenom cl. 2, 4, 5, 13, 15, 32, 36, 42 i 51 Krivicnog Zakonika Crne Gore i cl. 226, 229 i</p>
+			<p>374 Zakonika o krivicnom postupku</p>
+			<p style="text-align: center;">O S U Đ U J E</p>
+			<p>Na kaznu zatvora u trajanju od 7 (sedam) mjeseci, u koju kaznu mu se uracunava vrijeme provedeno u</p>
+			<p>pritvoru od dana 26.03.2024.godine u 02,40 casova pa nadalje.</p>
+			<p>Na osnovu cl.239 st.2 ZKP-a obavezuje se okrivljeni da ostecenom A. A. na ime postavljenog imovinsko</p>
+			<p>pravnog zahtjeva isplati iznos od 250,00 eura, u roku od 15 dana po pravosnaznosti presude, pod</p>
+			<p>prijetnjom prinudnog izvrsenja.</p>
+			<p>Okrivljeni je duzan da plati troskove krivicnog postupka u iznosu od 60,50 eura, kao i na osnovu sudskog</p>
+			<p>pausala iznos od 30,00 eura, a roku od 15 dana od dana pravosnaznosti, pod prijetnjom izvrsenja, dok ce</p>
+			<p>se o troskovima branioca po sluzbenoj duznosti advokata M. R. odluciti posebnim rjesenjem.</p>
+			<p>O b r a z l o z e n j e</p>
+			<p>Optuznim predlogom Osnovnog drzavnog tuzioca u Baru Kt.br.91/24 od 22.04.2024.godine koji je</p>
+			<p>izmijenjen na glavnom pretresu dana 05.06.2024.godine na nacin kao u izreci presude, stavljeno je na teret</p>
+			<p>
+				okrivljenom 
+				<party id="si" refersTo="#si" as="#defendant">S. I.</party>
+				 izvrsenje produzenog krivicnog djela - kradja iz cl. 239 st.1 u vezi cl. 49 Krivicnog zakonika
+			</p>
+			<p>Crne Gore. U zavrsnoj rijeci zastupnik optuzbe je predlozio da sud okrivljenog oglasi krivim i osudi po</p>
+			<p>zakonu.</p>
+			<p>Okrivljeni je u svojoj odbrani naveo da je dana 22.02.2024.godine izasao iz UIKS-a gdje je boravio zadnjih</p>
+			<p>sest mjeseci zbog krivicnog djela kradja. Tog dana je dosao u Bar i u vecernjim casovima, poslije ponoci bio</p>
+			<p>je ispred jedne zgrade i u ulazu od iste vidio je biciklo koje nije bilo vezano, nego samo naslonjeno uz zid.</p>
+			<p>Zazvonio je na interfon kako bi mu neko od stanara otvorio vrata da udje u ulaz od zgrade kako bi otudjio</p>
+			<p>biciklo. Kada je zazvonio na interfon neko mu je otvorio ulazna vrata, usao je u ulaz prisao biciklu, to</p>
+			<p>biciklo je bilo zelene boje i bilo je prislonjeno uz zid, uzeo ga je, a zatim otisao na autobusku stanicu i</p>
+			<p>prvim autobusom je otisao u Budvu. Navedeno biciklo je u Budvi za iznos od 20,00 eura prodao nekom</p>
+			<p>licu romske nacionalnosti. Svo vrijeme je boravio u Budvi a dana 25.03.2024.godine iz Budve je dosao u</p>
+			<p>Bar. U Bar je stigao oko 19,00 casova. Kada je dosao u Bar bio je po gradu i u par ugostiteljskih objekata.</p>
+			<p>Negdje oko 01,00 cas otisao je do zgrade, a to je ona ista zgrada gdje je prethodno otudjio ono prvo biciklo,</p>
+			<p>pored ulaza od te zgrade nalazi se UO „B. p.", usao je u ulaz od te zgrade na isti nacin kao i prvi put, a opet</p>
+			<p>u namjeri da otudji biciklo, ali u momentu kada je krenuo sa biciklom ka izlazu od zgrade cuo je da mu</p>
+			<p>neko kaze „Stani, ostavi to biciklo". Ne sjeca se koje tacno boje je bilo to biciklo, ali je isto odmah ostavio i</p>
+			<p>udaljio se od zgrade. Primjetio je da ga neko musko lice prati, a zatim je odveden u stanicu policije.</p>
+			<p>Branilac okrivljenog je u zavrsnoj rijeci naveo da predlaze da sud uzme u obzir odbranu okrivljenog,</p>
+			<p>olaksavajuce okolnosti i da okrivljenom izrekne neku od alternativnih kazni jer smatra da ce se na taj</p>
+			<p>nacin postici generalna i specijalna prevencija. Okrivljeni je u zavrsnoj rijeci prihvatio zavrsnu rijec svog</p>
+			<p>branioca.</p>
+			<p>U dokaznom postupku sud je na saglasan predlog stranaka procitao iskaz svjedoka ostecenih A. A. i D. M.,</p>
+			<p>na saglasan predlog stranaka procitan je nalaz i misljenje vjestaka ekonomske struke N. D., izvod iz</p>
+			<p>Kaznene evidencije na ime okrivljenog Ministarstva pravde, ljudskih i manjinskih prava KE br. 150/24 od</p>
+			<p>29.04.2024.godine i izvrsen je uvid u presudu Osnovnog suda u Baru K.br. 152/23 od 16.10.2023.godine.</p>
+			<p>Iz iskaza svjedoka ostecenog A. A. datog na zapisniku o saslusanju pred ODT iz Bara od 17.04.2024.godine</p>
+			<p>utvrdjeno je da zivi u B. na adresi J. S. br. 6, na prvom spratu. Ulaz od njegove zgrade je obezbijedjen</p>
+			<p>interfonom i vrata su uvijek zakljucana. U prizemlju zgrade, kod ulaza on i komsije cesto drze bicikla. U</p>
+			<p>toku noci 22/23.02.2024.godine u njegovom ulazu u prizemlju zgrade, u neposrednoj blizini ulaznih vrata</p>
+			<p>ostavio je svoje biciklo naslonjeno uz zid. Biciklo nije bilo ni sa cim privezano, vec samo naslonjeno na zid,</p>
+			<p>ali je ulaz od zgrade bio zakljucan. Sjutradan ujutru, tj. 23.02.2024.godine, primijetio je da nema njegovog</p>
+			<p>bicikla, da ga je neko otudjio. Tada nije prijavljivao taj dogadjaj policiji. U sklopu zgrade imaju video nadzor</p>
+			<p>pa je isti sacuvao u mobilnom telefonu i proslijedio policijskom sluzbeniku. Njegovo biciklo je marke</p>
+			<p>„Capriolo" zelene boje, sa vise brzina i sa prednjim amortizerima. Kupio ga je prosle godine za iznos od</p>
+			<p>oko 320,00 eura u radnji „Capriolo" u Baru. Nema racun od bicikla, nije ga sacuvao. Tokom noci</p>
+			<p>25/26.03.2024.godine, oko 01,20 casova, na interfon od njegovog stana pozvonilo je neko lice i reklo mu</p>
+			<p>„Otvori, K. D. je", to mu je bilo sumnjivo jer zna da u ulazu ne zivi niko pod tim imenom i prezimenom.</p>
+			<p>Odmah se spustio u prizemlje zgrade i u tom trenutku je vidio jednog starijeg muskarca, a kojeg je odmah</p>
+			<p>prepoznao da je isti onaj koga je vidio na snimku video nadzora kako krade njegovo biciklo, a to vece je</p>
+			<p>pokusao da odveze jedno bicikio iz ulaza, a koje je vlasnistvo komsije D. M., vidio je kako on to biciklo gura</p>
+			<p>ka vratima. Kada ga je covjek cuo i vidio ostavio je biciklo i izasao je iz ulaza zgrade. Nakon toga on je isao</p>
+			<p>za tim licem pjeske a u isto vrijeme i pozvao policiju. Nakon nekih 100 metara stigla je policija i sustigla ovo</p>
+			<p>lice koje je pokusalo da otudji biciklo. Pridruzio se krivicnom gonjenju i postavio imovinsko pravni zahtjev,</p>
+			<p>ciju visinu nije precizirao.</p>
+			<p>Iz iskaza svjedoka ostecenog D. M. datog na zapisniku o saslusanju pred ODT iz Bara od 12.04.2024.godine</p>
+			<p>utvrdjeno je da zivi na adresi J. S. br. 6 u zgradi gdje je ulaz od zgrade obezbijedjen interfonom i vrata su</p>
+			<p>uvijek zakljucana. Ista se otvaraju pomocu interfona ili kljuca. U ulazu od zgrade on i komsije drze bicikla.</p>
+			<p>Negdje krajem februara mjeseca ove godine saznao je od svog komsije A. A. da mu je neko tokom noci</p>
+			<p>otudjio bicikl, da je vidio na kameri da je izvrsilac jedna starija muska osoba i da se na snimku vidi kako</p>
+			<p>ulazi u ulaz od zgrade i uzima bicikl. Dana 26.03.2024.godine, pozvala ga je policija i saopstila mu da je</p>
+			<p>neko lice pokusalo da otudji njegovo biciklo, da je u pitanju isto lice koje je komsiji A. A. oduzelo biciklo.</p>
+			<p>Naveo je da kada je izlazio iz svoje zgrade, vidio je da biciklo nije na istom mjestu gdje ga je ostavio, vec je</p>
+			<p>pomjereno blize izlazu. Biciklo je marke Capriolo crvene boje, biciklo je novo, kupljeno je prije ovog</p>
+			<p>dogadjaja mozda 10 dana u radnji Capriolo koja se nalazi kod zeljeznicke stanice u Baru, kupljen je za iznos</p>
+			<p>od 270,00 eura. Tom prilikom nije zakljucao katancem biciklo vec je isto samo prislonio uz zid. Nije se</p>
+			<p>pridruzio krivicnom gonjenju protiv okrivljenog i nije postavio imovinsko pravni zahtjev.</p>
+			<p>Iz nalaza i misljenja vjestaka ekonomsko - finansijske struke D. N. utvrdjeno je da je vrijednost jednog</p>
+			<p>bicikla marke "Capriolo" zelene boje sa vise brzina i sa prednjim amortizerima iznosi 250,00 eura.</p>
+			<p>Iz izvoda iz registra kaznenih evidencija Ministarstva pravde izdat na ime okrivljenog od 29.04.2024.godine,</p>
+			<p>utvrdjeno je da je isti osudjivan i to presudom Osnovnog suda u Baru K br. 152/23 od 16.10.2023.godine,</p>
+			<p>zbog produzenog krivicnog djela - kradja iz cl. 239 st. 1 u vezi cl. 49 KZ CG na kaznu zatvora u trajanju od 6</p>
+			<p>(sest) mjeseci, presudom Osnovnog suda u Beranama K.br.12/01 od 21.01.2021.godine, na kaznu zatvora u</p>
+			<p>trajanju od 1 (jedne) godine; presudom Osnovnog suda u Rozajama K br. 424/98 od 28.01.1998. godine,</p>
+			<p>zbog krivicnog djela iz cl.153 st.1 tac.1 KZ RCG (teska kradja), na kaznu zatvora u trajanju od 90</p>
+			<p>(devedeset) dana; pravosnaznom presudom Osnovnog suda u Baru K.br.227/98 od 14.12.1998. godine,</p>
+			<p>zbog krivicnog djela iz cl.153 st.1 tac.1 KZ RCG (teska kradja), na kaznu zatvora u trajanju od 3 (tri)</p>
+			<p>mjeseca; presudom Osnovnog suda u Beranama K.br.399/98 od 30.10.1998.godine, zbog krivicnog djela iz</p>
+			<p>cl.145 st.1 tac.1 KZ CG (teska kradja), na kaznu zatvora u trajanju od 2 (dvije) godine i 2 (dva) mjeseca;</p>
+			<p>pravosnaznom presudom Osnovnog suda u Beranama K.br.286/95 od 17.11.1995.godine, zbog krivicnog</p>
+			<p>djela iz cl.153 st.1 tac.1 KZ RCG (teska kradja) i krivicnog djela iz cl.46 st.2 KZ RCG, na jedinstvenu kaznu</p>
+			<p>zatvora u trajanju od 90 (devedeset) dana; presudom Osnovnog suda u Ivangradu K br. 251/88 od</p>
+			<p>31.01.1989. godine, zbog krivicnog djela iz cl.153 st. 1 tac.1 KZ RCG (kradja), na kaznu zatvora u trajanju od</p>
+			<p>1 (jedne) godine; presudom Okruznog suda u Bijelom Polju K.br.57/88 od 05.12.1988.godine, zbog</p>
+			<p>krivicnog djela iz cl.158 st. 1 KZ RCG (pljacka), na kaznu zatvora u trajanju od 3 (tri) godine; presudom</p>
+			<p>Osnovnog suda u Beranama K.br.21/88 od 21.10.1988.godine, zbog krivicnog djela iz cl.152 st.1 KZ RCG</p>
+			<p>(kradja), na kaznu zatvora u trajanju od 120 (stodvadeset) dana; presudom Opstinskog suda u Subotici</p>
+			<p>K.br.264/83 od 27.11.1986.godine, zbog krivicnog djela iz cl.128 st. 1 tac. 1 KZ RS (kradja), na kaznu zatvora</p>
+			<p>u trajanju od 1 (jedne) godine i 6 (sest) mjeseci; presudom Opcinskog kaznenog suda u Zagrebu KO</p>
+			<p>br.2723/81 od 25.09.1984.godine, zbog krivicnog djela iz cl.130 st.1 KZ (kradja), na kaznu zatvora u trajanju</p>
+			<p>od 9 (devet) mjeseci; pravosnaznom presudom Opstinskog suda u Kranju K.br.187/82 od</p>
+			<p>19.10.1982.godine, zbog krivicnog djela iz cl.166 st.1 tac.1 KZ (velika kradja), na kaznu zatvora u trajanju</p>
+			<p>od 1 (jedne) godine i 6 (sest) mjeseci; presudom Opcinskog kaznenog suda u Zagrebu Ko.br.1606/81 od</p>
+			<p>03.09.1981.godine, zbog krivicnog djela iz cl.130 st.1 KZ (kradja), na kaznu zatvora u trajanju od 1 (jedne)</p>
+			<p>godine i 20 (dvadeset) dana; presudom Opstinskog suda u Kranju Ks.br.37/81 od 19.02.1981.godine, zbog</p>
+			<p>krivicnog djela iz cl.171 st.5 KZ (prevara), na novcanu kaznu; presudom Opstinskog suda u Rijeci</p>
+			<p>K.br.1498/80-11 od 13.01.1981.godine, zbog krivicnog djela iz cl.130 st.1 KZ (kradja), na kaznu zatvora u</p>
+			<p>trajanju od 6 (sest) mjeseci; presudom Osnovnog suda u Ljubljani IV K.br.982/79 od 17.08.1979.godine,</p>
+			<p>zbog krivicnog djela iz cl.165 st.1 KZ (kradja), na kaznu zatvora u trajanju od 1 (jedne) godine i 2 (dva)</p>
+			<p>mjeseca; presudom Opstinskog suda u Kranju K.br.46/79-19 od 01.03.1979.godine, zbog krivicnog djela iz</p>
+			<p>cl.171 KZ (prevara), na novcanu kaznu i presudom Temeljnog suda u Ljubljani K.br.132/79 od</p>
+			<p>24.01.1979.godine, zbog krivicnog djela iz cl.166 st.1 tac.1 KZ (teska kradja), na kaznu zatvora u trajanju od</p>
+			<p>3 (tri) mjeseca.</p>
+			<p>Uvidom u presudu Osnovnog suda u Baru K.br. 152/23 od 16.10.2023.godine utvrdjeno je da je ista postala</p>
+			<p>pravosnazna dana 08.04.2024.godine i da je navedenom presudom okivljeni osudjen na kaznu zatvora u</p>
+			<p>trajanju od 6 mjeseci, zbog produzenog krivicnog djela - kradja iz cl. 239 st. 1 u vezi cl.49 Krivicnog</p>
+			<p>zakonika Crne Gore.</p>
+			<p>Ocjenom dokaza izvedenih na glavnom pretresu, svakog pojedinacno i u medjusobnoj povezanosti, na</p>
+			<p>
+				nesumnjiv nacin je utvrdjeno da je okrivljeni 
+				<party id="si" refersTo="#si" as="#defendant">S. I.</party>
+				 izvrsio produzeno krivicno djelo kradja iz cl.239 st.1 u vezi
+			</p>
+			<p>cl.49 Krivicnog zakonika Crne Gore, na nacin predstavljen u izreci presude.</p>
+			<p>Okrivljeni je u svojoj odbrani priznao izvrsenje krivicnog djela, navodeci da je dana 22.02.2024.godine</p>
+			<p>izasao iz UIKS-a gdje je boravio zadnjih sest mjeseci zbog krivicnog djela kradja i istog dana je dosao u Bar i</p>
+			<p>u vecernjim casovima, poslije ponoci bio je ispred jedne zgrade i u ulazu od iste vidio je biciklo koje nije</p>
+			<p>bilo vezano, nego samo naslonjeno uz zid, pa je pozvonio na interfon kako bi mu neko od stanara otvorio</p>
+			<p>vrata da udje u ulaz od zgrade kako bi otudjio biciklo. Kada je usao u ulaz, prisao je biciklu, koje je bilo</p>
+			<p>zelene boje i prislonjeno uz zid, uzeo ga je, a zatim otisao na autobusku stanicu i prvim autobusom je</p>
+			<p>otisao u Budvu. Navedeno biciklo je u Budvi za iznos od 20,00 eura prodao nekom licu romske</p>
+			<p>nacionalnosti. Svo vrijeme je boravio u Budvi a dana 25.03.2024.godine iz Budve je dosao u Bar i negdje</p>
+			<p>oko 01,00 cas otisao je do zgrade, a to je ona ista zgrada gdje je prethodno otudjio ono prvo biciklo, pored</p>
+			<p>ulaza od te zgrade nalazi se UO „B.p.", usao je u ulaz od te zgrade na isti nacin kao i prvi put, a opet u</p>
+			<p>namjeri da otudji biciklo, ali u momentu kada je krenuo sa biciklom ka izlazu od zgrade cuo je da mu neko</p>
+			<p>kaze „Stani, ostavi to biciklo". Ne sjeca se koje tacno boje je bilo to biciklo, ali je isto odmah ostavio i</p>
+			<p>udaljio se od zgrade. Primjetio je da ga neko musko lice prati, a zatim je odveden u stanicu policije.</p>
+			<p>Priznanje okrivljenog sud je cijenio kao jasno i detaljno, a isto je potvrdjeno i jasnim i detaljnim iskazom</p>
+			<p>svjedoka ostecenih A. A. i D. M., na cije iskaze nije bilo primjedbi iz kog razloga im je sud poklonio punu</p>
+			<p>vjeru. Svjedok A. A. je detaljno opisao da je ulaz od njegove zgrade obezbijedjen interfonom i vrata su</p>
+			<p>uvijek zakljucana, da u prizemlju zgrade, kod ulaza on i komsije cesto drze bicikla. U toku noci</p>
+			<p>22/23.02.2024.godine u njegovom ulazu u prizemlju zgrade, u neposrednoj blizini ulaznih vrata ostavio je</p>
+			<p>svoje biciklo naslonjeno uz zid, isto nije bilo ni sa cim privezano, vec samo naslonjeno na zid. Sjutradan</p>
+			<p>ujutru, tj. 23.02.2024.godine, primijetio je da nema njegovog bicikla, da ga je neko otudjio i tada nije</p>
+			<p>prijavljivao taj dogadjaj policiji, a u sklopu zgrade imaju video nadzor pa je isti sacuvao u mobilnom</p>
+			<p>telefonu i proslijedio policijskom sluzbeniku. Njegovo biciklo je marke „Capriolo" zelene boje, sa vise</p>
+			<p>brzina i sa prednjim amortizerima, isto je kupio 2023.godine za iznos od oko 320,00 eura u radnji</p>
+			<p>„Capriolo" u Baru. Dalje je naveo da je tokom noci 25/26.03.2024.godine, oko 01,20 casova, na interfon od</p>
+			<p>njegovog stana pozvonilo neko lice i reklo mu „Otvori, K. D. je", njemu je to bilo sumnjivo jer zna da u ulazu</p>
+			<p>ne zivi niko pod tim imenom i prezimenom, pa se odmah spustio u prizemlje zgrade i u tom trenutku je</p>
+			<p>vidio jednog starijeg muskarca, a kojeg je odmah prepoznao da je isti onaj koga je vidio na snimku video</p>
+			<p>nadzora kako krade njegovo biciklo, a to vece je pokusao da odveze jedno bicikio iz ulaza, a koje je</p>
+			<p>vlasnistvo komsije D. M., vidio je kako on to biciklo gura ka vratima. Kada ga je covjek cuo i vidio ostavio je</p>
+			<p>biciklo i izasao je iz ulaza zgrade. Nakon toga on je isao za tim licem pjeske a u isto vrijeme i pozvao</p>
+			<p>policiju. Nakon nekih 100 metara stigla je policija i sustigla ovo lice koje je pokusalo da otudji biciklo. Iz</p>
+			<p>iskaza svjedoka ostecenog D. M. datog na zapisniku o saslusanju pred ODT iz Bara od 12.04.2024.godine</p>
+			<p>utvrdjeno je da zivi na adresi J. S. br. 6 u zgradi gdje je ulaz od zgrade obezbijedjen interfonom i vrata su</p>
+			<p>uvijek zakljucana, da se ista otvaraju pomocu interfona ili kljuca, a u ulazu od zgrade on i komsije drze</p>
+			<p>bicikla. Negdje krajem februara mjeseca ove godine saznao je od svog komsije A.A.da mu je neko tokom</p>
+			<p>noci otudjio bicikl, da je vidio na kameri da je izvrsilac jedna starija muska osoba i da se na snimku vidi</p>
+			<p>kako ulazi u ulaz od zgrade i uzima bicikl. Dana 26.03.2024.godine, pozvala ga je policija i saopstila mu da</p>
+			<p>je neko lice pokusalo da otudji njegovo biciklo, da je u pitanju isto lice koje je komsiji A. A. oduzelo biciklo.</p>
+			<p>Naveo je da kada je izlazio iz svoje zgrade, vidio je da biciklo nije na istom mjestu gdje ga je ostavio, vec je</p>
+			<p>pomjereno blize izlazu. Biciklo je marke Capriolo crvene boje, biciklo je novo, kupljeno je prije ovog</p>
+			<p>dogadjaja mozda 10 dana u radnji Capriolo koja se nalazi kod zeljeznicke stanice u Baru, kupljen je za iznos</p>
+			<p>od 270,00 eura. Tom prilikom nije zakljucao katancem biciklo vec je isto samo prislonio uz zid. Vrijednost</p>
+			<p>bicikla je utvrdjena strucnim i detaljnim nalazom i misljenjem vjestaka ekonomsko-finansijske struke D.N.,</p>
+			<p>na koji nije bilo primjedbi, te mu je sud poklonio punu vjeru, a iz kog je utvrdjeno da vrijednost bicikla</p>
+			<p>marke "Capriolo" zelene boje sa vise brzina i sa prednjim amortizerima iznosi 250,00 eura.</p>
+			<p>Okrivljeni je krivicno djelo izvrsio sa direktnim umisljajem, jer je bio svjestan da oduzima tudje pokretne</p>
+			<p>stvari, a utvrdjena je i njegova namjera da prisvajanjem tudje pokretne stvari pribavi sebi protivpravnu</p>
+			<p>imovinsku korist u iznosu preko 150,00 eura, pri cemu je krivicno djelo pod tackom 2, ucinjeno na stetu D.</p>
+			<p>M., ostalo u pokusaju, jer je okrivljeni, kada su mu otvorena ulazna vrata od zgrade, usao i sa biciklom</p>
+			<p>krenuo da izadje iz zgrade, ali je primijecen od strane A.A., nakon cega je biciklo ostavio u hodniku i udaljio</p>
+			<p>se u nepoznatom pravcu. Pravno kvalifikujuci cinjenicno stanje sud je nasao da su se u radnjama</p>
+			<p>optuzenog stekli svi elementi bica produzenog krivicnog djela kradja iz cl.239 st.1 Krivicnog zakonika Crne</p>
+			<p>Gore u vezi cl.49 Krivicnog zakonika Crne Gore. Sud je prihvatio pravnu kvalifikaciju produzenog krivicnog</p>
+			<p>djela jer u radnjama optuzenog ima vise istih ili istovrsnih krivicnih djela ucinjenih u vremenskoj</p>
+			<p>povezanosti, a koja predstavljaju cjelinu, u konkretnom slucaju, zbog jedinstva mjesta izvrsenja djela, kao i</p>
+			<p>jedinstvenog umisljaja.</p>
+			<p>Kako je svjedok osteceni A.A. postavio imovinsko pravni zahtjev ciju visinu nije prezicirao, a kako je sud iz</p>
+			<p>nalaza vjestaka finansijske struke D. N. utvrdio da vrijednost bicikla marke "Capriolo" zelene boje sa vise</p>
+			<p>brzina i sa prednjim amortizerima iznosi 250,00 eura, sud je na osnovu cl.239 st.2 ZKP-a obavezao</p>
+			<p>okrivljenog da na ime postavljenog imovinsko pravnog zahtjeva ostecenom isplati iznos od 250,00 eura u</p>
+			<p>roku od 15 dana po pravosnaznosti presude, pod prijetnjom prinudnog izvrsenja.</p>
+			<p>Prilikom odlucivanja o krivicnoj sankciji sud je imao u vidu sve olaksavajuce i otezavajuce okolnosti iz cl.42</p>
+			<p>Krivicnog zakonika Crne Gore. Od olaksavajucih okolnosti sud je cijenio imovinske prilike okrivljenog jer je</p>
+			<p>loseg imovnog stanja, priznanje krivicnog djela cime je olaksao vodjenje krivicnog postupka i cinjenicu da</p>
+			<p>se osteceni D. M. nije pridruzio krivicnom gonjenju i nije postavio imovinsko pravni zahtjev. Od</p>
+			<p>otezavajucih okolnosti sud je cijenio njegovu raniju osudjivanost koja je blize navedena u izvodu iz KE iz</p>
+			<p>kog se utvrdjuje da se radi o specijalnom povratniku koji je vise puta pravosnazno osudjivan zbog izvrsenja</p>
+			<p>krivicnih djela protiv imovine. Imajuci u vidu navedene olaksavajuce okolnosti i otezavajucu okolnost u</p>
+			<p>vidu ranije osudjivanosti, sud je okrivljenog osudio na kaznu zatvora u trajanju od sedam mjeseci. Izrecena</p>
+			<p>kazna zatvora po ocjeni suda odgovara tezini izvrsenog krivicnog djela i krivicnoj odgovornosti okrivljenog</p>
+			<p>i predstavlja mjeru koja je neophodna da bi se postigla svrha kaznjavanja iz cl.32 Krivicnog zakonika Crne</p>
+			<p>Gore u okviru opste svrhe propisivanja izricanja krivicnih sankcija iz cl.4 st.2 Krivicnog zakonika Crne Gore.</p>
+			<p>Na osnovu clana 51 KZ CG okrivljenom je u izrecenu kaznu zatvora u trajanju od 7 (sedam) mjeseci,</p>
+			<p>uracunato vrijeme provedeno u pritvoru od dana 26.03.2024.godine u 02,40 casova pa nadalje.</p>
+			<p>Odluka o troskovima postupka zasniva se na odredbi cl.226 i cl.229 ZKP-a po kojim odredbama je</p>
+			<p>okrivljeni duzan da plati ovom sudu iznos od 60,50 eura i to na ime troskova za rad vjestaka ekonomsko-</p>
+			<p>finansijske struke D. N., kao i na osnovu sudskog pausala iznos od 30,00 eura koji pausal je odmjeren</p>
+			<p>shodno slozenosti i trajanju postupka i ocjeni imovinskih prilika okrivljenog u roku od 15 dana od dana</p>
+			<p>pravosnaznosti presude pod prijetnjom prinudnog izvrsenja, dok ce se o troskovima branioca po</p>
+			<p>sluzbenoj duznosti M. R., advokata iz B. odluciti posebnim rjesenjem.</p>
+			<p>Na osnovu izlozenog odluceno je kao u izreci presude.</p>
+			<p>OSNOVNI SUD U BARU</p>
+			<p>Dana, 06.06.2024.godine</p>
+			<p>ZAPISNIČAR S U D I J A</p>
+			<p>
+				Ana Stanisic 
+				<party id="tamaraspasojevic" refersTo="#tamaraspasojevic" as="#judge">Tamara Spasojevic</party>
+			</p>
+			<p>PRAVNA POUKA: Protiv ove presude moze se izjaviti zalba Visem sudu u Podgorici u roku od 8 dana od</p>
+			<p>dana prijema pismenog otpravka. Žalba se predaje ovom sudu u dva primjerka.</p>
+			<p>Dn-a</p>
+			<p>- ODT iz Bara,</p>
+			<p>- okrivljenom u UIKS Podgorica</p>
+			<p>- braniocu advokatu M. R.</p>
+			<p>- u spise.</p>
+			<p>Nakon pravosnaznosti</p>
+			<p>- ostecenom A. A..</p>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>

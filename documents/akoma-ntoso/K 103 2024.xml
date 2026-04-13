@@ -1,0 +1,208 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd ">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Osnovni Sud U Beranama
+					</FRBRauthor>
+					<FRBRdate date="27. Jun 2024">
+						27. Jun 2024
+					</FRBRdate>
+					<FRBRtitle>
+						K 103/2024
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="osnovnisuduberanama" href="/ontology/organization/osnovnisuduberanama" showAs="Osnovni Sud U Beranama"/>
+				<TLCPerson eId="samostalnereferentkinje" href="/ontology/person/samostalnereferentkinje" showAs="samostalne referentkinje"/>
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge"/>
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk"/>
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant"/>
+				<TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff"/>
+				<TLCRole eId="defender" href="/ontology/role/defender" showAs="Defender"/>
+			</references>
+		</meta>
+		<judgmentBody>
+			<p>Osnovni Sud u Beranama</p>
+			<p>K 103/2024</p>
+			<p>27. Jun 2024</p>
+			<p>K.br.103/24</p>
+			<p>U IME CRNE GORE</p>
+			<p>
+				Osnovni sud u Beranama, po sudiji pojedincu Dosljak V. Ivanu, uz ucesce 
+				<party id="samostalnereferentkinje" refersTo="#samostalnereferentkinje" as="#clerk">samostalne referentkinje</party>
+				 Fatic
+			</p>
+			<p>Momirke, kao zapisnicarke, u krivicnom predmetu protiv okrivljenog G... M..., iz B..., zbog krivicnog djela</p>
+			<p>kradja iz cl.239. st.1. Krivicnog zakonika Crne Gore, po optuznom predlogu Osnovnog drzavnog tuzilastva u</p>
+			<p>B.... Kt.br..../2024 od 24. maja 2024. godine, nakon odrzanog glavnog i javnog pretresa, u prisustvu</p>
+			<p>Savjetnice u Osnovnom drzavnom tuzilastvu u B.... Š...A.... i okrivljenog, a u odsustvu ostecenog J.... L...., iz</p>
+			<p>B...., donio je i javno objavio dana 27.06.2024. godine:</p>
+			<p style="text-align: center;">P R E S U D U</p>
+			<p>Okrivljeni G.... M...., sa jedinstvenim maticnim brojem ...., od oca S... i majke D...., rodjene D..., rodjen ....</p>
+			<p>godine, u B..., sa prebivalistem u naselju L..., opstina B...., drzavljanin Crne Gore, nezaposlen, neozenjen,</p>
+			<p>pismen, sa zavrsenom srednjom skolom, siromasnog imovnog stanja, osudjivan: presudom Osnovnog</p>
+			<p>suda u B... K.br..../16, pravosnaznom od 06.02.2017. godine, po cl.324. st.1. KZ CG, na kaznu zatvora u</p>
+			<p>trajanju od 3 /tri/ mjeseca, uslovno za 1 /jednu/ godinu i novcanu kaznu u iznosu od 200,00 €</p>
+			<p>/dvijestotineeura/; presudom Osnovnog suda u B... K.br..../17, pravosnaznom od 18.07.2017. godine, po</p>
+			<p>cl.239. st.1. KZ CG, na kaznu rad u javnom interesu u trajanju od 3 /tri/ mjeseca; presudom Osnovnog suda</p>
+			<p>u B... K.br..../18, pravosnaznom od 28.01.2019. godine, po cl.239. st.1. KZ CG, na kaznu zatvora u trajanju</p>
+			<p>od 6 /sest/ mjeseci; presudom Osnovnog suda u B...K.br....20, pravosnaznom od 10.02.2021. godine, po</p>
+			<p>cl.287. KZ CG, na novcanu kaznu u iznosu od 200,00 € /dvijestotineeura/; i presudom Osnovnog suda u B...</p>
+			<p>K.br...../21, pravosnaznom od 16.09.2021. godine, po cl.348. st.3. KZ CG, na kaznu rad u javnom interesu u</p>
+			<p>trajanju od 3 /tri/ mjeseca.</p>
+			<p style="text-align: center;">K R I V J E</p>
+			<p>Što je:</p>
+			<p>Dana 03/04.04.2024. godine, u naselju D..., opstina B...., sposoban da shvati znacaj svog djela i upravlja</p>
+			<p>svojim postupcima i svjestan zabranjenosti svog djela cije je izvrsenje htio, radi kradje oduzeo tudju</p>
+			<p>pokretnu stvar – dvije neobezbijedjene poluosovine koje su bile na livadi, pored teretnog motornog vozila</p>
+			<p>marke „TAM“ 150, vlasnistvo ostecenog J... L...., u ukupnoj vrijednosti od 300,00 eura, a sve u namjeri da</p>
+			<p>njihovim prisvajanjem sebi pribavi protivpravnu imovinsku korist u navedenom iznosu.</p>
+			<p>- cime je ucinio krivicno djelo kradja iz cl.239. st.1. Krivicnog Zakonika Crne Gore.</p>
+			<p>- pa sud okrivljenog G...M....za ucinjeno krivicno djelo na osnovu navedenog Zakonskog propisa,</p>
+			<p>primjenom cl.4. st.2, cl.32, cl.36. i cl.42. Krivicnog Zakonika Crne Gore /KZ CG/ i cl.226. st.2, cl.229, cl.239.</p>
+			<p>st.2. i cl.374. Zakonika o krivicnom postupku /ZKP-a/</p>
+			<p style="text-align: center;">O S U Đ U J E</p>
+			<p>Na kaznu zatvora u trajanju od 7 /sedam/ mjeseci.</p>
+			<p>Okrivljeni G... M... obavezuje se da na ime troskova krivicnog postupka isplati novcani iznos od 66,00 € /</p>
+			<p>sezdesetsesteura/ i da na ime pausala isplati novcani iznos od 30,00 € /trideseteura/, u korist budzeta Crne</p>
+			<p>Gore, na ziro racun broj 832 - 150 - 38, u roku od 15 /petnaest/ dana od dana pravosnaznosti presude pod</p>
+			<p>prijetnjom prinudnog izvrsenja.</p>
+			<p>Imovinskopravnog zahtjeva za naknadu stete nije bilo.</p>
+			<p>O b r a z l o z e nj e</p>
+			<p>Optuznim predlogom Osnovnog drzavnog tuzilastva u B...Kt.br..../2024 od 24. maja 2024. godine,</p>
+			<p>okrivljenom G...M..., iz B..., stavljeno je na teret krivicno djelo kradja iz cl.239. st.1. KZ CG.</p>
+			<p>Na glavnom pretresu odrzanom dana 27.06.2024. godine, Savjetnica u Osnovnom drzavnom tuzilastvu u</p>
+			<p>B... Š...A..., u zavrsnoj rijeci, ostala je pri podnesenom optuznom predlogu, navodeci da je tokom postupka</p>
+			<p>utvrdjeno da je okrivljeni G...M...ucinio krivicno djelo kradja iz cl.239. st.1. KZ CG, koje mu je stavljeno na</p>
+			<p>teret. S toga, predlozila je sudu da okrivljenog G... M... za isto oglasi krivim i osudi na kaznu po zakonu.</p>
+			<p>Na glavnom pretresu odrzanom dana 27.06.2024. godine, nije pristupio osteceni J...... iako je uredno</p>
+			<p>pozvan, pa je sud glavni pretres odrzao i zakljucio u njegovom odsustvu. Isti se, tokom postupka, nije</p>
+			<p>pridruzio krivicnom gonjenju protiv okrivljenog G...M...i nije postavio imovinskopravni zahtjev za naknadu</p>
+			<p>stete.</p>
+			<p>Okrivljeni G... M..., tokom postupka, u svojoj odbrani, priznao je da je ucinio krivicno djelo kradja iz cl.239.</p>
+			<p>st.1. KZ CG, koje mu je stavljeno na teret. Naveo je da je dana 04.04.2024. godine oduzeo dvije poluosovine</p>
+			<p>sa kamiona marke Tam 150 vlasnistvo ostecenog J... L..., a koji kamion je bio parkiran na livadi u naselju</p>
+			<p>D..., u B.... Dva dana ranije je popravljao taj kamion, po pozivu ostecenog. Sjutradan je pozvao ostecenog</p>
+			<p>J... L..., pa posto ga nije dobio, posao je i oduzeo dvije poluosovine, a da ga nije pitao. Poluosovine koje je</p>
+			<p>oduzeo stavio je na svoj kamion i iste je skinuo nakon sto ga je osteceni pozvao na telefon i pitao da li se</p>
+			<p>osovine nalaze kod njega. Ostecenom je vratio poluosovine i kazao mu da ga je zvao, ali da se nije javljao</p>
+			<p>na telefon, pa je sebi dozvolio slobodu da podje i uzme dvije poluosovine, koje je planirao da mu vrati.</p>
+			<p>Svjestan je da je napravio gresku i da nije trebao da uradi to sto je uradio. U zavrsnoj rijeci, ponovio je</p>
+			<p>priznanje izvrsenja krivicnog djela, obecao da vise nece ciniti ovakva, niti slicna krivicna djela i molio je da</p>
+			<p>bude sto blaze kaznjen.</p>
+			<p>Radi pravilnog i zakonitog presudjenja predmetne krivicne stvari sud je na glavnom pretresu, u dokaznom</p>
+			<p>postupku, izveo sljedece dokaze:</p>
+			<p>procitao iskaz ostecenog J... L... dat pred Osnovnim drzavnim tuzilastvom u B... u predmetu Kt.br..../24, na</p>
+			<p>zapisniku od 14.05.2024. godine; izvrsio uvid u zapisnik o uvidjaju Uprave policije, Regionalnog centra</p>
+			<p>bezbjednosti Sjever, OB B..., ...broj 03/1-215/24-1520 od 04.04.2024. godine; izvrsio uvid u</p>
+			<p>fotodokumentaciju Uprave policije, Regionalnog centra bezbjednosti Sjever, OB B..., 64 broj 03/1-121;</p>
+			<p>procitao nalaz i misljenje vjestaka masinske struke P... R..., iz B..., broj 168/24 od 16.05.2024. godine; i</p>
+			<p>pocitao uvjerenje izvoda iz registra kaznenih evidencija Ministarstva pravde za okrivljenog G... M.....</p>
+			<p>Nakon sprovedenog dokaznog postupka, cijeneci navode optuzbe, odbranu okrivljenog i izvedene</p>
+			<p>pobrojane dokaze, u smislu cl.16. i cl.370. ZKP-a, dovodeci ih u vezu jedne sa drugim, sud je stao na</p>
+			<p>stanoviste da su cinjenice iz cinjenicnog opisa izreke presude u svemu dokazane i da je okrivljeni</p>
+			<p>G..M...ucinio krivicno djelo kradja iz cl.239. st.1. KZ CG, koje mu je optuznim predlogom Osnovnog</p>
+			<p>drzavnog tuzilastva u B... Kt.br..../2024 od 24. maja 2024. godine, stavljeno na teret, pa ga je oglasio krivim</p>
+			<p>i krivicnopravno odgovornim jer nije bilo osnova koji bi iskljucivali postojanje krivicnog djela i</p>
+			<p>krivicnopravne odgovornosti okrivljenog. Sud je, najprije, cijenio odbranu okrivljenog G... M... koji je</p>
+			<p>priznao da je ucinio predmetno krivicno djelo, objasnjavajuci svoje postupke, te istu prihvatio kao jasnu.</p>
+			<p>Odbrana okrivljenog G... M...nalazi svoju podlogu u izvedenim dokazima: iskazu ostecenog J... L..,</p>
+			<p>zapisniku o uvidjaju Uprave policije, Regionalnog centra bezbjednosti Sjever, OB B.., ... broj 03/1-215/24-</p>
+			<p>1520 od 04.04.2024. godine i fotodokumentaciji Uprave policije, Regionalnog centra bezbjednosti Sjever,</p>
+			<p>OB B..., 64 broj 03/1-121, koje je sud cijenio i nasao jasnim, ubjedljivim i nicim dovedenim u sumnju.</p>
+			<p>Dakle, u konkretnom, nesumnjivo je utvrdjena pravna kvalifikacija predmetnog krivicnog djela i oblik i</p>
+			<p>stepen krivicnopravne odgovornosti okrivljenog G...M...i isti su utemeljeni na odlucnim cinjenicama koje</p>
+			<p>su tokom postupka prepoznate, cijenjene i nesumnjivo utvrdjene.</p>
+			<p>Iz iskaza ostecenog J...L... datog pred Osnovnim drzavnim tuzilastvom u B...u predmetu Kt.br..../24, na</p>
+			<p>zapisniku od 14.05.2024. godine, vidi se da u naselju D..., opstina B..., zivi u porodicnoj kuci sa porodicom.</p>
+			<p>Na udaljenosti od kuce nekih 50 m, na livadi je bilo parkirano teretno motorno voziilo marke Tam 150.</p>
+			<p>Kapija koja se nalazi na ulazu u dvoriste nije bila obezbijedjena, kao ni teretno motorno vozilo. Dana</p>
+			<p>03.04.2024. godine, majka mu je kazala da je primijetila tragove od ulja u blizini teretnog motornog vozila</p>
+			<p>marke Tam 150, zbog cega je posao na plac, gdje je primijetio da su sa vozila otudjene dvije poluosovine</p>
+			<p>koje nisu bile obezbijedjene. Kako ni on, njegov brat, ni roditelji nisu nikom dozvolili, niti je iko pitao da</p>
+			<p>posudi te poluosovine, prvo je posumnjao na okrivljenog G... M... koji zivi u naselju L.., opstina B...i koga je</p>
+			<p>u posljednje vrijeme cesto vidjao kroz naselje D..., pa ga je pozvao na telefon i pitao da lij on oduzeo te</p>
+			<p>dvije poluosovine i on mu je odgovorio „donosim ti ih ujutru“. Dana 06.04.2024. godine okrivljeni G... M...je</p>
+			<p>kod njegove kuce donio dvije poluosovine, izvinuo mu se i rekao da je po slobodi iste uzeo jer su mu bile</p>
+			<p>potrebne, a telefon mu je bio polomljen pa se iz tog razloga nije javljao.</p>
+			<p>Uvidom u zapisnik o uvidjaju Uprave policije, Regionalnog centra bezbjednosti Sjever, OB B.., 64 broj .../1-</p>
+			<p>215/24-1520 od 04.04.2024. godine i fotodokumentaciju Uprave policije, Regionalnog centra bezbjednosti</p>
+			<p>Sjever, OB B..., 64 broj .../1-121, vidi se da je izlazak na lice mjesta izvrsen povodom prijave od strane</p>
+			<p>ostecenog J... L... da je NN lice ili vise njih otudjilo dvije poluosovine sa teretnog motornog vozila marke</p>
+			<p>Tam koje je bilo parkirano u naselju D..., opstina B..., na placu udaljenom od njegove porodicne kuce nekih</p>
+			<p>50 do 100 metara. Plac je lociran sa lijeve strane puta gledano u pravcu naselja L..., a radi se o placu koji se</p>
+			<p>koristi za parkiranje teretnog motornog vozila i skladistenje drva za ogrijev, na placu su parkirana dva</p>
+			<p>teretna motorna vozila – jedno marke Tam 150 zelene boje i drugo Iveko narandzaste boje sa dizalicom na</p>
+			<p>tovarnom diijelu. Sa desne strane vozila marke Tam 150 u predjelu duplih zadnjih pneumatika vidljivi su</p>
+			<p>tragovi ulja koje izlazi iz prostora predvidjenog za poluosovinu koji je prazna.</p>
+			<p>Iz nalaza i misljenja vjestaka masinske struke P...R..., iz B..., broj 168/24 od 16.05.2024. godine, vidi se da je</p>
+			<p>pregled teretnog motornog vozila Tam 150 na kome su ugradjene poluosovine izvrsio dana 14.05.2024.</p>
+			<p>godine u prisustvu ostecenog J.. L.... Isti je pokazao poluosovine poslije povracaja koje je ugradio na</p>
+			<p>zadnjem desnim tockovima vozila. Poluosovine na teretnom motornom vozilu marke Tam 150 sluze za</p>
+			<p>prenos obrtnog momenta od diferencijalnog prenosnika na pogonski tocak. Ovo teretno motorno vozilo</p>
+			<p>ima dva diferencijala na zadnjim tockovima. Vrijednost jedne poluosovine je 150,00 eura, a dvije 300,00</p>
+			<p>eura.</p>
+			<p>Sud je cijenio navedene dokaze: iskaz ostecenog J...L..., zapisnik o uvidjaju Uprave policije, Regionalnog</p>
+			<p>centra Bezbjednosti Sjever, OB B..., 64 broj .../1-215/24-1520 od 04.04.2024. godine, fotodokumentaciju</p>
+			<p>Uprave policije, Regionalnog centra bezbjednosti Sjever, OB B..., 64 broj 03/1-121 i nalaz i misljenje</p>
+			<p>vjestaka masinske struke P... R..., broj 168/24 od 16.05.2024. godine, te je iste, u potpunosti, prihvatio kao</p>
+			<p>jasne i nesumnjive. Iskaz ostecenog J... L... sud je prihvatio kao dokaz, nalazeci da je objektivno svjedocio,</p>
+			<p>da je bio istinit i nepristrasan u opisivanju predmetnog dogadjaja, pri cemu nije bilo okolnosti koje bi isti</p>
+			<p>dovele u sumnju. Za pomenutu fotodokumentaciju i zapisnik o uvidjaju sud je nasao da su vjerodostojni</p>
+			<p>dokazi, jer su sacinjeni od strane nadleznog drzavnog organa, u za to predvidjenom zakonskom postupku.</p>
+			<p>Nalaz i misljenje navedenog vjestaka sud je cijenio, nalazeci da je dat strucno i savjesno, od strane lica</p>
+			<p>kompetentnog za davanje kvalitetnog nalaza i misljenja. Isti dokazi zajedno sa priznanjem okrivljenog</p>
+			<p>G...M... cine jedinstvenu logicku cjelinu, odnosno cinjenicno su utemeljeni, pa nema sumnje u cinjenicno</p>
+			<p>stanje navedeno u cinjenicnom opisu izreke presude.</p>
+			<p>Pravnom analizom naprijed utvrdjenog cinjenicnog stanja sud je nasao da su se u opisanim radnjama</p>
+			<p>okrivljenog G...M.... stekla sva bitna obiljezja bica krivicnog djela kradja iz cl.239. st.1. KZ CG, koje mu je</p>
+			<p>optuznim predlogom Osnovnog drzavnog tuzilastva u B... Kt.br..../2024 od 24. maja 2024. godine,</p>
+			<p>stavljeno na teret. Naime, tokom postupka nesumnjivo je utvrdjeno da je okrivljeni G... M..., dana</p>
+			<p>03/04.04.2024. godine, u naselju D..., opstina B...., sposoban da shvati znacaj svog djela i upravlja svojim</p>
+			<p>postupcima i svjestan zabranjenosti svog djela cije je izvrsenje htio, radi kradje oduzeo tudju pokretnu stvar</p>
+			<p>– dvije neobezbijedjene poluosovine koje su bile na livadi, pored teretnog motornog vozila marke TAM 150,</p>
+			<p>vlasnistvo ostecenog J...L..., u ukupnoj vrijednosti od 300,00 eura, a sve u namjeri da njihovim</p>
+			<p>prisvajanjem sebi pribavi protivpravnu imovinsku korist u navedenom iznosu. Sud je svoju odluku</p>
+			<p>zasnovao na cinjenicama koje slijede iz izvedenih dokaza tokom postupka, koje je sud prihvatio, a kojim je</p>
+			<p>nesumnjivo potvrdjeno da je okrivljeni G... M... ucinio krivicno djelo za koje je optuzen, na opisani nacin,</p>
+			<p>mjesto i vrijeme. To proizilazi iz priznanje okrivljenog G... M..., iskaza ostecenog J...L..., zapisnika o uvidjaju</p>
+			<p>Uprave policije, Regionalnog centra bezbjednosti Sjever, OB B..., 64 broj .../1-215/24-1520 od 04.04.2024.</p>
+			<p>godine, fotodokumentacije Uprave policije, Regionalnog centra bezbjednosti Sjever, OB B..., 64 broj 03/1-</p>
+			<p>121 i nalaza i misljenja vjestaka masinske struke P... R.., broj 168/24 od 16.05.2024. godine. Cijeneci</p>
+			<p>psihicki odnos okrivljenog G... M...prema ucinjenom krivicnom djelu, sud je nasao da je isti postupao sa</p>
+			<p>umisljajem, svjestan da radi pribavljanja protivpravne imovinske koristi, cini krivicno djelo, pa je</p>
+			<p>postizanje zabranjene posljedice i htio.</p>
+			<p>Prilikom odlucivanja o izboru, vrsti i visini krivicne sankcije koje u konkretnom slucaju treba primijeniti</p>
+			<p>prema okrivljenom G.... M.... za naprijed navedeno krivicno djelo, sud je imao u vidu sve okolnosti u smislu</p>
+			<p>cl.42. KZ CG. Tako je kao olaksavajuce okolnosti na strani okrivljenog G.... M....., sud cijenio i uzeo u obzir</p>
+			<p>da je nezaposlen i siromasnog imovnog stanja, dok je kao otezavajucu okolnost cijenio njegovu raniju</p>
+			<p>osudjivanost. S toga, sud je okrivljenog G.... M.... za izvrseno krivicno djelo kradja iz cl.239. st.1. KZ CG,</p>
+			<p>osudio na kaznu zatvora u trajanju od sedam mjeseci. Sud je uvjerenja da je takva kazna srazmjerna tezini</p>
+			<p>izvrsenog krivicnog djela i stepenu krivicnopravne odgovornosti okrivljenog G... M...., te da ce se u</p>
+			<p>konkretnom slucaju ovakvom vrstom izrecene kazne, u okviru opste svrhe izricanja krivicnih sankcija</p>
+			<p>predvidjenih cl.4. st.2. KZ CG, postici svrha kaznjavanja propisana cl.32. istog Zakonika. Osnovano se moze</p>
+			<p>ocekivati da ce izrecena kazna pozitivno djelovati na prevaspitavanje okrivljenog G...M....., te da ce ista na</p>
+			<p>njega uticati da u buduce ne vrsi krivicna djela.</p>
+			<p>Odluka o troskovima krivicnog postupka u iznosu od 66,00 € /sezdesetsesteura/, predstavlja izdatak za</p>
+			<p>dati nalaz i misljenje angazovanog vjestaka masinske struke P... R.., iz B..., dok je pausalni iznos odmjeren</p>
+			<p>s obzirom na trajanje i slozenost krivicnog postupka, te imovnog stanja okrivljenog G...M.... Navedeno,</p>
+			<p>shodno cl.226. i cl.227. ZKP-a.</p>
+			<p>Imovinskopravnog zahtjeva za naknadu stete nije bilo.</p>
+			<p>S iznijetih razloga odluceno je kao u izreci presude.</p>
+			<p>OSNOVNI SUD U BERANAMA</p>
+			<p>Dana, 27.06.2024. godine.</p>
+			<p>Zapisnicarka S U D I J A</p>
+			<p>Fatic Momirka DOŠLJAK V. IVAN</p>
+			<p>PRAVNA POUKA:</p>
+			<p>Protiv ove presude moze se izjaviti zalba Visem sudu u Bijelom Polju, u roku od 8 /osam/ dana od dana</p>
+			<p>prijema pismenog otpravka, preko ovog suda u dva primjerka.</p>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>

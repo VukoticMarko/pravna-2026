@@ -1,0 +1,603 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd ">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Osnovni Sud U Baru
+					</FRBRauthor>
+					<FRBRdate date="15. Februar 2023">
+						15. Februar 2023
+					</FRBRdate>
+					<FRBRtitle>
+						K 13/2023
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="osnovnisudubaru" href="/ontology/organization/osnovnisudubaru" showAs="Osnovni Sud U Baru"/>
+				<TLCPerson eId="tamaraspasojevic" href="/ontology/person/tamaraspasojevic" showAs="Tamara Spasojevic"/>
+				<TLCPerson eId="anomstanisic" href="/ontology/person/anomstanisic" showAs="Anom Stanisic"/>
+				<TLCPerson eId="mp" href="/ontology/person/mp" showAs="M. P."/>
+				<TLCPerson eId="sš" href="/ontology/person/sš" showAs="S. Š."/>
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge"/>
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk"/>
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant"/>
+				<TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff"/>
+				<TLCRole eId="defender" href="/ontology/role/defender" showAs="Defender"/>
+			</references>
+		</meta>
+		<judgmentBody>
+			<p>Osnovni Sud u Baru</p>
+			<p>K 13/2023</p>
+			<p>15. Februar 2023</p>
+			<p>K.br. 13/23</p>
+			<p>U IME CRNE GORE</p>
+			<p>
+				OSNOVNI SUD U BARU, sudija 
+				<party id="tamaraspasojevic" refersTo="#tamaraspasojevic" as="#judge">Tamara Spasojevic</party>
+				, sa zapisnicarom 
+				<party id="anomstanisic" refersTo="#anomstanisic" as="#clerk">Anom Stanisic</party>
+				 u krivicnom predmetu
+			</p>
+			<p>
+				okrivljenog 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				, zbog krivicnog djela ugrozavanje sigurnosti iz cl.168 st.1 Krivicnog zakonika Crne Gore i
+			</p>
+			<p>krivicnog djela proganjanje iz cl. 168a st.1 u vezi st. 6 tac.1 i tac.2 Krivicnog zakonika Crne Gore, po</p>
+			<p>optuznom predlogu Osnovnog drzavnog tuzilastva u Baru Kt.br.1/23 od 20.01.2023.godine, nakon</p>
+			<p>odrzanog glavnog, javnog pretresa u prisustvu zastupnika optuzbe, savjetnice kod Osnovnog drzavnog</p>
+			<p>
+				tuzilastva u Baru D. Š., okrivljenog i branioca okrivljenog po sluzbenoj duznosti 
+				<party id="sš" refersTo="#sš" as="#defender">S. Š.</party>
+				, advokata iz B., dana
+			</p>
+			<p>15.02.2023.godine donio je i javno objavio</p>
+			<p style="text-align: center;">P R E S U D U</p>
+			<p>Okrivljeni,</p>
+			<p>
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				, JMBG .... zvani P., od oca K. i majke Z., rodjene Š., rodjen 19.09.1995.godine u B., sa prebivalistem u B.,
+			</p>
+			<p>I. br. 115,drzavljanin C. G., maternji jezik srpski, fizicki radnik, neozenjen, bez djece, zavrsio srednju skolu,</p>
+			<p>loseg imovnog stanja, osudjivan presudom Osnovnog suda u Baru K br. 60/15 koja je postala pravosnazna</p>
+			<p>dana 17.02.2016. godine, zbog krivicnog djela nasilnicko ponasanje iz cl. 399 KZ CG, kojom mu je izrecena</p>
+			<p>kazna zatvora u trajanju od 6 mjeseci uslovno na 2 godine i presudom Osnovnog suda u Baru K br. 382/14</p>
+			<p>koja je postala pravosnazna dana 12.05.2015. godine, zbog krivicnog djela teska kradja iz cl. 240 st. 1 tac. 1</p>
+			<p>KZ CG, kojom mu je izrecena kazna u trajanju od 1 godine uslovno na 2 godine.</p>
+			<p style="text-align: center;">K r i v j e</p>
+			<p>Što je:</p>
+			<p>1. Dana 01.01.2023.godine, oko 23,00 casova, u naselju Ilino, Opstina Bar, svjestan svog djela i htio je</p>
+			<p>njegovo izvrsenje iako je znao da je njegovo djelo zabranjeno ugrozio sigurnost ostecene Đ. Đ., ozbiljnom</p>
+			<p>prijetnjom da ce napasti na njen zivot i tijelo, na nacin sto je usao u unutrasnjost kuce i dok se ostecena</p>
+			<p>nalazila u hodniku istoj uputio rijeci ozbiljne prijetnje „Nece se ovo ovako zavrsiti, ako te ne ubijem u kucu</p>
+			<p>ubicu te u „V.“, gdje ostecena radi kao trgovac.</p>
+			<p>- cime je izvrsio krivicno djelo - ugrozavanje sigurnosti iz cl. 168 st. 1 Krivicnog zakonika Crne Gore.</p>
+			<p>2. Od polovine decembra mjeseca 2022.godine do 01.01.2023.godine u Baru, svjestan svog djela i htio je</p>
+			<p>njegovo izvrsenje iako je znao da je njegovo djelo zabranjeno, zbog prekida emotivne veze, uporno</p>
+			<p>proganjao ostecenu Đ. Đ. na nacin koji moze osjetno da ugrozi njen zivot, i to tako sto je neovlasceno</p>
+			<p>pratio od posla do kuce, dolazio na radno mjesto gdje radi u marketu „V.“, presretao na ulici, pozivao</p>
+			<p>telefonom, a nakon sto ga je ostecena blokirala, protiv njene volje pokusao da uspostavi kontakt sa</p>
+			<p>ostecenom, preko trecih lica, na nacin, nakon sto je ostecena blokirala pozive okrivljenog pokusao da</p>
+			<p>uspostavi kontakt sa ostecenom pozivajuci njenog oca S. D. sa broja telefona 063 ... ..., na broj 067 ... ...,</p>
+			<p>067 ... ..., da ga pomiri sa Đ., a neovlasceno ostecenu pratio sa posla do kuce, nakon cega je pozivao</p>
+			<p>njenog svekra, Đ. M. i obavijestio ga dana 30.12.2022.godine u 22,00 casova, da se Đ. ne nalazi u kuci i da je</p>
+			<p>djecu ostavila u komsiluku, dok je 25.12.2022.godine i 29.12.2022.godine dolazio u kasnim vecernjim</p>
+			<p>satima i lupao na ulazna vrata kuce, u kojoj zivi ostecena sa dvoje maloljetne djece, zbog cega ga je</p>
+			<p>ostecena prijavljivala policiji, zbog uznemiravanja.</p>
+			<p>- cime je izvrsio krivicno djelo - proganjanje iz cl. 168a st.1 u vezi st. 6 tac.1 i tac.2 Krivicnog zakonika Crne</p>
+			<p>Gore.</p>
+			<p>Pa mu sud primjenom cl. 4, 5, 13, 15, 32, 36, 42, 48 i 51 Krivicnog zakonika Crne Gore i cl. 226, 229 i 374</p>
+			<p>Zakonika o krivicnom postupku,</p>
+			<p>U T V R Đ U J E</p>
+			<p>- Za krivicno djelo - ugrozavanje sigurnosti iz cl. 168 st. 1 Krivicnog zakonika Crne Gore, kaznu zatvora u</p>
+			<p>trajanju od 2 (dva) mjeseca.</p>
+			<p>- Za krivicno djelo - proganjanje iz cl. 168a st.1 u vezi st. 6 tac.1 i tac.2 Krivicnog zakonika Crne Gore, kaznu</p>
+			<p>zatvora u trajanju od 2 (dva) mjeseca.</p>
+			<p>Pa ga primjenom citiranih zakonskih propisa</p>
+			<p style="text-align: center;">O S U Đ U J E</p>
+			<p>Na jedinstvenu kaznu zatvora u trajanju od 3 (tri) mjeseca u koju kaznu se uracunava vrijeme provedeno u</p>
+			<p>pritvoru od 01.01.2023.godine, pa nadalje.</p>
+			<p>Okrivljeni je duzan da plati troskove za rad suda u iznosu od 50,00 eura, u roku od 15 dana od dana</p>
+			<p>pravosnaznosti, pod prijetnjom izvrsenja, dok ce se o troskovima branioca po sluzbenoj duznosti,</p>
+			<p>
+				advokata 
+				<party id="sš" refersTo="#sš" as="#defender">S. Š.</party>
+				 odluciti posebnim rjesenjem.
+			</p>
+			<p>O b r a z l o z e n j e</p>
+			<p>Optuznim predlogom Osnovnog drzavnog tuzioca u Baru Kt.br.1/23 od 20.01.2023.godine, koji je</p>
+			<p>izmijenjen na glavnom pretresu dana 15.02.2023.godine, na nacin kao u izreci presude, stavljeno je na</p>
+			<p>teret okrivljenom P. M. izvrsenje krivicnog djela ugrozavanje sigurnosti iz cl.168 st.1 Krivicnog zakonika</p>
+			<p>Crne Gore i krivicnog djela proganjanje iz cl. 168a st.1 u vezi st. 6 tac.1 i tac.2 Krivicnog zakonika Crne Gore.</p>
+			<p>Okrivljeni je u svojoj odbrani u prethodnom postupku dana 02.01.2023.godine u bitnom naveo da je</p>
+			<p>zadnih godinu dana bio u emotivnoj vezi sa Đ.Đ. iz B., te da su emotivnu vezu prekinuli prije nekih 15 dana,</p>
+			<p>nakon cega joj je predlozio da ostanu prijatelji, a sto je ona odbila. On je 01.01.2023. godine oko 22:45</p>
+			<p>casova, prolazio pored kuce u kojoj zivi Đ. Đ. i vidio je njene dvije maloljetne kcerke, koje su bile na terasi,</p>
+			<p>nakon cega je on usao u kucu, buduci da su vrata bila otkljucana, a zatim je poljubio Đ. kcerku M., nakon</p>
+			<p>cega je Đ. izasla iz kupatila i obratila mu se rijecima „Izadji napolje, nemoj da ulazis u kucu“, na sta joj je on</p>
+			<p>odgovorio da je dosao samo da vidi M. i izasao iz kuce. U daljem je istakao da je istoj rekao „Vidimo se u</p>
+			<p>cetvrtak, donijecu ti u market buket ruza“, jer ona radi u marketu „V.“. Prilikom ulaska u Đ. kucu primijetio</p>
+			<p>je njenog svekra i njenu prijateljicu I. M.. Nakon toga je otisao kuci a Đ. ga je prijavila policiji, pa ga je</p>
+			<p>poslije 15-tak minuta dok se nalazio u svojoj kuci pozvao neko iz policije i rekao mu da dodje u stanaicu</p>
+			<p>policije jer je protiv njega podnesena prijava od strane Đ. Đ.. To je bio treci put da ga Đ. prijavljuje i</p>
+			<p>podnosi krivicne prijave protiv njega policiji i to za period od zadnjih 10 dana navodeci da je prati, da je</p>
+			<p>uznemirava, da dolazi cesto ispred njene kuce bez njene saglasnosti jer mu je ona rekla da ne dolazi vise</p>
+			<p>kod nje kuci i da to smatra uznemiravanjem, ali je on on opet isao jer je htio da vidi njenu maloljetnu</p>
+			<p>djecu. On joj je dana 01.01.2023.godine rekao da vise nece da je uznemirava i maltretira, a to je i sebi</p>
+			<p>obecao nakon sto ga je treci put prijavila policiji. On inace zna kada se Đ. vracala sa posla i on bi je cekao u</p>
+			<p>lokalu u blizini pruge koji drzi njegov brat od ujaka i kada bi vidio da ona nailazi, isao je ispred njene kuce i</p>
+			<p>cekao da vidi njenu djecu, nakon cega bi ona otisla u policiju da ga prijavi jer je to smatrala uhodjenjem. Na</p>
+			<p>glavnom pretresu je u svemu izjavio kao u prethodnom postupku i dodao da u cjelosti priznaje izvrsenje</p>
+			<p>krivicnih djela koja mu se stavljaju na teret. Svjestan je da je pogrijesio, da nije trebalo da postupi na nacin</p>
+			<p>na koji je postupio a sto je detaljno opisano u optuznom predlogu i tacno je da je upravo tako postupao.</p>
+			<p>Kaje se zbog toga, jako mu je tesko kada je vidio Đ. i zeli da joj uputi izvinjenje zbog straha koji je ona</p>
+			<p>osjetila a i njena porodica zbog njegovog ponasanja. On je sa njom bio godinu dana u emotivnoj vezi,</p>
+			<p>tesko mu je pao njihov rastanak, a takodje je dosta vezan za njene kcerke i to je dodatno uticalo da on nije</p>
+			<p>mogao da se pomiri sa okoncanjem njihove emotivne veze, iz kog razloga je i poceo da je prati do posla,</p>
+			<p>odlazio na njeno radno mjesto i usao u njenu kucu bez njenog odobrenja. Tacno je i da je zvao telefonom,</p>
+			<p>kao i da je preko trecih lica pokusao da stupi u kontakt sa njom, jer ona nije zeljela ni da ga vidi, ni da</p>
+			<p>razgovara sa njim.</p>
+			<p>U dokaznom postupku sud je izveo sledece dokaze: saslusana je svjedok ostecena Đ. Đ., na saglasan</p>
+			<p>predlog stranaka procitani su iskazi svjedoka M. I., Đ. M. i S. D. iz prethodnog postupka, procitan je izvod iz</p>
+			<p>kaznene evidencije Ministarstva pravde za okrivljenog od 02.01.2023.godine, zapisnik o pretresanju stana i</p>
+			<p>drugih prostorija Regionalog centra bezbjednosti Jug, Odeljenje bezbjednosti Bar, stanice policije broj</p>
+			<p>84/2-217/23-2/14 od 02.01.2023.godine, nalaz vjestaka iz oblasti digitalnih dokaza B. S. od</p>
+			<p>17.01.2023.godine, sluzbena zabiljeska bez broja od 28.12.2022.godine Ministarstva unitrasnjih poslova</p>
+			<p>Regionalnog centra Jug, koju su sacinili policijski sluzbenici A. M. i M. N.,sluzbena zabiljeska broj UBD</p>
+			<p>1552/22 od 28.12,2022.godine Ministarstva unitrasnjih poslova Regionalnog centra Jug, koju je sacinio</p>
+			<p>policijski sluzbenik, vodja bezbjedonosnog sektora Š. D., izvjestaj o upozorenju lica Ministarstva</p>
+			<p>unutrasnjih poslova, Uprave policije, Regionalnog centra bezbjednosti JUG, Odeljenja bezbjednosti Bar,</p>
+			<p>Stanice policije UBD br. 1541/22 od 26.12.2022.godine sa prilozima zapisnik o obavjestenju prikupljenom</p>
+			<p>
+				od gradjanina Đ. Đ., od 25.12.2022.godine i 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				, sluzbena zabiljeska Regionalnog centra bezbjednosti
+			</p>
+			<p>JUG, Odeljenje bezbjednosti Bar, stanice policije br. 84/2-UBD 1541 od 26.12.2022.godine, zapisnik o</p>
+			<p>pretresanju rafcunara mobilnih • telefona i drugih elektronskih uredjanja Regionalnog centra bezbjednosti</p>
+			<p>JUG, Odeljenja bezbjednosti Bar, stanice policije broj 84/2-217/23-2/49 UBD 62/23 od 11.01.2023.godine,</p>
+			<p>potvrda o privremeno oduzetim predmetima Regionalnog centra bezbjednosti JUG, Odeljenje</p>
+			<p>bezbjednosti Bar,stanice policije broj 84/2-217/23/46 od 11.01.2023.godine izdata na ime Đ. M., potvrda o</p>
+			<p>vracanju privremeno oduzetih predmeta Ministarstva unutrasnjih poslova Uprave policije br. 84/2-217/23-</p>
+			<p>2/44 od 11.01.2023.godine izdata na ime Đ. M., sluzbena zabiljeska Regionalnog centra bezbjednosti JUG,</p>
+			<p>Odeljenje bezbjednosti Bar, stanice policije broj UBD 62/23 od 11.01.2023.godine sacinjena od vodje</p>
+			<p>bezbjedonosnog sektora L. M., zapisnik o pretresanju racunara, mobilnih telefona i drugih elektronskih</p>
+			<p>uredjaja Minisarstva unutrasnjih poslova Uprave policije Bar broj 84/2-217/23-2/48 UBD 62/23 od</p>
+			<p>11.01.2023.godine, potvrda o privremeno oduzetim predmetima Ministrstva unutrasnjih poslova Uprave</p>
+			<p>policije broj 84/2-217/23/47 od 11.01.2023.godine izdata na ime S. D., potvrda o vracanju privremeno</p>
+			<p>oduzetih predmeta MUP-a Uprave policije broj 84/2-217/23-2/45 od 11.01.2023.godine izdata na ime S. D.,</p>
+			<p>sluzbena zabiljeska Regionalnog centra bezbjednosti JUG, Odeljenje bezbjednosti Bar, broj UBD 62/23 od</p>
+			<p>11.01.2023.godine i izvod iz registra kaznenih evidencija Ministarstva pravde, ljudskih i manjinskih prava,</p>
+			<p>izdat na ime okrivljenog KE 30/2023 od 27.01.2023.godine, pribavljen putem PRIS-a.</p>
+			<p>Iz iskaza svjedoka ostecene Đ. Đ. u prethodnom postupku utvrdjeno je da je udovica, njen muz je prosle</p>
+			<p>godine izvrsio samoubistvo, sa njim ima dvoje maloljetne djece koje izdrzava i brine se o njima i to kcerka</p>
+			<p>
+				Đ. M. stara dvije godjine i Đ. M. stara cetiri godine. Ona je sa 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 iz B. bila u emotivnoj vezi pola godine a
+			</p>
+			<p>istu je prekinula prije 20 dana. Nakon sto je prekinula vezu sa njim poceo je da je uznemirava na nacin sto</p>
+			<p>je pratio od posla do kuce, vise puta ga je prijavljivala policiji odnosno do sada ga je prijavila tri puta, sinoc</p>
+			<p>(01.01.2023) je bio cetvrti put da ga prijavi zbog uznemiravanja, pracenja, jer je znao da je saceka nakon</p>
+			<p>sto zavrsi smjenu i ide za njom do kuce, da joj lupa na vrata u kasnim vecernjim satima kako bi ga pustila</p>
+			<p>unutra, i na taj nacin je uznemiravao njenu maloljetnu djecu, a i svekra koji zivi zajedno sa njom u kuci.</p>
+			<p>Nakon sto su raskinuli on je vise puta i fizicki zlostavljao, samarao je, jednom prilikom je udario sakom u</p>
+			<p>predjelu lica, prijetio je da ce je ubiti, da ce zavrsiti kod njegove majke koja mu je umrla prije tri godine.</p>
+			<p>Dana 01.01.2023.godine dok se nalazila u kuci u naselju Ilino gdje zivi sa dvije maloljetne kcerke i svekrom,</p>
+			<p>dok su se u unutrasnjosti kuce nalazili njena drugarica I. i svekar, neko je poceo da lupa, i to je bilo negdje</p>
+			<p>oko 23,00 casa. Kako vrata nisu bila zakljucana on je usao u unutrasnjost, a ona je tada bila u kupatilu,</p>
+			<p>kada je izasla u hodnik, tada joj je rekao „Ako te ne ubijem u kuci ubicu te u V.", jer ona radi u V. kao</p>
+			<p>trgovac, ona mu je nakon toga rekla „Napusti kucu, sada cu policiju da zovem" on joj je tada rekao</p>
+			<p>„Nijesmo mi jos zavrsili" prijeteci joj prstom. To je sve cula njena prijateljica koja se nalazila kod nje u kuci,</p>
+			<p>sjedjela je sa svekrom u dnevnom boravku. Od njegovih prijetecih rijeci, „Ako te ne ubijem u kuci ubicu te</p>
+			<p>u Voli" osjetila je strah za svoj zivot i zivot svoje djece. Osim nje u kuci su bila i maloljetna djeca koja su</p>
+			<p>pocela da placu i da vriste i bila su jako uznemirena. Ona je prethodno, prije sinocnog dogadjaja vec tri</p>
+			<p>
+				puta prijavljivala 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 policiji ali do danas niko nista nije preduzimao, jer su ga oni samo upozoravali, niti
+			</p>
+			<p>je podnesena prekrsajna niti krivicna prijava koliko je njoj poznato, iako se ona u prethodnom periodu</p>
+			<p>zbog proganjanja i prijetnji osjecala ugrozeno. Od momenta kada su raskinuli on je poceo da je prati u cilju</p>
+			<p>da provjerava gdje je i sa kim se nalazi i gdje boravi. Nastojao je da uspostavi kontakt sa njom protivno</p>
+			<p>njenoj volji, jer je pozivao sa tudjih brojeva telefona, cije brojeve ne zna i tom prilikom joj je govorio gdje je</p>
+			<p>ona i sta radi, govorila mu je da je ostavi na miru da je ne uznemirava, da je vise ne zove, on joj je rekao</p>
+			<p>„Necu te ostaviti na miru sve dok ne odem u zatvor" i tom prilikom joj je govorio da ce je ubiti. Govorio joj</p>
+			<p>je „Kurvetino, nemoralna si, varas me", pozivao je protivno njenoj volji. Takodje je zvao njenog oca D. S., na</p>
+			<p>dva broj telefona koje njen otac ima 067 ... ... i 067 ... ..., sa broja telefona njegove majke 063 482 472, i</p>
+			<p>govorio je kako je ona nemoralna, takodje je pozivao sa tog broja telefona i njenog svekra na broj telefona</p>
+			<p>069 ... ... i govorio da je ona varala svog pokojnog muza dok je bila u braku sa njim, da je nemoralna,</p>
+			<p>takodje je zvao i njenu drugaricu M. I. na broj teiefona 063 ... ..., ispitujuci je gdje se ona nalazi, sta radi, da li</p>
+			<p>ima nekog, takodje je vrlo ruzno pricao o njoj, da je olos, da je nemoralna, da je kurvetina. Prije dvije veceri</p>
+			<p>usao je u njen auto, jer se jedna vrata ne zakljucavaju, kada je to vidjela zamolila ga je da napusti njen</p>
+			<p>auto, medjutim, on je iz auta posao na terasu i sjedio je na terasi, iako se ona zbog ranijih prijetnji jako</p>
+			<p>uznemireno osjecala i strah je, jer je konstantno proganja od kako su raskinuli. Zbog svega ovog osjeca se</p>
+			<p>jako ugrozeno, nesigurno i plasi se da je zbog svega ovoga moze povrijediti i ugroziti i molila da zbog tog</p>
+			<p>straha koji osjeca ako moze zabrani prilazak ili da bude zadrzan jer zbog svega kako se ponasa od kako su</p>
+			<p>raskinuli osjeca veliki strah, zeli samo da se udalji od nje od njene kuce i od njene djece. Na glavnom</p>
+			<p>pretresu je u svemu izjavila kao u prethodnom postupku i dodala da nije zeljela da dodje do svega ovoga i</p>
+			<p>iskoristila bi priliku da na glavnom pretresu zamoli Pavla da joj se vise ne priblizava jer su ona i djeca</p>
+			<p>osjetili tada jak strah, a s obzirom sta je radio ona taj strah osjeca i dalje ali naravno u mnogo blazoj formi</p>
+			<p>nego tada. Nakon sto joj se okrivljeni u sudnici izvinio ona je navela da prihvata izvinjenje okrivljenog. Kao</p>
+			<p>ostecena pridruzila se krivicnom gonjenju, a imovinskopravni zahtjev nije postavila.</p>
+			<p>Iz iskaza svjedoka I.M. u prethodnom postupku utvrdjeno je da zivi u naselju S., a njena prijateljica Đ. Đ. zivi</p>
+			<p>u naselju l. sa svoje dvije maloljetne kcerkice i svekrom M., a ona se sa Đ. druzi vec duzi period jer su</p>
+			<p>
+				drugarice iz osnovne skole. Poznato joj je da je ona imala emotivnu vezu sa 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				, bila je u vezi zadnjih 6-7
+			</p>
+			<p>mjeseci. Zna da je od Ijeta 2022.godine P. postao nasilan prema njoj, zna da je imala jednom prilikom</p>
+			<p>
+				povredu usne, a jednom prilikom je imala masnicu ispod oka, i rekla joj je da joj je povrede nanio 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				.
+			</p>
+			<p>Često puta je zvao telefonom kako bi ga ona mirila sa Đ. Đ. kada bi se posvadjali, ali ga je nakon toga</p>
+			<p>blokirala, zvao je na njen broj telefona 063 416 559, ali sa raznih brojeva, sigurno ima 15 brojeva telefona</p>
+			<p>tako da nije memorisala ni jedan broj, ali zna da je svaki broj sa kog je zvao blokirala, a interesovao se gdje</p>
+			<p>se nalazi Đ., a takodje on zivi u komsiliku, nedaleko od Đ. kuce i on se popne na jednu od terasa Đ. kuce u</p>
+			<p>izgradnji i prati gdje se ona krece ko joj dolazi, kad izlazi sa kim izlazi, kada se vraca kuci. Dana</p>
+			<p>01.01.2023.godine, negdje oko 20,00 casova posla je do Đ. kako bi joj cestitala Novu godinu, njoj i djeci.</p>
+			<p>Ona, Đ. njene dvije maloljetne kcerke i svekar M. su se nalazili u dnevnom boravku, i pricali su o</p>
+			<p>problemima koje Đ. ima sa P.. Negdje oko 22,30 casova, Đ. je iz dnevnog boravka posla u toalet, ostala su</p>
+			<p>vrata od dnevnog boravka otvorena, djevojcice su posle za njom, odjednom je zacula vrisku djece i plac,</p>
+			<p>
+				ustala je iz dnevnog boravka i krenula u pravcu kupatila, u hodniku je vidjela 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 i cula da je rekao »nece
+			</p>
+			<p>se ovo ovako zavrsiti, ili cu te ubiti ovdje ili cu te ubiti u V.«. Bila je van sebe zbog prijetnji koje je cula. On je</p>
+			<p>nakon toga trcecim korakom napustio kuci. U tom trenutku vidjela je da je Đ. bila van sebe, bila je jako</p>
+			<p>prestrasena, pocela je da place i odmah je pozvala policiju i prijavila sta se desilo i kakve rijeci prijetnje joj</p>
+			<p>je uputio P.. S obzirom da se radi o licu koje je dosta problematicno, ona, iako je u prethodnom periodu</p>
+			<p>znala da on maltretira Đ., da je gledala kada joj je zadavao udarce, da je bila povrijedjena, ne zna da li je</p>
+			<p>ona to prijavljivala policiji, to se desavalo u ljeto 2022.godine, ali 01.01.2023.godine, kada je vidjela kako</p>
+			<p>su djeca bila uznemirena i isprepadana, a zna da su ostala bez oca prije godinu dana, odlucila je da kaze</p>
+			<p>sve sto zna, kako bi zastitila kako tu djecu tako i drugaricu Đ. jer smatra da joj je zastita drzave prijeko</p>
+			<p>potrebna, ali takodje posto se radi o osobi koja je sklona nasilju i takvom ponasanju, da je takodje zastite</p>
+			<p>kako ne bi imala posljedice zbog toga sto je izjavila o svemu sto se desilo u kuci Đ. Đ.. Takodje joj se Đ.</p>
+			<p>svekar zalio da ga je strah za svoje unuke i za Đ. da joj ne bi naskodio P., jer je takodje govorio da i njega</p>
+			<p>zove telefonom i ruzno prica o Đ., a on je imao strah za sebe jer je vidio da se radi o osobi koja je uporna i</p>
+			<p>ne preza od nicega. Boji se da se sve to tragicno ne zavrsi jer je svjesna da Pavle nema mjeru i nema</p>
+			<p>granice da je vise puta upozoravan i od strane policije, da ne uznemirava a te veceri je opet dosao na vrata</p>
+			<p>lupao i prijetio da ce je ubiti.</p>
+			<p>Iz iskaza svjedoka S. D. u prethodnom postupku utvrdjeno je da je on otac Đ. S. udate Đ.. Bila je udata za B.</p>
+			<p>Đ. koji je izvrsio samoubistvo prije godinu dana i iz tog braka ima dvije maloljetne kcerke, M. staru dvije</p>
+			<p>godine i M. staru cetiri godine. Nakon smrti supruga ona je usla u emotivnu vezu sa M.P. i to tri mjeseca</p>
+			<p>nakon smrti supruga. On je nakon toga pitao i vrlo mu je cudno bilo da je ona tri mjeseca nakon smrti</p>
+			<p>muza usla u emotivnu vezu, ali ona mu je rekla da je prekinula sa P.. Čuo je za P. da je problematican, da je</p>
+			<p>zbog takvog problematicnog ponasanja zavrsavao u popravnom domu. Negdje mozda polovinom</p>
+			<p>decembra mjeseca, sve je sacuvano u njegovom mobilnom telefonu, njemu su pocele da stizu poruke od</p>
+			<p>
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 i to ga pozivao sa majcinog broja telefona 063 ... ... i slao je vise poruka, rekao mu je izmedju ostalog
+			</p>
+			<p>da ga je blokirala Đ. da nece da prica sa njim i molio ga da on utice na Đ. da bi ona sa njim komunicirala i</p>
+			<p>da ga odblokira da mu nece ostati duzan. On mu je rekao da ga ostavi na miru i kazao mu da on ne moze</p>
+			<p>da utice na nju niti zeli da utice jer je ona formirana osoba i majka dvoje djece zivi u drugoj kuci i on nema</p>
+			<p>uticaja nikakvog i da ga ostavi na miru, inace ce ga prijaviti policiji. Medjutim, P. je Đ. prijavljivala dva puta</p>
+			<p>u policiju zbog uznemiravanja jer joj je dolazio na vrata od kuce lupao, i stvarao neprijatnosti jer ona zivi u</p>
+			<p>kuci zajedno sa svekrom i dvoje djece, i nakon sto ga je prvi put prijavila negdje 25.12.2022.godine, on je</p>
+			<p>dosao u Centar bezbjednosti i pitao ga „Koliko ti imas godina", on mu je rekao da ima 26, rekao mu je da</p>
+			<p>voli djecu Đininu, tada mu je rekao da ostavi Đ. na miru, da nadje sebi mladju djevojku, jer ona je udovica,</p>
+			<p>ima dvoje djece i da je vise ne uznemirava i rekao mu zasto tako insistira „sta ces kad te ona nece“.</p>
+			<p>Medjutim, Đ. je P. prijavila posle dva - tri dana opet zbog uznemiravanja, opet joj je dolazio na vrata, kucao</p>
+			<p>joj je, ona se osjetila uznemirenom i ugruzenom i zbog toga ga je opet prijavila i treci put kada ga je ona</p>
+			<p>prijavila oni su ga zadrzali u policiji, jer je treci put usao u kucu kada joj je tu bio svekar, njeno dvoje</p>
+			<p>maloljetne djece i prijateljica i prijetio joj je, nakon cega ga je policija privela. Dalje je naveo da mu se Đ.</p>
+			<p>zalila da je on dolazio u V. gdje ona radi kao trgovac u marketu, i rekao je njenim koleginicama, jer je tada</p>
+			<p>Đ. bila na bolovanju, jer joj je dijete bolesno, a on je njenim koleginicama kazao da ona laze da joj dijete</p>
+			<p>nije bolesno i da ce on da je ubije, a to je cuo od Đ., tako da je u zadnje vrijeme P. Đ. non stop uznemiravao</p>
+			<p>zato ga je prijavila jer trazi zastitu od drzave.</p>
+			<p>Iz iskaza svjedoka Đ. M. utvrdjeno je da je on svekar Đ. Đ. i njegov pokojni sin je bio njen suprug koji je</p>
+			<p>izvrsio samoubistvo 17.11.2021.godine. Poslije smrti sina snaha Đ. je nastavila da zivi u zajednickoj kuci.</p>
+			<p>Ona ima dvije maloljetne kcerke, M. starosti 4 godine i M. starosti dvije godine. Dva mjeseca poslije smrti</p>
+			<p>
+				njegovog sina cuo je da je ona u vezi sa 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				. Njemu je to tesko palo, jer mu se sin nije ni ohladio, a ona je
+			</p>
+			<p>
+				to uradila. Sjeca se da nakon sto je cuo da je snaha u vezi sa 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				, on je tokom decembra mjeseca ucestao
+			</p>
+			<p>da dolazi oko njihove kuce. Jednom prilikom mu je Đ. rekla da je uznemirava i da joj ulazi u auto bez</p>
+			<p>njenog znanja, auto je parkirano ispred kuce, nakon cega je pozvao policiju i tada mu je neko od policajaca</p>
+			<p>rekao „M., vazno je da ga uhvatite na vasem posjedu, sledeci put kad dodje pozovite policiju, nemojte se</p>
+			<p>raspravljati". U noci 01.01.2023.godine, negdje oko 23,00 casa, dok je bio u dnevnom boravku i tu se</p>
+			<p>nalazila i prijateljica njegove snahe I. M. i dvije unuke, u jednom momentu snaha je posla u kupatilo, za</p>
+			<p>njom su posle unuke i u jednom momentu starija unuka M. i M. su usle u dnevni boravak placuci, M. mu je</p>
+			<p>prisla i rekla „P. hoce da bije majku, nakon cega je Irma odmah izasla na terasu i rekla Đ. „Odmah zovi</p>
+			<p>policiju sad". Šta se desavalo ispred ne zna, jer se tesko krece i bio je u dnevnom boravku. Zna da je snaha</p>
+			<p>
+				pocela da vristi kada je zvala policiju, jer je bila prestrasena da je 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 moze napasti. Sve ovo tesko mu
+			</p>
+			<p>pada, pored toga sto je izgubio sina jedinca ovakva bruka mu ne treba. Nedugo zatim dosla je policija, a</p>
+			<p>
+				nakon toga je snaha sa djecom i Irmom posla u policiju da daju izjavu. Dalje je naveo da je njemu 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 na
+			</p>
+			<p>broj telefona 069 .... ... poslao poruku 30.12.2022.godine poslije 22h da mu snaha nije kuci vec da je djecu</p>
+			<p>odvela kod svog oca, a da ona seta kroz grad, iako mu je prethodno rekla da ide da spava, a tu poruku je</p>
+			<p>
+				dobio sa broja telefona M. Z. 063/... ..... Plasi se da 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 ne ubije Đ. i sve ga strah da to ne uradi pred
+			</p>
+			<p>djecom, jer je rekao da ce izvrsiti samoubistvo i da ne moze da zivi bez nje.</p>
+			<p>Iz zapisnika o pretresanju stana i drugih prostorija Regionalnog centra bezbjednosti Jug, odeljenje</p>
+			<p>bezbjednosti Bar, stanice policije broj 84/2-217/23-2/14 od 02.01.2023. godine utvrdjeno je da su ovlasceni</p>
+			<p>policijski sluzbenici izvrsili pretres kuce okrivljenog i da tom prilikom nijesu ponadjeni tragovi krivicnog</p>
+			<p>djela ili predmeti vazni za krivicni postupak.</p>
+			<p>Iz nalaza i misljenja vjestaka iz oblasti digitalnih dokaza B. S. od 17.01.2023. godine utvrdjeno je da je</p>
+			<p>izvrsen pretres mobilnog telefona Samsung modela SM-A025G u prostorijama OB Bar, iz kojeg su</p>
+			<p>dokumentovane Viber komunikacije sa brojem koji je u vlasnistvu M. Z., da su komunikacije koje su</p>
+			<p>ostvarene pomocu aplikacije »Viber« u vremenskom periodu od 29.12.2022.godine od 18:47 casova pa do</p>
+			<p>03.01.2023.godine do 16,00 casova i prikazane su u slikama od 1 do 7. Izvrsen je i pretres mobilnog</p>
+			<p>telefona Xiaomi modela »M1804D2SGMi« u prostorijama CB Bar uz prisustvo dva punoljetna gradjanina i</p>
+			<p>sluzbenika Uprave policije koji je vodio zapisnik. Pretres je izvrsen uz pomoc Forenzickog softvera »UFED«,</p>
+			<p>uz pomoc kojeg su dokumentovane »Viber« komunikacije sa brojem koji je u vlasnistvu M. Z..</p>
+			<p>Komunikacija je prikazana na slici broj 8.</p>
+			<p>Iz sluzbene zabiljeske bez broja od 28.12.2022. godine Ministarstva unutrasnjih poslova Regionalnog</p>
+			<p>centra Jug, koju su sacinili policijski sluzbenici A.M.i M. N. utvrdjeno je da se policijskim sluzbenicima dana</p>
+			<p>
+				28.12.2022. godine lice 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 obratilo da ima problem sa djevojkom Đ. Đ., a koja je takodje izjavila da duzi
+			</p>
+			<p>vremenski period ima problem sa Pavlem, te da zeli da podnese prijavu protiv istog.</p>
+			<p>Iz sluzbene zabiljeske UBD 1552/22 od 28.12.2022. godine Ministarstva unutrasnjih poslova Regionalnog</p>
+			<p>centra Jug, koju je sacinio policijski sluzbenik, vodja bezbjedonosnog sektora Š. D., utvrdjeno je da je Đ. Đ.</p>
+			<p>
+				prijavila uznemiravanje od 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				, te da je prikupljeno obavjestenje od lica 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				, na okolnosti dogadjaja i isti
+			</p>
+			<p>je upozoren na ponasanje, na zahtjev podnosioca prijave.</p>
+			<p>Iz izvjestaja o upozorenju lica Ministarstva unutrasnjih poslova, Uprave policije Reginalnog centra</p>
+			<p>bezbjednosti Jug, odeljenja bezbjednosti Bar, stanice policije UBD br. 1541/22 od 26.12.2022. godine sa</p>
+			<p>
+				prilozima zapisnik o obavjestenju prikupljenim od gradjanina Đ. Đ., od 25.12.2022. godine i 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 utvrdjeno
+			</p>
+			<p>je da je izdato upozorenje na okolnosti podnesene prijave od dana 25.12.2022. godine od strane lica Đ. Đ.</p>
+			<p>
+				da je imenovani uznemirava, te da je 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 upozoren na ponasanje gdje je istom predoceno da se ovakve ili
+			</p>
+			<p>slicne stvari ne bi desavale u narednom periodu.</p>
+			<p>Iz sluzbene zabiljeske regionalnog centra bezbjednosti Jug, odeljenje bezbjednosti Bar, stanice policije br.</p>
+			<p>
+				84/2-UBD 1541 od 26.12.2022. godine utvrdjeno je da je Đ. Đ. prijavila da je uznemirava lice 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 iz B..
+			</p>
+			<p>Iz zapisnika o pretresanju racunara mobilnih telefona i drugih elektronskih uredjaja Regionalnog centra</p>
+			<p>bezbjednosti Jug, odeljenje bezbjednosti Bar, stanice policije broj 84/2-217/23-2/49 UBD 62/23 od</p>
+			<p>11.01.2023. godine utvrdjeno je da sastavljen zapisnik u ime Uprave policije, te da pretrsanje vrse sudski</p>
+			<p>vjestak B. S. i zapisnicar L. M..</p>
+			<p>Iz potvrde o privremeno oduzetim predmetima Regionalnog centra bezbjednosti Jug, odeljenje</p>
+			<p>bezbjednosti Bar, stanice policije 84/2-217/23/46 od 11.01.2023. godine izdata na ime Đ. M. utvrdjeno je da</p>
+			<p>je od lica Đ. M. privremeno oduzet mobilni telefon marke »Redmi« crne boje IMEI1-.... i IMEI2-.... sa SIM</p>
+			<p>karticom broj 069 .... ....</p>
+			<p>Iz potvrde o vracanju privremeno oduzetih predmeta Ministarstva unutrasnjih poslova Uprave policije br.</p>
+			<p>84/2-217/23-2/44 od 11.01.2023. godine izdata na ime Đ. M. utvrdjeno je da je Đ. M. vracen mobilni telefon</p>
+			<p>marke »Redmi« crne boje IMEI1-... i IMEI2-.... sa SIM karticom broj 069 ... ....</p>
+			<p>Iz sluzbene zabiljeske Regionalnog centra bezbjednosti Jug, odeljenje bezbjednosti Bar, stanice policije</p>
+			<p>broj UBD 62/23 od 11.01.2023. godine sacinjena od vodje bezbjedonsonog sektora L. M. utvrdjeno je da su</p>
+			<p>povodom pretresanja racunara, mobilnih telefona i drugih uredjaja koje koriste lica Đ. M. i S. D., od 17:00</p>
+			<p>do 18:00 casova sudski vjestak za digitalne uredjaje B. S. izvrsio vjestacenje mobilnih telefona.</p>
+			<p>Iz zapisnika o pretresanju racunara, mobilnih telefona i drugih elektronskih uredjaja Ministarstva</p>
+			<p>unutrasnjih poslova Uprave policije Bar, broj 84/2-217/23-2/48 UBD 62/23 od 11.01.2023. godine utvrdjeno</p>
+			<p>je da izvrseno pretresanje mobilnog telefona vlasnistvo S. D..</p>
+			<p>Iz potvrde o privremeno oduzetim predmetima Ministarstva unutrasnjih poslova Uprave policije broj 84/2-</p>
+			<p>217/23/47 od 11.01.2023. godine izdata na ime S. D. utvrdjeno je da je od istog privremeno oduzet mobilni</p>
+			<p>telefon marke »Samsung« A 025 G crne boje, IMEI-.... i IMEI-....</p>
+			<p>Iz potvrde o vracanju privremeno oduzetih predmeta MUP-a Uprave policije broj 84/2-217/23-2/45 od</p>
+			<p>11.01.2023. godine izdata na ime S. D. utvrdjeno je da je S. D. vracen mobilni telefon marke »Samsung« A</p>
+			<p>025 G crne boje, IMEI-.... i IMEI-....</p>
+			<p>Iz izvoda iz registra kaznenih evidencija Ministarstva pravde, ljudskih i manjinskih prava, izdat na ime</p>
+			<p>okrivljenog KE 30/2023 od 27.01.2023.godine, pribavljen putem PRIS-a, utvrdjeno je da je okrivljeni</p>
+			<p>osudjivan presudama presudom Osnovnog suda u Baru K br. 60/15 koja je postala pravosnazna dana</p>
+			<p>17.02.2016. godine, zbog krivicnog djela nasilnicko ponasanje iz cl. 399 KZ CG, kojom mu je izrecena kazna</p>
+			<p>zatvora u trajanju od 6 mjeseci uslovno na 2 godine i presudom Osnovnog suda u Baru K br. 382/14 koja je</p>
+			<p>postala pravosnazna dana 12.05.2015. godine, zbog krivicnog djela teska kradja iz cl. 240 st. 1 tac. 1 KZ CG,</p>
+			<p>kojom mu je izrecena kazna u trajanju od 1 godine uslovno na 2 godine.</p>
+			<p>Ocjenom dokaza izvedenih na glavnom pretresu, svakog pojedinacno i u medjusobnoj povezanosti, na</p>
+			<p>nesumnjiv nacin je utvrdjeno da je okrivljeni P. M. izvrsio krivicno djelo - ugrozavanje sigurnosti iz cl.168</p>
+			<p>st.1 Krivicnog zakonika Crne Gore i krivicno djelo - proganjanje iz cl. 168a st.1 u vezi st. 6 tac.1 i tac.2</p>
+			<p>Krivicnog zakonika Crne Gore, na nacin predstavljen u izreci presude.</p>
+			<p>Okrivljeni u svojoj odbrani priznaje izvrsenje krivicnih djela koja mu se stavljaju na teret, navodeci da je</p>
+			<p>svjestan da je pogrijesio, da nije trebalo da postupi na nacin na koji je postupio a sto je detaljno opisano u</p>
+			<p>optuznom predlogu i tacno je da je upravo tako postupao. Pojasnio je da je sa ostecenom bio godinu dana</p>
+			<p>u emotivnoj vezi, da mu je tesko pao njihov rastanak, a takodje je dosta vezan za njene kcerke i to je</p>
+			<p>dodatno uticalo da on nije mogao da se pomiri sa okoncanjem njihove emotivne veze, iz kog razloga je i</p>
+			<p>poceo da je prati do posla, odlazio na njeno radno mjesto i usao u njenu kucu bez njenog odobrenja.</p>
+			<p>Tacno je i da je ostecenu zvao telefonom, kao i da je preko trecih lica pokusao da stupi u kontakt sa njom,</p>
+			<p>jer ona nije zeljela ni da ga vidi, ni da razgovara sa njim.</p>
+			<p>Priznanje okrivljenog sud je cijenio kao jasno i potpuno. Isto je u cjelosti potvrdjeno jasnim i detaljnim</p>
+			<p>iskazima svjedoka ostecene Đ. Đ. i svjedoka M. I., Đ. M. i S. D., na cije iskaze nije bilo primjedbi, iz kog</p>
+			<p>razloga im je sud poklonio punu vjeru. Svjedok ostecena Đ. Đ. je u svom iskazu decidno opisala ponasanje</p>
+			<p>okrivljenog, navodeci da je sa okrivljenim bila u emotivnoj vezi pola godine a istu je prekinula 20 dana</p>
+			<p>prije predmetnog dogadjaja, nakon cega je on nju poceo da uznemirava na nacin sto je pratio od posla do</p>
+			<p>kuce, zbog cega ga je tri puta prijavila policiji, dok ga je cetvrti put pirjavila dana 01.01.2023. godine zbog</p>
+			<p>uznemiravanja, pracenja, jer je znao da je saceka nakon sto zavrsi smjenu i ide za njom do kuce, da joj lupa</p>
+			<p>na vrata u kasnim vecernjim satima kako bi ga pustila unutra, i na taj nacin je uznemiravao njenu</p>
+			<p>maloljetnu djecu, a i svekra koji zivi zajedno sa njom u kuci. Nakon sto su raskinuli on je vise puta i fizicki</p>
+			<p>zlostavljao, samarao je, jednom prilikom je udario sakom u predjelu lica, prijetio je da ce je ubiti, da ce</p>
+			<p>zavrsiti kod njegove majke koja mu je umrla prije tri godine. Dana 01.01.2023.godine dok se nalazila u kuci</p>
+			<p>u naselju Ilino gdje zivi sa dvije maloljetne kcerke i svekrom, dok su se u unutrasnjosti kuce nalazili njena</p>
+			<p>drugarica Irma i svekar, neko je poceo da lupa, i to je bilo negdje oko 23,00 casa. Kako vrata nisu bila</p>
+			<p>zakljucana on je usao u unutrasnjost, a ona je tada bila u kupatilu, kada je izasla u hodnik, tada joj je rekao</p>
+			<p>„Ako te ne ubijem u kuci ubicu te u V.", jer ona radi u V. kao trgovac, ona mu je nakon toga rekla „Napusti</p>
+			<p>kucu, sada cu policiju da zovem" on joj je tada rekao „Nijesmo mi jos zavrsili" prijeteci joj prstom. To je sve</p>
+			<p>cula njena prijateljica Irma koja se nalazila kod nje u kuci. Od njegovih prijetecih rijeci, „Ako te ne ubijem u</p>
+			<p>kuci ubicu te u Voli" osjetila je strah za svoj zivot i zivot svoje djece. Osim nje u kuci su bila i maloljetna</p>
+			<p>djeca koja su pocela da placu i da vriste i bila su jako uznemirena. Okrivljeni je nju poceo i da prati u cilju</p>
+			<p>da provjerava gdje je i sa kim se nalazi i gdje boravi, a takose je nastojao da uspostavi kontakt sa njom</p>
+			<p>protivno njenoj volji, jer je pozivao sa tudjih brojeva telefona, cije brojeve ne zna i tom prilikom joj je</p>
+			<p>govorio gdje je ona i sta radi, govorila mu je da je ostavi na miru da je ne uznemirava, da je vise ne zove, on</p>
+			<p>joj je rekao „Necu te ostaviti na miru sve dok ne odem u zatvor" i tom prilikom joj je govorio da ce je ubiti.</p>
+			<p>Govorio joj je „Kurvetino, nemoralna si, varas me", pozivao je protivno njenoj volji. Takodje je zvao njenog</p>
+			<p>oca D. S., kao i njenog svekra i njenu drugaricu M. I. na ispitujuci je gdje se ona nalazi, sta radi, da li ima</p>
+			<p>nekog, takodje je vrlo ruzno pricao o njoj, da je olos, da je nemoralna, da je kurvetina. Zbog svega toga se</p>
+			<p>osjeca jako ugrozeno, nesigurno i plasi se da je zbog svega ovoga moze povrijediti i ugroziti.</p>
+			<p>Iskaz svjedoka ostecene potvrdili su i svjedoci, njen otac S. D., njen svekar Đ. Milovan, kao i prijajateljica M.</p>
+			<p>I.. Svi su saglasno naveli da ih je telefonom kontaktirao okrivljeni, da se raspitivao o tome gdje se ostecena</p>
+			<p>nalazi i sta radi, trazeci od njih da uticu na ostecenu da se pomiri sa njim. Navedeno se potvrdjuje i pisanim</p>
+			<p>dokazima izvedenim u toku postupka I to sluzbenom zabiljeskom bez broja od 28.12.2022. godine</p>
+			<p>Ministarstva unutrasnjih poslova Regionalnog centra Jug, koju su sacinili policijski sluzbenici A. M. i M.N. iz</p>
+			<p>koje je sud utvrdio da se policijskim sluzbenicima dana 28.12.2022. godine lice M. Pavle obratilo da ima</p>
+			<p>problem sa djevojkom Đ. Đ., a koja je takodje izjavila da duzi vremenski period ima problem sa P., te da zeli</p>
+			<p>da podnese prijavu protiv istog, zatim iz sluzbene zabiljeske UBD 1552/22 od 28.12.2022. godine</p>
+			<p>Ministarstva unutrasnjih poslova Regionalnog centra Jug, koju je sacinio policijski sluzbenik, vodja</p>
+			<p>
+				bezbjedonosnog sektora Š. D., iz koje je utvrdjeno je da je Đ. Đ. prijavila uznemiravanje od 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				, te da je
+			</p>
+			<p>
+				prikupljeno obavjestenje od lica 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				, na okolnosti dogadjaja i isti je upozoren na ponasanje, na zahtjev
+			</p>
+			<p>podnosioca prijave, zatim iz izvjestaja o upozorenju lica Ministarstva unutrasnjih poslova, Uprave policije</p>
+			<p>Reginalnog centra bezbjednosti Jug, odeljenja bezbjednosti Bar, stanice policije UBD br. 1541/22 od</p>
+			<p>26.12.2022. godine sa prilozima zapisnik o obavjestenju prikupljenim od gradjanina Đ. Đ., od 25.12.2022.</p>
+			<p>
+				godine i 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 utvrdjeno je da je izdato upozorenje na okolnosti podnesene prijave od dana 25.12.2022.
+			</p>
+			<p>
+				godine od strane lica Đ. Đ. da je imenovani uznemirava, te da je 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 upozoren na ponasanje gdje je istom
+			</p>
+			<p>predoceno da se ovakve ili slicne stvari ne bi desavale u narednom periodu, kao i iz sluzbene zabiljeske</p>
+			<p>regionalnog centra bezbjednosti Jug, odeljenje bezbjednosti Bar, stanice policije br. 84/2-UBD 1541 od</p>
+			<p>
+				26.12.2022. godine iz koje je utvrdjeno je da je Đ. Đ. prijavila da je uznemirava lice 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 iz B..
+			</p>
+			<p>Nadalje, iz nalaza i misljenja vjestaka iz oblasti digitalnih dokaza B. S. od 17.01.2023. godine utvrdjeno je</p>
+			<p>da je izvrsen pretres mobilnog telefona Samsung modela SM-A025G u prostorijama OB Bar, iz kojeg su</p>
+			<p>dokumentovane Viber komunikacije sa brojem koji je u vlasnistvu M. Z. (majke okrivljenog), da su</p>
+			<p>komunikacije koje su ostvarene pomocu aplikacije »Viber« u vremenskom periodu od 29.12.2022.godine</p>
+			<p>od 18:47 casova pa do 03.01.2023.godine do 16,00 casova i prikazane su u slikama od 1 do 7, kao i da je</p>
+			<p>izvrsen je i pretres mobilnog telefona Xiaomi modela »M1804D2SGMi« u prostorijama CB Bar uz prisustvo</p>
+			<p>dva punoljetna gradjanina i sluzbenika Uprave policije koji je vodio zapisnik. Pretres je izvrsen uz pomoc</p>
+			<p>Forenzickog softvera »UFED«, uz pomoc kojeg su dokumentovane »Viber« komunikacije sa brojem koji je u</p>
+			<p>vlasnistvu M. Z.. Iz nalaza je utvrdjen sadrzaj prepiske koju je okrivljeni imao sa svjedocima Đ. M. i S. D., a</p>
+			<p>koji se ticu ostecene Đ. Đ.. Uvidom u screenshot viber poruka, koje se nalaze u nalazu i misljenju vjestaka</p>
+			<p>
+				u oblasti digitalnih dokaza, predstavljenim u slikama od 1 do 8, utvrdjeno je da je 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 sa broja telefona
+			</p>
+			<p>063482 472 slao poruke S. D. sledece sadrzine: “S., P. je vidi sa djinom da nas izmiris ne mogu da izdrzim</p>
+			<p>vise samo da ostanemo prijatelji aj kad te molim icini mi to otac si joj ja cu joj sve pomoc ko do sad, mislim</p>
+			<p>na nju ceo dan, ako si joj otac ucinjeces mi to duzan ne ostajem nikom ne mogu bez nje, od sad je gledam</p>
+			<p>ko sestru budi siguran, stalo mi je do djine i djece, ali cu je videti ja veceras kad dodje iz grada cekacu je</p>
+			<p>kod pruge, dragane svati da sam je zavolio ludo i da ne mogu bez nje, sad cu da joj kupim i njoj i djeci</p>
+			<p>dosta toga za znak pomirenja, ja ocu da sam samo drug ili brat tacnije jel je ludo volim tu djecu, da zna</p>
+			<p>ona dobro laku noc, samo joj reci da me odma odblokira na viber ocu lijepo da se cujemo ako ne onda cu</p>
+			<p>ja da recem M. da nije tu, reci Dj. da me zove zvala me je nisam cuo”… dok je sa istog broja poslao SMS</p>
+			<p>poruku Đ. M. sledece sadrzine : “Snaha vam je u grad, a dete kod savelje da znate, nije tu u njen dio. Laku</p>
+			<p>
+				noc”, iz kojih poruka su utvrdjeni iskazi svjedoka S. D. i Đ.M., kao i proganjanje od strane 
+				<party id="mp" refersTo="#mp" as="#defendant">M. P.</party>
+				 u dijelu u
+			</p>
+			<p>kojem navodi da ce je cekati kod pruge.</p>
+			<p>Rijeci koje je okrivljeni kriticne prilike uputio ostecenoj: «Nece se ovo ovako zavrsiti, ako te ne ubijem u</p>
+			<p>kucu ubicu te u V.«, su po nalazenju ovog suda ugrozile sigurnost ostecene Đ. Đ., jer navedene rijeci imaju</p>
+			<p>znacaj prijetnje koja je ozbiljna i ostvarljiva, a koje rijeci su kod ostecene proizvele subjektivni osjecaj</p>
+			<p>straha i ugrozenost za svoj zivot. Naime, pored navedenog sud je cijenio i to da se radnja izvrsenja</p>
+			<p>predmetnog krivicnog djela sastoji u prijetnji koja je ozbiljna, kada je objektivno uzevsi podobna da kod</p>
+			<p>onoga kome se prijeti izazove osjecaj straha i licne nesigurnosti za njegov zivot i zivot njemu bliskih lica,</p>
+			<p>narocito kada se imaju u vidu navodi ostecene da ga je i ranije prijavljivala policji zbog problema sa njim i</p>
+			<p>cinjenice da joj je to rekao u prisustvu njene dvoje maloljetne djece, te se u njegovoj radnji ostvaruju</p>
+			<p>obiljezja bica krivicnog djela ugrozavanje sigurnosti iz cl. 168 st.1 Krivicnog zakonika Crne Gore.</p>
+			<p>Okrivljeni je krivicno djelo izvrsio sa direktnim umisljajem jer je bio svjestan svog djela i htio je njegovo</p>
+			<p>izvrsenje, pa se u njegovim radnjama sticu sva bitna obiljezja krivicnog djela ugrozavanje sigurnosti iz</p>
+			<p>cl.168 st.1 Krivicnog zakona.</p>
+			<p>Iz utvrdjenog cinjenicnog stanja sud nesumnjivo zakljucuje da je okrivljeni izvrsio i krivicno djelo</p>
+			<p>proganjanje iz cl. 168a st.1 u vezi st. 6 tac.1 i tac.2 Krivicnog zakonika Crne Gore, na nacin predstavljen u</p>
+			<p>izreci presude. U postupku je nesumnjivo utvrdjeno da je okrivljeni zbog prekida emotivne veze, uporno</p>
+			<p>proganjao ostecenu Đ. Đ. na nacin koji moze osjetno da ugrozi njen zivot, i to tako sto je neovlasceno</p>
+			<p>pratio od posla do kuce, dolazio na radno mjesto gdje radi u marketu „V.“, presretao na ulici, pozivao</p>
+			<p>telefonom, a nakon sto ga je ostecena blokirala, protiv njene volje pokusao da uspostavi kontakt sa</p>
+			<p>ostecenom, preko trecih lica, na nacin, nakon sto je ostecena blokirala pozive okrivljenog pokusao da</p>
+			<p>uspostavi kontakt sa ostecenom pozivajuci njenog oca S. D. sa broja telefona 063 482 472, na broj 067 805</p>
+			<p>749, 067 506 810, da ga pomiri sa Đ., a neovlasceno ostecenu pratio sa posla do kuce, nakon cega je</p>
+			<p>pozivao njenog svekra, Đ. M. i obavijestio ga dana 30.12.2022.godine u 22,00 casova, da se Đ. ne nalazi u</p>
+			<p>kuci i da je djecu ostavila u komsiluku, dok je 25.12.2022.godine i 29.12.2022.godine dolazio u kasnim</p>
+			<p>vecernjim satima i lupao na ulazna vrata kuce, u kojoj zivi ostecena sa dvoje maloljetne djece, zbog cega</p>
+			<p>ga je ostecena prijavljivala policiji zbog uznemiravanja. Iz navedenog proizilazi da je okrivljeni ostecenu</p>
+			<p>uporno proganjao na nacin koji moze osjetno da ugrozi njen zivot, zdravlje, tijelo ili nacin zivota. Smatra se</p>
+			<p>da neko uporno proganja drugo lice u smislu ovog clana kada u odredjenom vremenskom periodu</p>
+			<p>neovlasceno prati ili preduzima druge radnje u cilju fizickog priblizavanja tom licu i nastoji da uspostavi</p>
+			<p>kontakt sa tim licem protivno njegovoj volji neposredno, preko treceg lica ili sredstava komunikacije, a sto</p>
+			<p>nesporno proizilazi da je okrivljeni radio, kako je to blize navedeno u izreci presude.</p>
+			<p>Okrivljeni je krivicno djelo izvrsio sa direktnim umisljajem jer je bio svjestan svog djela i htio je njegovo</p>
+			<p>izvrsenje, pa se u njegovim radnjama sticu sva bitna obiljezja krivicnog djela proganjanje iz cl.168a st.1 u</p>
+			<p>vezi st. 6 tac.1 i tac.2 Krivicnog zakona Crne Gore.</p>
+			<p>Sud je okrivljenog osudio na jedinstvenu kaznu zatvora u trajanju od 3 (tri) mjeseca. Za krivicno djelo</p>
+			<p>ugrozavanje sigurnosti iz cl.168 st.1 Krivicnog zakona Crne Gore propisana je novcana kazna ili zatvor do</p>
+			<p>jedne godine, dok je za krivicno djelo proganjanje iz cl.168a st.1 u vezi st. 6 tac.1 i tac.2 KZ CG propisana</p>
+			<p>kazna zatvora od 3 mjeseca do 3 godine. Odlucujuci se za krivicnu sankciju sud je na strani okrivljenog</p>
+			<p>cijenio sve olaksavajuce i otezavajuce okolnosti iz cl.42 Krivicnog zakonika Crne Gore, pa je od</p>
+			<p>olaksavajucih okolnosti cijenio njegove licne prilike jer je osoba mladje zivotne dobi, njegove imovinske</p>
+			<p>prilike, jer je loseg imovnog stanja, priznanje izvrsenja krivicnog djela, kajanje i cinjenicu da je ostecena</p>
+			<p>prihvatila izvinjenje koje joj je okrivljeni uputio.. Od otezavajucih okolnosti sud je na strani okrivljenog</p>
+			<p>cijenio njegov raniji zivot jer je isti osudjivan. Sud je okrivljenom na osnovu cl.48 Krivicnog zakonika Crne</p>
+			<p>Gore utvrdio za krivicno djelo - ugrozavanje sigurnosti iz cl. 168 st. 1 Krivicnog zakonika Crne Gore, kaznu</p>
+			<p>zatvora u trajanju od 2 (dva) mjeseca, a za krivicno djelo - proganjanje iz cl. 168a st.1 u vezi st. 6 tac.1 i tac.2</p>
+			<p>Krivicnog zakonika Crne Gore, kaznu zatvora u trajanju od 2 (dva) mjeseca, nakon cega ga je osudio na</p>
+			<p>jedinstvenu kaznu zatvora u trajanju od 3 (tri) mjeseca. Izrecena kazna zatvora po ocjeni suda odgovara</p>
+			<p>tezini izvrsenog krivicnog djela i krivici okrivljenog i predstavlja mjeru koja je neophodna da bi se postigla</p>
+			<p>svrha kaznjavanja iz cl.32 Krivicnog zakonika u okviru opste svrhe propisivanja izricanja krivicnih sankcija</p>
+			<p>iz cl.4 st.2 Krivicnog zakonika.</p>
+			<p>Na osnovu clana 51 KZ CG okrivljenom je u izrecenu kaznu zatvora u trajanju od 3 (tri) mjeseca, uracunato</p>
+			<p>vrijeme provedeno u pritvoru od 01.01.2023.godine pa nadalje.</p>
+			<p>Odluka o troskovima postupka zasniva se na odredbi cl.226 i cl.229 ZKP-a, a ista se odnosi na troskove</p>
+			<p>rada suda u iznosu od 50,00 €, koji pausal je odmjeren shodno slozenosti i trajanju postupka i ocjeni</p>
+			<p>imovinskih prilika optuzenog, u roku od 15 dana od dana pravosnaznosti presude pod prijetnjom</p>
+			<p>prinudnog izvrsenja.</p>
+			<p>Na osnovu izlozenog a shodno cl.374 ZKP-a odluceno je kao u izreci presude.</p>
+			<p>OSNOVNI SUD U BARU</p>
+			<p>Dana 15.02.2023.godine</p>
+			<p>ZAPISNIČAR, S U D I J A</p>
+			<p>
+				Ana Stanisic 
+				<party id="tamaraspasojevic" refersTo="#tamaraspasojevic" as="#judge">Tamara Spasojevic</party>
+			</p>
+			<p>PRAVNA POUKA: Protiv ove presude moze se izjaviti zalba Visem sudu u Podgorici u roku od 8 dana od</p>
+			<p>dana prijema pismenog otpravka. Žalba se predaje ovom sudu u dva primjerka.</p>
+			<p>Dna.</p>
+			<p>- ODT iz Bara,</p>
+			<p>- braniocu okrivljenog</p>
+			<p>- okrivljeni,</p>
+			<p>- u spise</p>
+			<p>Nakon pravosnaznosti</p>
+			<p>- ostecenoj</p>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>

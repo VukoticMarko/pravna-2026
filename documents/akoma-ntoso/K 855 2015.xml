@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+						"
+	xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+	xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Osnovni Sud u Ulcinju
+					</FRBRauthor>
+					<FRBRdate date="2016-04-18">
+						2016-04-18
+					</FRBRdate>
+					<FRBRtitle>
+						K 855/2015
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="ospodgorica" href="/ontology/organization/OsnovniSud.Podgorica"
+					showAs="Osnovni sud u Podgorici" />
+				<TLCOrganization eId="odt" href="/ontology/organization/OsnovnoDrzavnoTuzilastvo"
+					showAs="Osnovno državno tužilaštvo" />
+				<TLCPerson eId="lmijuskovic" href="/ontology/person/lmijuskovic" showAs="Larisa Mijušković-Stamatović" />
+				<TLCPerson eId="vvukasinovic" href="/ontology/person/vvukasinovic" showAs="Valentina Vukašinović" />
+				<TLCPerson eId="ssisevic" href="/ontology/person/ssisevic" showAs="Šišević Snežana" />
+				<TLCPerson eId="st" href="/ontology/person/st" showAs="S.T." />
+				<TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="advisor" href="/ontology/role/advisor" showAs="Advisor" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+			</references>
+		</meta>
+		<judgmentBody>
+			<p>
+				<organization id="ospodgorica" referesTo="#ospodgorica">
+					OSNOVNI SUD U PODGORICI
+				</organization> 
+				, kao prvostepeni krivični, po sudiji 
+				<party id="lmijuskovic" refersTo="#lmijuskovic" as="#judge">
+					Larisi Mijušković-Stamatović
+				</party> 
+				, uz učešće 
+				<party id="vvukasinovic" refersTo="#vvukasinovic" as="#clerk">
+					Valentine Vukašinović
+				</party> 
+				, kao zapisničara, u predmetu protiv okrivljene 
+				<party id="st" refersTo="#st" as="#defendant">
+					S.T.
+				</party> 
+				, iz Podgorice, zbog krivičnog djela krađa iz 
+				<ref
+					href="/krivicni#art_239__list_1__point_1">
+					čl. 239 st. 1 Krivičnog zakonika Crne Gore,
+				</ref> 
+				, odlučujući po optužnom predlogu 
+				<organization id="odt" referesTo="#odt">
+					ODT-a Podgorica
+				</organization> 
+				Kt.br. 133/15 od 13.02.2015. godine, kojeg je na glavnom pretresu zastupala 
+				<party id="ssisevic" refersTo="#ssisevic"
+					as="#plaintiff">
+					Šišević Snežana
+				</party> 
+				, zamjenik ODT-a Podgorica, nakon glavnog i javnog pretresa održanog dana 18.04.2016 
+				godine, u prisustvu stranaka, donio je, a dana 21.04.2016 godine i javno objavio,
+				 
+				<p style="text-align: center;">P R E S U D U</p>
+				<p>Okrivljena:</p>
+				S.T., od oca M. i majke J., rođene V., rođena .... godine u Podgorici, sa 
+				prebivalištem u mjestu rođenja, ul. ... br..., završila srednju školu, udata, majka 
+				dvoje djece, nezaposlena lošeg imovnog stanja, ranije osuđivana i to: presudom Osnovnog 
+				suda Ulcinj K.br. 26/11 od 19.08.2011. godine na kaznu zatvora u trajanju od 2 mjeseca, 
+				zbog krivičnog djela iz 
+				<ref href="/krivicni#art_239">
+					čl. 239 Krivičnog zakonika
+				</ref>
+				, presudom Osnovnog suda u Podgorici K.br. 165/09 od 04.04.2011. godine, na kaznu 
+				zatvora u trajanju od 30 dana i istovremeno izrečena mjera bezbjednosti - obavezno 
+				liječenje narkomana, zbog krivičnog djela iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl. 239 st. 1 Krivičnog zakonika
+				</ref>
+				, presudom Osnovnog suda Nikšić K.br. 107/09 od 01.03.2011. godine, na kaznu zatvora u 
+				trajanju od trideset dana zatvora, zbog krivičnog djela iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl. 239 st. 1 Krivičnog zakonika
+				</ref> 
+				, presudom Osnovnog suda u Podgorici K.br. 873/09 od 25.05.2010. godine, na kaznu zatvora 
+				u trajanju od dvije godine, zbog krivičnog djela iz 
+				<ref href="/krivicni#art_240__list_1__point_1_1">
+					čl. 240 st.1 tač.1 u vezi čl. 239 st. 1 Krivičnog zakonika 
+				</ref> 
+				, presudom Osnovnog suda u Podgorici K.br. 1065/09 od 16.10.2009. godine, 
+				na kaznu zatvora u trajanju od šest mjeseci, zbog krivičnog djela iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl. 239 st. 1 Krivičnog zakonika
+				</ref> 
+				, presudom Osnovnog suda u
+				Podgorici K.br. 1711/06 od 14.10.2009. godine, izrečena uslovna osuda tri mjeseca
+				zatvora uslovno na jednu godinu, zbog krivičnog djela iz 
+				<ref href="/krivicni#art_256__list_1__point_1">
+					čl. 256 st. 1 Krivičnog zakonika
+				</ref> 
+				presudom Osnovnog suda Nikšić K.br. 439/08 od 06.10.2009. godine na kaznu 
+				zatvora u trajanju od 30 dana, zbog krivičnog djela iz 
+				<ref href="/krivicni#art_246__list_1__point_1">
+					čl. 246 st. 1/2 Krivičnog zakonika
+				</ref> 
+				, presudom Osnovnog suda Nikšić
+				K.br. 720/08 od 01.10.2009. godine, na kaznu zatvora u trajanju od 50 dana, zbog
+				krivičnog djela iz 
+				<ref href="/krivicni#art_246__list_1__point_1">
+					čl. 246 u vezi čl. 49 Krivičnog zakonika
+				</ref> 
+				, presudom Osnovnog suda u Kotoru K.br. 288/08 od 17.07.2009. godine, na kaznu 
+				zatvora u trajanju od 4 mjeseca, zbog krivičnog djela iz 
+				<ref href="/krivicni#art_240__list_1__point_1_2">
+					čl. 240 st. 1 tač. 2 Krivičnog zakonika
+				</ref> 
+				, presudom
+				Osnovnog suda u Podgorici K.br. 1437/07 od 24.06.2009. godine, na kaznu zatvora u
+				trajanju od 6 mjeseci, zbog krivičnog djela iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl. 239 st. 1 u vezi čl. 49 Krivičnogzakonika
+				</ref> 
+				, presudom Osnovnog suda u Podgorici K.br 67/09 od 04.06.2009. godine, na
+				kaznu zatvora u trajanju od 2 mjeseca, zbog krivičnog djela iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl. 239 st. 1 Krivičnog zakonika
+				</ref> 
+				, presudom Osnovnog suda u Podgorici K.br. 2029/08 od 04.06.2009.
+				godine, na kaznu zatvora u trajanju od 10 mjeseci, zbog krivičnog djela iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl. 239 st. 1 Krivičnog zakonika
+				</ref> 
+				, presudom Osnovnog suda u Podgorici K.br. 1926/08 od 24.03.2009. godine, 
+				na kaznu zatvora u trajanju od 3 mjeseca, zbog krivičnog djela iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl. 239 st. 1 u vezi čl. 49 Krivičnog zakonika
+				</ref> 
+				, presudom Osnovnog suda u Baru
+				K.br. 586/07 od 02.03.2009. godine, na kaznu zatvora u trajanju od 3 mjeseca, zbog
+				krivičnog djela iz 
+				<ref href="/krivicni#art_239">
+					čl. 239 Krivičnog zakonika
+				</ref> 
+				, presudom Osnovnog suda u Podgorici
+				K.br. 1811/08 od 26.02.2009. godine, na kaznu zatvora u trajanju od 3 mjeseca, zbog
+				krivičnog djela iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl. 239 st. 1 u vezi čl. 49 Krivičnog zakonika
+				</ref> 
+				; presudom Osnovnog
+				suda u Podgorici K.br. 1523/08 od 26.02.2009. godine, na kaznu zatvora u trajanju od
+				7 mjeseci, zbog krivičnog djela iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl. 239 st. 1 Krivičnog zakonika
+				</ref> 
+				, presudom
+				Osnovnog suda u Baru K.br. 402/08 od 27.01.2009. godine, na kaznu zatvora u trajanju
+				od 2 mjeseca, zbog krivičnog djela iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl. 239 st. 1 u vezi čl. 23 i čl. 49 KZCG
+				</ref> 
+				 i presudom Osnovnog suda u Podgorici K.br. 680/08 od 05.01.2009. godine, na kaznu
+				zatvora u trajanju od 45 dana, zbog krivičnog djela iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl. 239 st. 1 Krivičnog zakonika
+				</ref> 
+				, 
+			</p>
+			<p style="text-align: center;">K R I V A J E</p>
+			<p>Zato što je:</p>
+			<p>
+				Dana 05.02.2015. godine, oko 12,00 časova, u ul. Slobode br. 35, u Podgorici, 
+				svjesna svog djela, čije je izvršenje htjela i znajući da je njeno djelo zabranjeno, 
+				oduzela drugom tuđu pokretnu stvar u namjeri da njenim prisvajanjem pribavi sebi 
+				protivpravnu imovinsku korist, na način što je iskoristivši nepažnju zaposlenih iz 
+				butika „Paradiso“ vlasništvo DOO „Diamond look“, oduzela i prisvojila žensku jaknu 
+				marke „Veronica“ vrijednosti 300,00 eura, 
+			</p>
+			<p>
+				- čime je izvršila krivično djelo krađa iz 
+				<ref href="/krivicni#art_239__list_1__point_1">
+					čl. 239 st. 1 Krivičnog zakonika Crne Gore
+				</ref> 
+				,
+			</p>
+			<conclusions>
+				<p>
+					- pa je 
+					<organization id="ospodgorica" referesTo="#ospodgorica">
+						Sud
+					</organization> 
+					primjenom citiranog zakonskog propisa, te 
+					<ref href="/krivicni#art_3">
+						čl. 3
+					</ref> 
+					, 
+					<ref href="/krivicni#art_4">
+						4
+					</ref> 
+					, 
+					<ref href="/krivicni#art_5">
+						5
+					</ref> 
+					, 
+					<ref href="/krivicni#art_13">
+						13
+					</ref> 
+					, 
+					<ref href="/krivicni#art_15">
+						15
+					</ref> 
+					, 
+					<ref href="/krivicni#art_32">
+						32
+					</ref> 
+					, 
+					<ref href="/krivicni#art_33">
+						33
+					</ref> 
+					, 
+					<ref href="/krivicni#art_36">
+						36
+					</ref> 
+					, 
+					<ref href="/krivicni#art_42">
+						42
+					</ref> 
+					 i 
+					<ref href="/krivicni#art_43">
+						43 Krivičnog zakonika Crne Gore
+					</ref> 
+					, te 
+					<ref href="/postupak#art_226">
+						čl. 226
+					</ref> 
+					, 
+					<ref href="/postupak#art_227">
+						227
+					</ref> 
+					, 
+					<ref href="/postupak#art_229">
+						229
+					</ref> 
+					, 
+					<ref href="/postupak#art_239">
+						239 
+					</ref> 
+					i 
+					<ref href="/postupak#art_374">
+						374 Zakonika o krivičnom postupku
+					</ref> 
+					, 
+				</p>
+				
+				<p style="text-align: center;">O S U Đ U J E</p>
+
+				<p>
+					Na kaznu zatvora u trajanju od 1 (jedne) godine.
+				</p>
+				<p>
+					Obavezuje se 
+					<party id="st" refersTo="#st" as="#defendant">
+						okrivljena
+					</party> 
+					da na račun budžetskih sredstava Crne Gore na ime troškova krivičnog postupka 
+					uplati iznos od 66,00 € (šezdesetšesteura), te na ime sudskog paušala iznos 
+					od 50,00 € (pedeseteura), sve prednje u roku od 15 (petnaest) dana po 
+					pravnosnažnosti presude pod prijetnjom prinudnog izvršenja.
+				</p>
+				<p>
+					Obavezuje se 
+					<party id="st" refersTo="#st" as="#defendant">
+						okrivljena
+					</party> 
+					da na ime imovinsko - pravnog zahtjeva isplati oštećenom preduzeću „Diamond 
+					Look“ D.O.O. Podgorica iznos od 300,00 € (tristotineeura), u roku od 3 (tri) 
+					mjeseca po pravnosnažnosti presude pod prijetnjom prinudne naplate
+				</p>
+				
+				<p style="text-align: center;">O B R A Z L O Ž E Nj E</p>
+		
+				<p>
+				<span>Optužnim predlogom ODT-a Podgorica Kt.br. 133/15 od 13.02.2015. godine, kojeg je na glavnom pretresu zastupala Šišević Snežana, zamjenik ODT-a Podgorica, okrivljenoj S.T. stavljeno je na teret da je izvršila krivično djelo krađa iz čl. 239 st. 1 Krivično zakonika Crne Gore, bliže opisano izrekom ove presude. </span>
+				</p>
+				<p>
+				<span>Zastupnik optužbe je  i u ponovljenom postupku ostala pri ranije datoj završnoj riječi gdje je navela da je provedenim dokaznim postupkom na nesumnjiv način dokazano izvršenje predmetnog krivičnog djela i predložila je Sudu da okrivljenu oglasi krivom i osudi po zakonu. </span>
+				</p>
+				<p>
+				<span>Okrivljena je u navodima odbrane u prethodnom postupku pred ODT-om Podgorica i na glavnom pretresu u bitnom navela da priznaje izvršenje krivičnog djela stavljeno joj na teret, te da je tačno da je dana 05.02.2015. godine, oko 13, 00 časova, ukrala jaknu sa izloga u butiku „Paradizo“ koji se nalazi na ulici Slobode u Podgorici. Objasnila je da je to uradila tako što je prethodno ušla sa njenim nevjenčanim suprugom D.LJ. u taj butik, jer je on htio da kupi neke cipele, te da dok je D. razgledao cipele, ona je prišla dijelu gdje je izložena ženska garderoba i sa jednog ofingera skinula jednu crnu platnenu zimsku jaknu, a zatim napustila objekat. Odmah je istu prodala na Gintaš jednoj ženi koja se zove R. za iznos od 100, 00 eura. Navela je da se kaje što je to uradila, ali je isto izvršila iz razloga jer ima bebu od 7 mjeseci i zbog lošeg materijalnog stanja, te da se za svo ovo vrijeme nije nigdje krila i da je na poziv inspektora sama došla. Ona je takođe navela da žena kojoj je prodala navedenu jaknu nije znala da je ukradena, već je toj ženi rekla da je ista njena. </span>
+				</p>
+				<p>
+				<span>Okrivljena je u završnoj riječi i u ponovljenom postupku ostala pri ranije datoj završnoj riječi gdje je navela da ostaje pri navodima svoje odbrane, da se kaje zbog toga što je uradila, i da moli Sud da ima u vidu da je majka dvoje maloljetne djece, i da predmetno djelo nije izvršila da bi sebi obezbjedila drogu ili nešto slično, već da bi obezbjedila sredstva za život. </span>
+				</p>
+				<p>
+				<span>Sud je u dokaznom postupku: na saglastan predlog stranaka pročitao svjedočki iskaz ovlašćenog predstavnika oštećenog „Diamond Look“ iz Podgorice, sa zapisnika pred ODT-om Podgorica Ktr.br. 133/15 od 12.02.2015. godine, pročitao kalkulaciju DOO „Diamond Look“ br. 15-10B1-000012 od 23.01.2015. godine, pročitao nalaz i mišljenje vještaka komercijalne struke Djurašković Duška od 17.02.2016 godine, pročitao izvod iz kaznene evidencije na ime okrivljene, izdat od Ministarstva pravde Ke.br. 888/15 od 02.10.2015. godine, izvršio uvid u CD zapis video nadzora butika „Paradiso“ vlasništvo DOO „Diamond Look“.</span>
+				</p>
+				<p>
+				<span>Slijedeći provedeni dokazni postupak, te izvore saznanja o odlučnim činjenicama sadržanim u istom, Ovaj sud zaključuje da su se u naprijed preduzetim radnjama okrivljene stekli svi subjektivni i objektivni elementi bića krivičnog djela koje joj se činjeničnim navodima optuženja stavlja na teret, radi čega je Sud najprije utvrdio krivicu okrivljene, i ocijenio da će se efektivnom kaznom zatvora na način i u trajanju kao u izreci presude ostvariti svrha kažnjavanja propisana čl. 32 Krivičnog zakonika Crne Gore. </span>
+				</p>
+				<p>
+				<span>Saslušana u prethodnom postupku pred ODT-om Podgorica, ovlašćeni predstavnik oštećenog „Diamond Look“ Podgorica, B.T. u bitnom je navela da je ona šef maloprodajnog objekta „Paradiso“, koji se nalazi u ul. Slobode, a koji posluje u sklopu preduzeća „Diamond Luk“. Dana 05.02.2015. godine, oko 12, 00 časova, u tom maloprodajnom objektu izvršena je krađa ženske zimske jakne marke „Veronica“ vrijednosti 300, 00 eura. Navela je da je kompletan događaj zabilježio njihov video nadzor u objektu, i isti su oni dostavili policiji kada su podnijeli prijavu. Takođe je navela da su o vrijednosti jakne dostavili kalkulacijsku cijenu i radi se o jakni vrijednoj 300, 00 eura. Konačno je navela da se u ime oštećenog preduzeća pridružuje krivičnom gonjenju protiv okrivljene i postavlja imovinsko pravni zahtjev u iznosu od 300, 00 eura, budući da im jakna nije vraćena. </span>
+				</p>
+				<p>
+				<span>Iz kalkulacije DOO „Diamond Look“ br. 15-10B1-000012 od 23.01.2015. godine proizilazi da prodajna cijena 41000748-crne ženske jakne marke VERONICA iznosi 300,00 €. </span>
+				</p>
+				<p>
+				<span>Iz nalaza i mišljenja vještaka komercijalne struke Djurašković Duška od 17.02.2016 godine proizilazi da je vještak utvrdio cijene koštanja predmetne stvari na dan izvršenja krivičnog djela i to jakne ženske, zimske, platnene sa krznenim okovratnikom marke "Veronica", crne boje, koja procjena vrijednosti na dan izvršenja krivičnog djela iznosi 300,00 eura, kao i da je kupoprodajna cijena protivpravno oduzete i prisvojene predmetne pokretne stvari - ženske zimske jakne na dan izvršenja krivičnog djela utvrdjena i data na osnovu cjenovnika oštećene firme DOO "Diamond Look" iz Podgorice.</span>
+				</p>
+				<p>
+				<span>Iz CD zapisa video nadzora butika "Paradiso", Sud je utvrdio da se u istom nalazi snimak iz video kamere koji predstavlja unutrašnjost butika „Paradiso“. Iz istog se vidi da predmetnog dana, dakle 05.02.2015 godine, u 11:49:15 ulazi jedna muška i jedna ženska osoba obučena u crvenu žensku jaknu, crne pantalone i crvene patike, nakon čega se ženska približava dijelu objekta u kojem su izložene jakne, da bi u 11:49:34 sa tog dijela uzela crnu jaknu, a nakon toga u 11:49:47 napustila objekat. Nakon što je Sud izvršio uvid u predmetni CD zapis video nadzora, okrivljena S.T. je navela da je ona ta ženska osoba koja se vidi u istom i da je ona uzela predmetnu jaknu. </span>
+				</p>
+				<p>
+				<span>Iz izvoda iz kaznene evidencije na ime okrivljene, izdatog od Ministarstva pravde Ke.br. 888/15 od 02.10.2015. godine proizilazi da je okrivljena ranije osuđivana i to: presudom Osnovnog suda Ulcinj K.br. 26/11 od 19.08.2011. godine na kaznu zatvora u trajanju od 2 mjeseca, zbog krivičnog djela iz čl. 239 Krivičnog zakonika, presudom Osnovnog suda u Podgorici K.br. 165/09  od 04.04.2011. godine, na kaznu zatvora u trajanju od 30 dana i istovremeno izrečena mjera bezbjednosti -  obavezno liječenje narkomana, zbog krivičnog djela iz čl. 239 st. 1 Krivičnog zakonika, presudom Osnovnog suda Nikšić K.br. 107/09 od 01.03.2011. godine, na kaznu zatvora u trajanju od trideset dana zatvora, zbog krivičnog djela iz čl. 239 st. 1 Krivičnog zakonika, presudom Osnovnog suda u Podgorici K.br. 873/09 od 25.05.2010. godine, na kaznu zatvora u trajanju od dvije godine, zbog krivičnog djela iz čl. 240 st.1 tač.1 u vezi čl. 49 Krivičnog zakonika, presudom Osnovnog suda u Podgorici K.br. 1065/09 od 16.10.2009. godine, na kaznu zatvora u trajanju od šest mjeseci, zbog krivičnog djela iz čl. 239 st. 1 Krivičnog zakonika, presudom Osnovnog suda u Podgorici K.br. 1711/06 od 14.10.2009. godine, izrečena uslovna osuda tri mjeseca zatvora uslovno na jednu godinu,  zbog krivičnog djela iz čl. 256 st. 1 Krivičnog zakonika, presudom Osnovnog suda Nikšić K.br. 439/08 od 06.10.2009. godine na kaznu zatvora u trajanju od 30 dana, zbog krivičnog djela iz čl. 246 st. 1/2 Krivičnog zakonika, presudom Osnovnog suda Nikšić K.br. 720/08 od 01.10.2009. godine, na kaznu zatvora u trajanju od 50 dana, zbog krivičnog djela iz čl. 246 u vezi čl. 49 Krivičnog zakonika,  presudom Osnovnog suda u Kotoru K.br. 288/08 od 17.07.2009. godine, na kaznu zatvora u trajanju od 4 mjeseca, zbog krivičnog djela iz čl. 240 st. 1 tač. 2 Krivičnog zakonika, presudom Osnovnog suda u Podgorici K.br. 1437/07 od 24.06.2009. godine, na kaznu zatvora u trajanju od 6 mjeseci, zbog krivičnog djela iz čl. 239 st. 1 u vezi čl. 49 Krivičnog zakonika, presudom Osnovnog suda u Podgorici K.br 67/09 od 04.06.2009. godine, na kaznu zatvora u trajanju od 2 mjeseca, zbog krivičnog djela iz čl. 239 st. 1 Krivičnog zakonika, presudom Osnovnog suda u Podgorici K.br. 2029/08 od 04.06.2009. godine, na kaznu zatvora u trajanju od 10 mjeseci, zbog krivičnog djela iz čl. 239 st. 1 Krivičnog zakonika, presudom Osnovnog suda u Podgorici K.br. 1926/08 od 24.03.2009. godine, na kaznu zatvora u trajanju od 3 mjeseca, zbog krivičnog djela iz čl. 239 st. 1 u vezi čl. 49 Krivičnog zakonika, presudom Osnovnog suda u Baru K.br. 586/07 od 02.03.2009. godine, na kaznu zatvora u trajanju od 3 mjeseca, zbog krivičnog djela iz čl. 239 Krivičnog zakonika, presudom Osnovnog suda u Podgorici K.br. 1811/08 od 26.02.2009. godine, na kaznu zatvora u trajanju od 3 mjeseca, zbog krivičnog djela iz čl. 239 st. 1 u vezi čl. 49 Krivičnog zakonika; presudom Osnovnog suda u Podgorici K.br. 1523/08 od 26.02.2009. godine, na kaznu zatvora u trajanju od 7 mjeseci, zbog krivičnog djela iz čl. 239 st. 1 Krivičnog zakonika, presudom Osnovnog suda u Baru K.br. 402/08 od 27.01.2009. godine, na kaznu zatvora u trajanju od 2 mjeseca, zbog krivičnog djela iz čl. 239 st. 1 u vezi čl. 23 i čl. 49 KZCG i  presudom Osnovnog suda u Podgorici K.br. 680/08 od 05.01.2009. godine, na kaznu zatvora u trajanju od 45 dana, zbog krivičnog djela iz čl. 239 st. 1 Krivičnog zakonika. </span>
+				</p>
+				<p>
+				<span>Okrivljena S.T. tokom postupka nije sporila da je predmetnog dana, oko 13,00 časova ukrala jaknu sa izloga u butiku "Paradiso" koji se nalazi u Ulici Slobode u Podgorici. Objasnila je da je to uradila tako što je prethodno ušla sa njenim nevjenčanim suprugom LJ.D. u odnosni butik, pa dok je on razgledao cipele, ona je prišla dijelu gdje je izložena garderoba, i sa jednog ofingera skinula crnu platnenu zimsku jaknu, napustila objekat, i istu je prodala jednoj ženi u "Gintašu" za iznos od 100,00 eura. Ovakvi navodi odbrane okrivljene potkrijepljeni su i iskazom B.T., ovlašćenog predstavnika oštećenog "Diamond Look", koji Sud cijeni istinitim i objektivnim, a koja je posvjedočila da je predmetnog dana  u odnosnom butiku izvršena kradja ženske zimske jakne marke "Veronica", vrijednosti 300,00 €. Da je okrivljena  preduzela inkriminisanu radnju kojom je ostvarila subjektivna i objektivna obilježja predmetnog krivičnog djela, Sud je nesumnjivo utvrdio iz CD zapisa video nadzora butika "Paradiso", iz kojeg se nepobitno zaključuje da je dana 05.02.2015 godine  u 11:49:34 časova ženska osoba  uzela crnu jaknu, a potom u 11:49:47 časova  ista ženska osoba napustila predmetni objekat, a posebno pri činjenici što okrivljena S.T. nije sporila da je ona ta ženska osoba sa CD zapisa koja je kritičnom prilikom oduzela navedenu žensku jaknu marke "Veronica". </span>
+				</p>
+				<p>
+				<span>Kako vrijednost oduzete stvari kod krivičnih djela upravljenih protiv imovine, u konkretnom slučaju krivičnog djela kradja iz čl. 239 st. 1 Krivičnog zakonika Crne Gore predstavlja konstitutivni element tog krivičnog djela, Sud je vrijednost predmetne jakne marke "Veronica" (vrijednosti 300,00 €) utvrdio iz kalkulacije DOO "Diamond Look" br. 15-10B1-000012 od 23.01.2015 godine, ali takodje i iz nalaza i mišljenja sudskog vještaka komercijalne struke koji je Sud ocjenio stručnim, objektivnim i zasnovanim na pravilima struke i vještine, a iz kojeg se zaključuje da je vrijednost pokretne stvari, jakne ženske, zimske, platnene, sa krznenim okovratnikom marke "Veronica", crne boje, 300,00 €, koja cijena je od strane vještaka data i utvrdjena na osnovu cjenovnika oštećene firme DOO "Diamond Look" iz Podgorice. Sud cijeni i navode odbrane okrivljene da je predmetnu jaknu nakon otudjenja iz butika "Paradiso", vlasništvo DOO "Diamond Look" prodala u "Gintašu" izvjesnoj R. za iznos od 100,00 eura. Medjutim, to što je okrivljena navedenu jaknu prodala za iznos  od 100,00 € ukazuje samo  da je ista izabrala da se za znatno manju od utvrdjene cijene predmetne jakne u ovom postupku, oslobodi predmeta izvršenja krivičnog djela, tako da ovakvi navodi odbrane okrivljene za Sud ne predstavljaju valjano uporište, na bazi kojeg bi zasnivao svoje činjenično utvrdjenje u dijelu koji se odnosi na utvrdjenje cijene koštanja predmetne jakne. Takodje, Sud cijeni i navode odbrane okrivljene akcentovane u završnoj riječi da Sud ima u vidu da je ona majka dvoje maloljetne djece, da predmetno djelo nije izvršila da bi sebi obezbijedila drogu ili nešto slično, vać da bi obezbijedila sredstva za život. Medjutim, Sud je stanovišta da su ovakvi navodi odbrane okrivljene usmjereni na olakšavanje sopstvenog procesnog položaja u ovom postupku, a njeni navodi da je predmetno djelo učinila radi obezbjedjenja neophodnih sredstava za život, usmjereni su, i po ocjeni Ovog suda tendenciozno kanalisani s ciljem osiguranja eventualno što većeg broja olakšavajućih okolnosti na njenoj strani tim prije što loše materijalne prilike nikako ne mogu biti opravdanje za preduzimanje inkriminisane radnje kojom se ostvaruju obilježja nekog krivičnog djela, već okrivljena kao i svaki drugi gradjanin radi obezbjedjenja osnovnih egzistencijalnih potreba rješenje treba tražiti u samom radnom angažmanu koji ne predstavlja protivpravan i društveno neprihvatljiv način za sticanje materijalnih sredstava. </span>
+				</p>
+				<p>
+				<span>Pravno kvalifikujući utvrđeno činjenično stanje, Ovaj sud nalazi da su se naprijed preduzetim radnjama okrivljene, ostvarili svi subjektivni i objektivni elementi bića krivičnog djela krađa iz čl. 239 st. 1 Krivičnog zakonika Crne Gore, u odnosu na koje djelo je okrivljena na subjektivnom planu postupila sa direktnim umišljajem kao oblikom krivice obzirom da je htjela izvršenje istog i znala da je njeno djelo zabranjeno, a sve u namjeri da prisvajanjem tuđe pokretne stvari pribavi sebi protivpravnu imovinsku korist. </span>
+				</p>
+				<p>
+				<span>Prilikom izbora vrste i visine krivične sankcije, Sud je najprije, a u smislu čl. 42 Krivičnog zakonika, cjenio sve okolnosti od kojih zavisi da kazna bude veća ili manja, a u okviru zakonskog minimuma i maksimuma za predmetno krivičnog djelo, pa je od olakšavajućih okolnosti na strani okrivljene cijenio njene porodične prilike, to što je ista majka dvoje djece, kao i njene imovne prilike, odnosno loše imovinsko stanje, dok je od otežavajućih okolnosti cijenio njenu višestruku osudjivanost utvrdjenu izvodom iz registra kaznene evidencije Ministarstva pravde Crne Gore i to većinom za krivična djela upravljena protiv imovine (odnosno za istovrsna i istorodna krivična djela), što nesumnjivo upućuje da se radi o specijalnom povratniku, sa kojih razloga je Sud, imajući u vidu navedene okolnosti i njihov međusobni odnos, okrivljenu S.T. osudio na kaznu zatvora u trajanju od jedne godine, nalazeći da je upravo ovako odmjerena kazna zatvora za okrivljenu neophodna i dovoljna, kako sa aspekta generalne, tako i sa stanovišta specijalne prevencije, i istom se pored svrhe kažnjavanja, propisane čl. 32 Krivičnog zakonika Crne Gore, ima ostvariti i opšta svrha propisivanja i izricanja krivičnih sankcija iz čl. 4 st. 2 Istog zakonika. Dakle, Sud je stanovišta da je naprijed navedena kazna zatvora za okrivljenu adekvatna, kako težini izvršenog krivičnog djela, tako i ličnosti okrivljene kao izvršioca, posebno pri činjenici što njena višestruka ranija osudjivanost ukazuje na sklonost ka vršenju krivičnih djela upravljenih protiv imovine, tako da je Sud uvjerenja da navedena kazna predstavlja onu mjeru kojom se izražava neophodna društvena reakcija, kako u odnosu na učinjeno krivično djelo, tako i u odnosu na raniji život okrivljene, te stepen njene krivice. </span>
+				</p>
+				<p>
+				<span>Sud je, u smislu čl. 239 Zakonika o krivičnom postupku, imajući u vidu da je vrijednost protivpravno oduzete predmetne jakne marke "Veronica" upravo 300,00 eura, a koja jakna nije vraćena oštećenom, obavezao okrivljenu da na ime postavljenog imovinsko - pravnog zahtjeva oštećenom preduzeću „Diamond Look“ DOO Podgorica isplati iznos od 300,00 eura u roku od tri mjeseca po pravnosnažnosti ove presude. </span>
+				</p>
+				<p>
+				<span>Odluku o troškovima sud je donio primjenom čl. 226, 227 i 229 Zakonika o krivičnom postupku, i obavezao okrivljenu da na račun budžetskih sredstava Crne Gore, na ime troškova krivičnog postupka uplati iznos od 66,00 € (šezdesetšesteura), koji troškovi se odnose na izradu nalaza i mišljenja po vještaku komercijalne struke, dok je iznos od 50,00 € (pedeseteura) na ime sudskog paušala odmjeren shodno trajanju, složenosti postupka i imovinskim prilikama okrivljene. </span>
+				</p>
+				<p>
+				<span>Na osnovu izloženog, a shodnu članu 374 Zakonika o krivičnom postupku odlučeno je kao u izreci presude. </span>
+				</p>
+				<p style="text-align:center;">
+				<span>OSNOVNI SUD PODGORICADana, 21.04.2016 godine</span>
+				</p>
+				<p>
+				<span>    ZAPISNIČAR                                                                                      SUDIJA</span>
+				</p>
+				<p>
+				<span>Valentina Vukašinović, s.r.      Larisa Mijušković-Stamatović, s.r.</span>
+				</p>
+				<p>
+				<span>PRAVNA POUKA:</span>
+				</p>
+				<p>
+				<span>Protiv ove presude može se izjaviti žalba u roku </span>
+				</p>
+				<p>
+				<span>od 8 (osam) dana od dana prijema pismenog otpravka</span>
+				</p>
+				<p>
+				<span>iste, Višem sudu u Podgorici, a preko ovog suda.</span>
+				</p>
+				<p style="text-align:center;">
+				<span>ZTO: Valentina Vukašinović</span>
+				</p>
+				<li>
+				<span>DN-a</span>
+				</li>
+				<li>
+				<span>Primjerak presude dostaviti:</span>
+				</li>
+				<li>
+				<span>- ODT-u Podgorica</span>
+				</li>
+				<li>
+				<span>- Okrivljenoj</span>
+				</li>
+				<li>
+				<span>- Oštećenom nakon pravnosnažnosti</span>
+				</li>
+				<li>
+				<span>     S u d i j a, </span>
+				</li>
+				<li>
+				<span>___________________</span>
+				</li>
+				<li>
+				<span>Postupljeno dana______________</span>
+				</li>
+				<li>
+				<span>Namještenik__________________</span>
+				</li>
+			</conclusions>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>
