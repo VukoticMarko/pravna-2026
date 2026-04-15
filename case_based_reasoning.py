@@ -1,5 +1,6 @@
 import argparse
 import json
+import math
 import re
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Set
@@ -23,6 +24,17 @@ COLUMNS_TO_EXCLUDE = [
 ]
 
 
+def sigmoid_normalize(x: float, midpoint: float = 0.5, steepness: float = 5.0) -> float:
+    """Maps any real number to the (0, 1) range using a sigmoid function.
+
+    The sigmoid is shifted so that ``midpoint`` maps to 0.5 and
+    ``steepness`` controls how quickly the curve transitions.
+    Values close together in the input remain distinguishable in
+    the output, unlike hard clamping with min/max.
+    """
+    return 1.0 / (1.0 + math.exp(-steepness * (x - midpoint)))
+
+
 def calc_jaccard_similarity(set1: Set[str], set2: Set[str]) -> float:
     """Calculates the Jaccard similarity between two sets of words."""
     intersection = len(set1.intersection(set2))
@@ -31,10 +43,10 @@ def calc_jaccard_similarity(set1: Set[str], set2: Set[str]) -> float:
 
 
 def calc_modified_jaccard_similarity(
-    jaccard_similarity: float,
-    avg_value: float,
-    threshold: float,
-    value_diff: float,
+        jaccard_similarity: float,
+        avg_value: float,
+        threshold: float,
+        value_diff: float,
 ) -> float:
     """Adjusts Jaccard similarity based on difference in stolen item values."""
     if value_diff <= threshold:
@@ -42,11 +54,12 @@ def calc_modified_jaccard_similarity(
         modified_diff = (1 - (value_diff / threshold)) / 10  # max +0.1
         jaccard_similarity += modified_diff
     else:
-        # Penalize similarity if values are far apart
-        modified_diff = value_diff / (10 * avg_value) if avg_value > 0 else 0
+        excess = value_diff - threshold
+        decay = avg_value if avg_value > 0 else 1
+        modified_diff = 0.1 * (1 - math.exp(-excess / decay)) # max -0.1
         jaccard_similarity -= modified_diff
 
-    return max(0.0, min(1.0, jaccard_similarity))
+    return sigmoid_normalize(jaccard_similarity)
 
 
 def get_case_set(values: Iterable[str]) -> Set[str]:
@@ -57,7 +70,12 @@ def get_case_set(values: Iterable[str]) -> Set[str]:
 
 def get_case_dict(df: pd.DataFrame, index: int, similarity: float) -> Dict[str, Any]:
     """Converts a dataframe row into a dictionary with similarity score."""
-    case_data = df.iloc[index].astype(str).to_dict()
+    case_data = df.iloc[index].to_dict()
+    # Replace 'NaN' strings produced by pandas with None (serializes to JSON null)
+    case_data = {
+        k: (None if pd.isna(v) else v)
+        for k, v in case_data.items()
+    }
     case_data["jaccard_similarity"] = round(float(similarity), 3)
     return case_data
 
@@ -70,7 +88,7 @@ def process_similarity_analysis(stolen_value: float, criminal_act: str, intentio
         return
 
     df = pd.read_csv(csv_path)
-    
+
     # Calculate statistics for normalization
     avg_value = df["vr_ukradenih_stvari"].mean() if not df.empty else 0
     threshold = avg_value / 5
@@ -113,8 +131,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     process_similarity_analysis(
-        args.stolen_value, 
-        args.criminal_act, 
-        args.intention, 
+        args.stolen_value,
+        args.criminal_act,
+        args.intention,
         args.steal_way
     )
