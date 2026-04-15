@@ -34,7 +34,7 @@ public class CsvService {
      * @param dto data to save
      */
     public void saveCase(CaseBasedReasoningDTO dto) {
-        Path path = getRootPath().resolve(CSV_FILE);
+        Path path = getRootPath().getParent().resolve(CSV_FILE);
         String[] data = {
                 dto.getCourt(), dto.getCaseNumber(), dto.getJudge(), dto.getDefendant(),
                 dto.getPlaintiff(), String.valueOf(dto.getValueOfStolenThings()),
@@ -57,7 +57,7 @@ public class CsvService {
      * @return mapped metadata or null if not found
      */
     public MetadataDTO findByCaseNumber(String caseNumber) {
-        Path path = getRootPath().resolve(CSV_FILE);
+        Path path = getRootPath().getParent().resolve(CSV_FILE);
         try (BufferedReader br = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
             String line = br.readLine(); // skip header
             while ((line = br.readLine()) != null) {
