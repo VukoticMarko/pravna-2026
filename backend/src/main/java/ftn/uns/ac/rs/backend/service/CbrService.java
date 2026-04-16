@@ -44,7 +44,7 @@ public class CbrService {
      *         database.
      */
     public String generateReasoning(CaseBasedReasoningDTO dto) throws IOException {
-        Path rootPath = csvService.getRootPath();
+        Path rootPath = csvService.getRootPath().getParent();
         Path scriptPath = rootPath.resolve("case_based_reasoning.py");
         Path exportPath = rootPath.resolve("cbr.txt");
 
