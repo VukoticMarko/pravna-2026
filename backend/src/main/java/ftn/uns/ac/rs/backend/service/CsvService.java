@@ -21,20 +21,20 @@ public class CsvService {
 
     /**
      * Resolves the root project path from the execution directory.
-     * 
+     *
      * @return absolute path to project root
      */
     public Path getRootPath() {
-        return Paths.get(System.getProperty("user.dir")).getParent();
+        return Paths.get(System.getProperty("user.dir"));
     }
 
     /**
      * Appends a new case record to the central CSV database.
-     * 
+     *
      * @param dto data to save
      */
     public void saveCase(CaseBasedReasoningDTO dto) {
-        Path path = getRootPath().resolve(CSV_FILE);
+        Path path = getRootPath().getParent().resolve(CSV_FILE);
         String[] data = {
                 dto.getCourt(), dto.getCaseNumber(), dto.getJudge(), dto.getDefendant(),
                 dto.getPlaintiff(), String.valueOf(dto.getValueOfStolenThings()),
@@ -52,12 +52,12 @@ public class CsvService {
 
     /**
      * Searches the CSV for a specific case number and returns its metadata.
-     * 
+     *
      * @param caseNumber identifying number
      * @return mapped metadata or null if not found
      */
     public MetadataDTO findByCaseNumber(String caseNumber) {
-        Path path = getRootPath().resolve(CSV_FILE);
+        Path path = getRootPath().getParent().resolve(CSV_FILE);
         try (BufferedReader br = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
             String line = br.readLine(); // skip header
             while ((line = br.readLine()) != null) {
@@ -80,7 +80,7 @@ public class CsvService {
 
     /**
      * Joins data into a single CSV row, escaping special characters.
-     * 
+     *
      * @param data array of strings
      * @return formatted row
      */
@@ -92,7 +92,7 @@ public class CsvService {
 
     /**
      * Escapes commas, quotes and newlines for CSV safety.
-     * 
+     *
      * @param data cell content
      * @return escaped content
      */
@@ -108,7 +108,7 @@ public class CsvService {
 
     /**
      * Maps an array of CSV columns to a MetadataDTO.
-     * 
+     *
      * @param p parts (columns)
      * @return MetadataDTO representation
      */
@@ -122,13 +122,13 @@ public class CsvService {
         }
         try {
             return new MetadataDTO(
-                clean(p[0]), clean(p[1]), clean(p[2]), clean(p[3]),
-                p.length > 4 ? clean(p[4]) : "",
-                stolenValue,
-                p.length > 6 ? clean(p[6]) : "",
-                p.length > 7 ? clean(p[7]) : "",
-                p.length > 8 ? clean(p[8]) : "",
-                p.length > 9 ? clean(p[9]) : "");
+                    clean(p[0]), clean(p[1]), clean(p[2]), clean(p[3]),
+                    p.length > 4 ? clean(p[4]) : "",
+                    stolenValue,
+                    p.length > 6 ? clean(p[6]) : "",
+                    p.length > 7 ? clean(p[7]) : "",
+                    p.length > 8 ? clean(p[8]) : "",
+                    p.length > 9 ? clean(p[9]) : "");
         } catch (Exception e) {
             System.err.println("Mapping failed: " + e.getMessage());
             return null;
@@ -137,7 +137,7 @@ public class CsvService {
 
     /**
      * Utility to remove artifacts like quotes from CSV reads.
-     * 
+     *
      * @param s raw string
      * @return cleaned string
      */

@@ -7,7 +7,7 @@
 
 # Maven (backend/)
 backend/target/
-backend/.mvn/
+backend/.mvn/wrapper/maven-wrapper.jar
 
 # React (frontend/)
 frontend/node_modules/

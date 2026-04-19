@@ -83,7 +83,7 @@ public class RbrService {
 
     /** Executes the rule-based reasoning workflow. */
     public String generateReasoning(RuleBasedReasoningDTO dto) throws IOException, InterruptedException {
-        Path rootPath = csvService.getRootPath();
+        Path rootPath = csvService.getRootPath().getParent();
         Path drDevicePath = rootPath.resolve("dr-device");
 
         generateFactsRDF(drDevicePath.resolve("facts.rdf"), dto);
