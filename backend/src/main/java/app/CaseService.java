@@ -1,9 +1,9 @@
-package ftn.uns.ac.rs.backend;
+package app;
 
-import ftn.uns.ac.rs.backend.dto.CaseBasedReasoningDTO;
-import ftn.uns.ac.rs.backend.dto.MetadataDTO;
-import ftn.uns.ac.rs.backend.service.CsvService;
-import ftn.uns.ac.rs.backend.service.RegexParser;
+import app.dto.CaseBasedReasoningDTO;
+import app.dto.MetadataDTO;
+import app.service.CsvService;
+import app.service.RegexParser;
 import lombok.AllArgsConstructor;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;

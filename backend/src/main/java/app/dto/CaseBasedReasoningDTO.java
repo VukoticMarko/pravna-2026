@@ -1,4 +1,4 @@
-package ftn.uns.ac.rs.backend.dto;
+package app.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
  * <p>
  * <b>Usage:</b>
  * 1. As a request body in
- * {@link ftn.uns.ac.rs.backend.controller.CaseBasedReasoningController}.
+ * {@link app.controller.CaseBasedReasoningController}.
  * 2. As an input parameter for {@code CsvService#saveCase} when creating new
  * records.
  * </p>

@@ -1,4 +1,4 @@
-package ftn.uns.ac.rs.backend.dto;
+package app.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
  * 
  * <p>
  * <b>Usage:</b> This DTO is primarily used as a response object in
- * {@link ftn.uns.ac.rs.backend.controller.CaseController}.
+ * {@link app.controller.CaseController}.
  * </p>
  * 
  * <p>

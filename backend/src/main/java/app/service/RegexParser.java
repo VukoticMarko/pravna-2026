@@ -1,4 +1,4 @@
-package ftn.uns.ac.rs.backend.service;
+package app.service;
 
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;

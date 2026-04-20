@@ -1,4 +1,4 @@
-package ftn.uns.ac.rs.backend.config;
+package app.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,6 +1,6 @@
-package ftn.uns.ac.rs.backend.service;
+package app.service;
 
-import ftn.uns.ac.rs.backend.dto.RuleBasedReasoningDTO;
+import app.dto.RuleBasedReasoningDTO;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -83,6 +83,7 @@ public class RbrService {
 
     /** Executes the rule-based reasoning workflow. */
     public String generateReasoning(RuleBasedReasoningDTO dto) throws IOException, InterruptedException {
+        // backend CWD is backend/, so go up one level to the project root for dr-device
         Path rootPath = csvService.getRootPath().getParent();
         Path drDevicePath = rootPath.resolve("dr-device");
 
@@ -133,19 +134,19 @@ public class RbrService {
         StringBuilder reasoning = new StringBuilder("PREKRŠEN ZAKON: ");
         boolean found = false;
 
-        // Check Law Mappings
+        // export.rdf uses XML entity references: rdf:about='&export;robbery_lv1'
+        // We must search for the entity-reference form of the tag name
         for (Map.Entry<String, String> entry : LAW_MAPPINGS.entrySet()) {
-            if (raw.contains("<export:" + entry.getKey())) {
+            if (raw.contains("&export;" + entry.getKey())) {
                 reasoning.append(entry.getValue());
                 found = true;
                 break;
             }
         }
 
-        // Check Competition Mappings
         if (!found) {
             for (Map.Entry<String, String> entry : COMPETITION_MAPPINGS.entrySet()) {
-                if (raw.contains("<export:" + entry.getKey())) {
+                if (raw.contains("&export;" + entry.getKey())) {
                     reasoning.append(entry.getValue());
                     found = true;
                     break;
@@ -158,7 +159,7 @@ public class RbrService {
 
         reasoning.append(" KAZNA: ");
         for (Map.Entry<String, String> entry : PUNISHMENT_MAPPINGS.entrySet()) {
-            if (raw.contains("<export:" + entry.getKey())) {
+            if (raw.contains("&export;" + entry.getKey())) {
                 reasoning.append(entry.getValue());
             }
         }

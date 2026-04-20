@@ -1,7 +1,7 @@
-package ftn.uns.ac.rs.backend.controller;
+package app.controller;
 
-import ftn.uns.ac.rs.backend.dto.CaseBasedReasoningDTO;
-import ftn.uns.ac.rs.backend.service.CbrService;
+import app.dto.CaseBasedReasoningDTO;
+import app.service.CbrService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,8 +1,8 @@
-package ftn.uns.ac.rs.backend.controller;
+package app.controller;
 
-import ftn.uns.ac.rs.backend.CaseService;
-import ftn.uns.ac.rs.backend.dto.CaseBasedReasoningDTO;
-import ftn.uns.ac.rs.backend.dto.MetadataDTO;
+import app.CaseService;
+import app.dto.CaseBasedReasoningDTO;
+import app.dto.MetadataDTO;
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

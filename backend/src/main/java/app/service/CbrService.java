@@ -1,6 +1,6 @@
-package ftn.uns.ac.rs.backend.service;
+package app.service;
 
-import ftn.uns.ac.rs.backend.dto.CaseBasedReasoningDTO;
+import app.dto.CaseBasedReasoningDTO;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -44,9 +44,9 @@ public class CbrService {
      *         database.
      */
     public String generateReasoning(CaseBasedReasoningDTO dto) throws IOException {
-        Path rootPath = csvService.getRootPath().getParent();
-        Path scriptPath = rootPath.resolve("case_based_reasoning.py");
-        Path exportPath = rootPath.resolve("cbr.txt");
+        Path rootPath = csvService.getRootPath();
+        Path scriptPath = rootPath.resolve("scripts").resolve("cbr").resolve("case_based_reasoning.py");
+        Path exportPath = rootPath.resolve("scripts").resolve("cbr").resolve("cbr.txt");
 
         try {
             ProcessBuilder pb = new ProcessBuilder(

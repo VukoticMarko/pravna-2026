@@ -1,4 +1,4 @@
-package ftn.uns.ac.rs.backend.dto;
+package app.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
  * 
  * <p>
  * <b>Usage:</b> Passed as the request body to
- * {@link ftn.uns.ac.rs.backend.controller.RuleBasedReasoningController}.
+ * {@link app.controller.RuleBasedReasoningController}.
  * </p>
  * 
  * <p>

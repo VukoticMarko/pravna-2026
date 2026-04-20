@@ -1,7 +1,7 @@
-package ftn.uns.ac.rs.backend.controller;
+package app.controller;
 
-import ftn.uns.ac.rs.backend.dto.RuleBasedReasoningDTO;
-import ftn.uns.ac.rs.backend.service.RbrService;
+import app.dto.RuleBasedReasoningDTO;
+import app.service.RbrService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
