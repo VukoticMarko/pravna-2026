@@ -13,3 +13,7 @@ backend/.mvn/wrapper/maven-wrapper.jar
 frontend/node_modules/
 frontend/.next/
 
+# Large Models
+backend/models/
+*.gguf
+

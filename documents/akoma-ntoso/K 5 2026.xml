@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>Upravni Sud CG</FRBRauthor>
+					<FRBRdate date="2026-03-08">2026-03-08</FRBRdate>
+					<FRBRtitle>K 5/2026</FRBRtitle>
+					<FRBRcountry>CG</FRBRcountry>
+				</FRBRWork>
+			</identification>
+		</meta>
+		<judgmentBody>
+			<p>
+				<organization id="court">Upravni Sud CG</organization>, sudija <party as="#judge">Marko V.</party>, optuženi <party as="#defendant">A.M.</party>, krivično djelo <ref href="/pdf/krivicni-zakonik.html#art_239">cl. 239 st.1</ref>.
+			</p>
+			<p style="text-align: center;">P R E S U D U</p>
+			<p>Okrivljeni <party as="#defendant">A.M.</party> je KRIV.</p>
+			<p>OSUĐUJE SE na 5 godina zatvora..</p>
+			<conclusions>
+				<p>Obrazloženje: </p>
+			</conclusions>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>
