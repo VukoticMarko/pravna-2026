@@ -30,10 +30,6 @@ export default function PresudeIZakoni() {
       await fetch(`http://localhost:3000/api/pdfs?dir=${encodeURI("/pdf/presude")}`)
         .then((res) => res.json())
         .then((data) => setPresude(data));
-
-      await fetch(`http://localhost:3000/api/pdfs?dir=${encodeURI("/pdf/zakoni")}`)
-        .then((res) => res.json())
-        .then((data) => setZakoni(data));
     };
 
     getPdfFiles();
@@ -67,22 +63,9 @@ export default function PresudeIZakoni() {
           <CardTitle>Judgements and Law</CardTitle>
           <CardDescription>Browse judgements and law in PDF format.</CardDescription>
         </CardHeader>
-        <CardContent className="h-[90%]">
-          <Tabs
-            value={tab}
-            onValueChange={onTabChange}
-            className="flex flex-col pl-3 py-3 w-96 h-full"
-          >
-            <div className="hack pb-4">
-              <TabsList>
-                <TabsTrigger value="presude">Judgements</TabsTrigger>
-                <TabsTrigger value="zakoni">Law</TabsTrigger>
-              </TabsList>
-            </div>
-            <TabsContent
-              value="presude"
-              className="flex-grow overflow-auto"
-            >
+        <CardContent className="h-[90%] flex flex-col pt-3 pl-3">
+          <div className="flex flex-col w-96 h-full">
+            <div className="flex-grow overflow-auto">
               <ScrollArea
                 className="h-full"
                 type="always"
@@ -99,29 +82,8 @@ export default function PresudeIZakoni() {
                   ))}
                 </div>
               </ScrollArea>
-            </TabsContent>
-            <TabsContent
-              value="zakoni"
-              className="flex-grow overflow-auto"
-            >
-              <ScrollArea
-                className="h-full"
-                type="always"
-              >
-                <div className="w-full pr-3">
-                  {zakoni.map((file, index) => (
-                    <ListItem
-                      key={index}
-                      text={file.stem}
-                      isSelected={index === selectedPDFIndex}
-                      Icon={FileText}
-                      onClick={() => handleSelect(index)}
-                    ></ListItem>
-                  ))}
-                </div>
-              </ScrollArea>
-            </TabsContent>
-          </Tabs>
+            </div>
+          </div>
         </CardContent>
       </Card>
 

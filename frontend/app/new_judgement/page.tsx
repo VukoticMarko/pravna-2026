@@ -14,6 +14,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import {
   Scale,
   User,
@@ -193,6 +194,8 @@ function SimilarCaseCard({ caseResult, index }: { caseResult: any; index: number
                 onClick={(e) => e.stopPropagation()}
                 title="Open PDF Judgement"
                 className="flex items-center gap-1 text-[10px] text-orange-300 hover:text-orange-200 border border-orange-500/30 rounded px-1.5 py-0.5 hover:bg-orange-500/10 transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <FileText className="w-3 h-3" />
                 PDF
@@ -202,6 +205,8 @@ function SimilarCaseCard({ caseResult, index }: { caseResult: any; index: number
                 onClick={(e) => e.stopPropagation()}
                 title="Open Akoma Ntoso Judgement"
                 className="flex items-center gap-1 text-[10px] text-purple-300 hover:text-purple-200 border border-purple-500/30 rounded px-1.5 py-0.5 hover:bg-purple-500/10 transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <ExternalLink className="w-3 h-3" />
                 AKN
@@ -230,6 +235,8 @@ function SimilarCaseCard({ caseResult, index }: { caseResult: any; index: number
 }
 
 export default function NovaPresuda() {
+  const router = useRouter();
+
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -293,6 +300,8 @@ export default function NovaPresuda() {
       console.error("Error saving case:", error);
     }
     setSubmitted(true);
+    const generatedCaseId = `K ${values.brojPresude} 2026`;
+    router.push(`/judgements?case=${encodeURIComponent(generatedCaseId)}`);
   };
 
   const getCaseBasedReasoning = async (values: z.infer<typeof formSchema>) => {
