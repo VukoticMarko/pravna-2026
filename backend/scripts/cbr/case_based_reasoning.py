@@ -80,7 +80,9 @@ def get_case_dict(df: pd.DataFrame, index: int, similarity: float) -> Dict[str, 
     return case_data
 
 
-def process_similarity_analysis(stolen_value: float, criminal_act: str, intention: str, steal_way: str):
+def process_similarity_analysis(stolen_value: float, criminal_act: str, intention: str, steal_way: str,
+                                articles_criminal_act: str = "", articles_condemnation: str = "",
+                                court_level: str = "", punishment: str = ""):
     """Executes the CBR logic and exports top 5 matches to cbr.txt."""
     csv_path = BASE_PATH / "nlp-output.csv"
     if not csv_path.exists():
@@ -93,13 +95,20 @@ def process_similarity_analysis(stolen_value: float, criminal_act: str, intentio
     avg_value = df["vr_ukradenih_stvari"].mean() if not df.empty else 0
     threshold = avg_value / 5
 
-    input_set = get_case_set([criminal_act, intention, steal_way])
+    input_set = get_case_set([criminal_act, intention, steal_way, articles_criminal_act, articles_condemnation, punishment])
 
     results: List[Dict[str, Any]] = []
     for index, row in df.iterrows():
         # 1. Base Jaccard on text features
         features = [str(val) for col, val in row.items() if col not in COLUMNS_TO_EXCLUDE]
         similarity = calc_jaccard_similarity(get_case_set(features), input_set)
+
+        # Bonus: if court level keyword matches (e.g. both 'osnovni', 'visi', 'apelacioni')
+        if court_level:
+            row_court = str(row.get("sud", "")).lower()
+            court_kw = court_level.lower()
+            if court_kw in row_court or row_court.startswith(court_kw[:5]):
+                similarity = min(1.0, similarity + 0.05)
 
         # 2. Refine based on monetary value
         row_value = float(row["vr_ukradenih_stvari"])
@@ -124,15 +133,23 @@ def process_similarity_analysis(stolen_value: float, criminal_act: str, intentio
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Case-Based Reasoning for Court Verdicts")
-    parser.add_argument("stolen_value", type=float, help="Value of stolen assets")
-    parser.add_argument("criminal_act", type=str, help="Name of the criminal act")
-    parser.add_argument("intention", type=str, help="Legal intention level")
-    parser.add_argument("steal_way", type=str, help="Modus operandi / Way of stealing")
+    parser.add_argument("stolen_value", type=float)
+    parser.add_argument("criminal_act", type=str)
+    parser.add_argument("intention", type=str)
+    parser.add_argument("steal_way", type=str)
+    parser.add_argument("articles_criminal_act", type=str, nargs="?", default="")
+    parser.add_argument("articles_condemnation", type=str, nargs="?", default="")
+    parser.add_argument("court_level", type=str, nargs="?", default="")
+    parser.add_argument("punishment", type=str, nargs="?", default="")
 
     args = parser.parse_args()
     process_similarity_analysis(
         args.stolen_value,
         args.criminal_act,
         args.intention,
-        args.steal_way
+        args.steal_way,
+        args.articles_criminal_act,
+        args.articles_condemnation,
+        args.court_level,
+        args.punishment
     )

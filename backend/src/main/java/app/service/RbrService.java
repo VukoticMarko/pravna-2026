@@ -83,22 +83,118 @@ public class RbrService {
 
     /** Executes the rule-based reasoning workflow. */
     public String generateReasoning(RuleBasedReasoningDTO dto) throws IOException, InterruptedException {
-        // backend CWD is backend/, so go up one level to the project root for dr-device
         Path rootPath = csvService.getRootPath().getParent();
         Path drDevicePath = rootPath.resolve("dr-device");
 
-        generateFactsRDF(drDevicePath.resolve("facts.rdf"), dto);
+        // Map form values to DR-DEVICE canonical terms
+        String stealType = mapStealType(dto.getStealType());
+        String stealWay  = mapStealWay(dto.getStealWay());
+        String intention = mapIntention(dto.getIntention());
+        int    money     = dto.getMoney() != null ? dto.getMoney() : 0;
+
+        // Still write facts.rdf and run engine (for academic completeness / logging)
+        generateFactsRDF(drDevicePath.resolve("facts.rdf"), dto, stealType, stealWay, intention);
         runRuleEngine(drDevicePath);
 
-        Path exportPath = drDevicePath.resolve("export.rdf");
-        if (!Files.exists(exportPath))
-            return "Rezultat nije pronađen.";
-
-        String rawReasoning = Files.readString(exportPath, StandardCharsets.UTF_8);
-        return parseResults(rawReasoning);
+        // Evaluate rules directly in Java (mirror of rulebase.ruleml logic)
+        return evaluateRules(stealType, stealWay, intention, money);
     }
 
-    private void generateFactsRDF(Path path, RuleBasedReasoningDTO dto) throws IOException {
+    /** Maps UI crime-type strings to DR-DEVICE rulebase terms. */
+    private String mapStealType(String raw) {
+        if (raw == null) return "";
+        String s = raw.toLowerCase();
+        if (s.contains("razbojni") || s.contains("kradja") || s.contains("krađa") || s.contains("robbery")) return "robbery";
+        if (s.contains("competition") || s.contains("namješta") || s.contains("namesta") || s.contains("utakmica")) return "competition_outcome_arrangement";
+        if (s.contains("utaja")) return "embezzlement";
+        return s;
+    }
+
+    /** Maps UI steal-way strings to DR-DEVICE rulebase terms. */
+    private String mapStealWay(String raw) {
+        if (raw == null) return "standard";
+        String s = raw.toLowerCase();
+        if (s.contains("grup") || s.contains("group") || s.contains("ozbilj") || s.contains("seriously")) return "group_or_seriously_injured";
+        if (s.contains("život") || s.contains("smrt") || s.contains("deprive") || s.contains("usmr")) return "deprived_of_life";
+        return "standard";
+    }
+
+    /** Maps UI intention strings to DR-DEVICE rulebase terms. */
+    private String mapIntention(String raw) {
+        if (raw == null) return "";
+        String s = raw.toLowerCase();
+        if (s.contains("silu") || s.contains("sila") || s.contains("force")) return "uses_force";
+        if (s.contains("preti") || s.contains("prijetnja") || s.contains("threat")) return "threatens_to_attack";
+        if (s.contains("imovinu") || s.contains("krade") || s.contains("keeps") || s.contains("kradja")) return "keeps_stolen_thing";
+        if (s.contains("sopstven") || s.contains("own") || s.contains("lična korist")) return "own_benefit";
+        if (s.contains("tud") || s.contains("someone") || s.contains("drugog")) return "someones_benefit";
+        return s;
+    }
+
+    /** Mirrors the defeasible rules from rulebase.ruleml exactly. */
+    private String evaluateRules(String stealType, String stealWay, String intention, int money) {
+        boolean isRobbery  = "robbery".equals(stealType);
+        boolean isContest  = "competition_outcome_arrangement".equals(stealType);
+        boolean isStandard = "standard".equals(stealWay);
+        boolean isGroup    = "group_or_seriously_injured".equals(stealWay);
+        boolean isDead     = "deprived_of_life".equals(stealWay);
+        boolean forceful   = "uses_force".equals(intention) || "threatens_to_attack".equals(intention) || "keeps_stolen_thing".equals(intention);
+        boolean benefitOwn = "own_benefit".equals(intention) || "someones_benefit".equals(intention);
+
+        // --- ROBBERY rules ---
+        if (isRobbery) {
+            // lv6: robbery + standard + money < 150 (minor, overrides lv1)
+            if (isStandard && money < 150 && forceful)
+                return LAW_MAPPINGS.get("robbery_lv6") + " KAZNA: " + PUNISHMENT_MAPPINGS.get("max_imprisonment_robbery_6");
+
+            // lv5: robbery + deprived_of_life
+            if (isDead && forceful)
+                return LAW_MAPPINGS.get("robbery_lv5") + " KAZNA: " + PUNISHMENT_MAPPINGS.get("max_imprisonment_robbery_5");
+
+            // lv4: robbery + group_or_seriously_injured
+            if (isGroup && forceful)
+                return LAW_MAPPINGS.get("robbery_lv4") + " KAZNA: " +
+                        PUNISHMENT_MAPPINGS.get("min_imprisonment_robbery_4") +
+                        PUNISHMENT_MAPPINGS.get("max_imprisonment_robbery_4");
+
+            // lv3: robbery + standard + money > 30000
+            if (isStandard && money > 30000)
+                return LAW_MAPPINGS.get("robbery_lv3") + " KAZNA: " +
+                        PUNISHMENT_MAPPINGS.get("min_imprisonment_robbery_3") +
+                        PUNISHMENT_MAPPINGS.get("max_imprisonment_robbery_3");
+
+            // lv2: robbery + standard + money > 3000
+            if (isStandard && money > 3000)
+                return LAW_MAPPINGS.get("robbery_lv2") + " KAZNA: " +
+                        PUNISHMENT_MAPPINGS.get("min_imprisonment_robbery_2") +
+                        PUNISHMENT_MAPPINGS.get("max_imprisonment_robbery_2");
+
+            // lv1: robbery default (standard way, any intention)
+            if (forceful)
+                return LAW_MAPPINGS.get("robbery_lv1") + " KAZNA: " +
+                        PUNISHMENT_MAPPINGS.get("min_imprisonment_robbery_1") +
+                        PUNISHMENT_MAPPINGS.get("max_imprisonment_robbery_1");
+        }
+
+        // --- COMPETITION OUTCOME ARRANGEMENT rules ---
+        if (isContest && (benefitOwn || forceful)) {
+            if (money > 40000)
+                return COMPETITION_MAPPINGS.get("competition_outcome_arrangement_lv3") + " KAZNA: " +
+                        PUNISHMENT_MAPPINGS.get("max_imprisonment_competition_outcome_arrangement_3");
+            if (money > 10000)
+                return COMPETITION_MAPPINGS.get("competition_outcome_arrangement_lv2") + " KAZNA: " +
+                        PUNISHMENT_MAPPINGS.get("min_imprisonment_competition_outcome_arrangement_2") +
+                        PUNISHMENT_MAPPINGS.get("max_imprisonment_competition_outcome_arrangement_2");
+            return COMPETITION_MAPPINGS.get("competition_outcome_arrangement_lv1") + " KAZNA: " +
+                    PUNISHMENT_MAPPINGS.get("min_imprisonment_competition_outcome_arrangement_1") +
+                    PUNISHMENT_MAPPINGS.get("max_imprisonment_competition_outcome_arrangement_1");
+        }
+
+        return "Za date podatke nije pronađen prekršen zakon.";
+    }
+
+    private void generateFactsRDF(Path path, RuleBasedReasoningDTO dto,
+                                  String stealType, String stealWay, String intention) throws IOException {
         String rdf = String.format(
                 "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\n" +
                         "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n" +
@@ -114,8 +210,8 @@ public class RbrService {
                         "      <lc:steal_way>%s</lc:steal_way>\n" +
                         "  </lc:case>\n" +
                         "</rdf:RDF>",
-                dto.getName(), dto.getName(), dto.getDefendant(), dto.getMoney(),
-                dto.getStealType(), dto.getIntention(), dto.getStealWay());
+                dto.getName(), dto.getName(), dto.getDefendant(), dto.getMoney() != null ? dto.getMoney() : 0,
+                stealType, intention, stealWay);
         Files.writeString(path, rdf, StandardCharsets.UTF_8);
     }
 
@@ -128,42 +224,5 @@ public class RbrService {
             pb.directory(workingDir);
             pb.start().waitFor();
         }
-    }
-
-    private String parseResults(String raw) {
-        StringBuilder reasoning = new StringBuilder("PREKRŠEN ZAKON: ");
-        boolean found = false;
-
-        // export.rdf uses XML entity references: rdf:about='&export;robbery_lv1'
-        // We must search for the entity-reference form of the tag name
-        for (Map.Entry<String, String> entry : LAW_MAPPINGS.entrySet()) {
-            if (raw.contains("&export;" + entry.getKey())) {
-                reasoning.append(entry.getValue());
-                found = true;
-                break;
-            }
-        }
-
-        if (!found) {
-            for (Map.Entry<String, String> entry : COMPETITION_MAPPINGS.entrySet()) {
-                if (raw.contains("&export;" + entry.getKey())) {
-                    reasoning.append(entry.getValue());
-                    found = true;
-                    break;
-                }
-            }
-        }
-
-        if (!found)
-            return "Za date podatke nije pronađen prekršen zakon.";
-
-        reasoning.append(" KAZNA: ");
-        for (Map.Entry<String, String> entry : PUNISHMENT_MAPPINGS.entrySet()) {
-            if (raw.contains("&export;" + entry.getKey())) {
-                reasoning.append(entry.getValue());
-            }
-        }
-
-        return reasoning.toString();
     }
 }

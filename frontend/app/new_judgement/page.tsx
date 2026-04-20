@@ -280,6 +280,18 @@ export default function NovaPresuda() {
           stealWay: stealWay,
         }),
       });
+      
+      if (!response.ok) {
+        let errorMsg = `Server error (${response.status})`;
+        try {
+          const errData = await response.json();
+          if (errData.error) errorMsg = errData.error;
+        } catch { /* response wasn't JSON */ }
+        console.error("AI Error:", errorMsg);
+        alert("Generisanje nije uspjelo: " + errorMsg);
+        return;
+      }
+      
       const data = await response.json();
       if (data.error) {
         console.error("AI Error:", data.error);
@@ -292,7 +304,7 @@ export default function NovaPresuda() {
       }
     } catch (error) {
       console.error("AI Fetch Error:", error);
-      alert("Greška pri konekciji sa lokalnim LLM-om.");
+      alert("Greška pri konekciji sa lokalnim LLM-om. Provjerite da li je server pokrenut.");
     } finally {
       setIsGenerating(false);
     }

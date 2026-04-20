@@ -9,6 +9,7 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Objects;
 import org.springframework.stereotype.Service;
 
 /**
@@ -55,7 +56,11 @@ public class CbrService {
                     dto.getValueOfStolenThings().toString(),
                     dto.getCriminalAct(),
                     dto.getIntention(),
-                    dto.getStealWay());
+                    dto.getStealWay(),
+                    nullSafe(dto.getArticlesCriminalAct()),
+                    nullSafe(dto.getArticlesCondemnation()),
+                    nullSafe(dto.getCourt()),
+                    nullSafe(dto.getPunishment()));
 
             pb.directory(rootPath.toFile());
             pb.redirectErrorStream(true);
@@ -82,5 +87,9 @@ public class CbrService {
             return Files.readString(exportPath, StandardCharsets.UTF_8);
         }
         return "[]";
+    }
+
+    private String nullSafe(String value) {
+        return value != null ? value : "";
     }
 }

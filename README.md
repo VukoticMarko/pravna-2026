@@ -234,8 +234,23 @@ The Spring Boot backend runs on **port 8080** and provides:
 
 - **Attribute extraction API** — parses HTML judgement content and returns structured legal attributes (court, judge, defendant, article, etc.) used by the "Judgement Attributes" panel in the frontend
 - **NLP / entity recognition** — supports named entity extraction from the judgment text
+- **Rule-Based & Case-Based Reasoning** — provides legal inference services via the `CbrController` and `RbrController`.
 
 **Tech stack:** Java 17, Spring Boot, Maven Wrapper (`mvnw`)
+
+---
+
+## 🤖 AI Generation — LLM
+
+The system includes a local AI generation feature that uses the **Meta-Llama-3.1-8B-Instruct** model to generate legal sanctions and explanations.
+
+### Model Setup
+The model should be placed in the `backend/models/` folder.
+
+**Download link:** [Meta-Llama-3.1-8B-Instruct-Q5_K_S.gguf](https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF/blob/main/Meta-Llama-3.1-8B-Instruct-Q5_K_S.gguf)
+
+The Python script `backend/scripts/llm/generate_judgement_llm.py` uses `llama-cpp-python` to interact with this model. Ensure you have the necessary dependencies installed (`pip install llama-cpp-python`).
+
 
 ---
 
@@ -259,8 +274,6 @@ The `documents/akoma-ntoso/` folder contains:
 
 | File | Description |
 |------|-------------|
-| `K 70 2024.xml` | Theft case, Osnovni Sud u Baru, 2024 |
-| `K 29 2024.xml` | Theft case, Osnovni Sud u Kotoru, 2024 |
 | `K 93 2024.xml` | 2024 case |
 | `K 108 2022.xml` | 2022 case |
 | `K 298 2021.xml` | 2021 case |
@@ -279,6 +292,15 @@ The `documents/akoma-ntoso/` folder contains:
 | `krivicni_zakon_crne_gore.xml` | **Criminal Code of Montenegro** (Articles 239–242) |
 
 ---
+
+## 🧪 Testing PDF Generation
+
+If you want to test whether the PDF → Akoma Ntoso pipeline is working correctly, you can use the sample files in the `Testne Odluke` folder.
+
+1. Copy a PDF from the `Testne Odluke/` directory.
+2. Paste it into `documents/akoma-ntoso/pdf/`.
+3. Go to the web application sidebar and wait for the **"New PDFs detected!"** notification.
+4. Click **"Generate: PDF → Akoma"**.
 
 ## 🛠️ Tech Stack
 
@@ -311,12 +333,6 @@ Get-Process -Name "java" | Stop-Process -Force
 # Then restart the backend
 .\mvnw.cmd spring-boot:run
 ```
-
-### PDF pipeline not generating files
-1. Confirm Python is installed: `python --version`
-2. Confirm `pdfplumber` is installed: `pip install pdfplumber`
-3. Check the PDF is in `documents/akoma-ntoso/pdf/`
-4. Run manually to see error output: `cd backend && python pdf_to_xml.py`
 
 ### Generated HTML not showing in browser
 - The Next.js dev server serves static files from `frontend/public/`. If you add files while the server is running, they should appear immediately.

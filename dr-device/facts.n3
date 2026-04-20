@@ -1,7 +1,7 @@
-<http://informatika.ftn.uns.ac.rs/legal-case.rdf#K_1_2026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#case> .
-<http://informatika.ftn.uns.ac.rs/legal-case.rdf#K_1_2026> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#name> "K_1_2026" .
-<http://informatika.ftn.uns.ac.rs/legal-case.rdf#K_1_2026> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#defendant> "Z.M." .
-<http://informatika.ftn.uns.ac.rs/legal-case.rdf#K_1_2026> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#money> "800"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://informatika.ftn.uns.ac.rs/legal-case.rdf#K_1_2026> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#steal_type> "kradja" .
-<http://informatika.ftn.uns.ac.rs/legal-case.rdf#K_1_2026> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#intention> "own_illegal_property_benefit" .
-<http://informatika.ftn.uns.ac.rs/legal-case.rdf#K_1_2026> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#steal_way> "standard" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#K_423_2026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#case> .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#K_423_2026> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#name> "K_423_2026" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#K_423_2026> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#defendant> "A.M." .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#K_423_2026> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#money> "42000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#K_423_2026> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#steal_type> "razbojnicka kradja" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#K_423_2026> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#intention> "uses_force" .
+<http://informatika.ftn.uns.ac.rs/legal-case.rdf#K_423_2026> <http://informatika.ftn.uns.ac.rs/legal-case.rdf#steal_way> "standard" .
