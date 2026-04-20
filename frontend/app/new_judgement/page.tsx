@@ -259,6 +259,44 @@ export default function NovaPresuda() {
   const [ruleBasedResult, setRuleBasedResult] = useState<string>("");
   const [loadingCbr, setLoadingCbr] = useState(false);
   const [loadingRbr, setLoadingRbr] = useState(false);
+  const [isGenerating, setIsGenerating] = useState(false);
+  const [aiModalData, setAiModalData] = useState<{sankcija: string, obrazlozenje: string} | null>(null);
+
+  const handleGenerateAI = async (values: z.infer<typeof formSchema>) => {
+    const { stealType, intention, stealWay } = translate(values.tipKradje, values.namera, values.nacinKradje);
+    setIsGenerating(true);
+    try {
+      const response = await fetch("/api/generate_ai", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          court: values.sud,
+          judge: values.sudija,
+          defendant: values.optuzeni,
+          criminalAct: stealType,
+          articlesCriminalAct: values.clanoviKrivicnihDela,
+          valueOfStolenThings: values.vrednostUkradenihStvari,
+          intention: intention,
+          stealWay: stealWay,
+        }),
+      });
+      const data = await response.json();
+      if (data.error) {
+        console.error("AI Error:", data.error);
+        alert("Generisanje nije uspjelo: " + data.error);
+      } else {
+        setAiModalData({
+          sankcija: data.sankcija || data.sanction || "",
+          obrazlozenje: data.obrazlozenje || data.explanation || ""
+        });
+      }
+    } catch (error) {
+      console.error("AI Fetch Error:", error);
+      alert("Greška pri konekciji sa lokalnim LLM-om.");
+    } finally {
+      setIsGenerating(false);
+    }
+  };
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     const { stealType, intention, stealWay } = translate(values.tipKradje, values.namera, values.nacinKradje);
@@ -743,13 +781,13 @@ export default function NovaPresuda() {
 
               {/* Footer actions */}
               <CardFooter className="shrink-0 border-t border-white/10 p-4 bg-black/20">
-                <div className="w-full flex items-center gap-2">
+                <div className="w-full grid grid-cols-2 gap-2">
                   <Button
                     onClick={form.handleSubmit(getCaseBasedReasoning)}
                     variant="outline"
                     type="button"
                     disabled={loadingCbr}
-                    className="gap-1.5 text-xs border-purple-500/30 text-purple-300 hover:bg-purple-500/10"
+                    className="gap-1.5 text-xs text-purple-300 hover:bg-purple-500/10 w-full"
                   >
                     <Search className="w-3.5 h-3.5" />
                     {loadingCbr ? "Searching..." : "Case Reasoning"}
@@ -759,13 +797,26 @@ export default function NovaPresuda() {
                     variant="outline"
                     type="button"
                     disabled={loadingRbr}
-                    className="gap-1.5 text-xs border-blue-500/30 text-blue-300 hover:bg-blue-500/10"
+                    className="gap-1.5 text-xs text-blue-300 hover:bg-blue-500/10 w-full"
                   >
                     <Scale className="w-3.5 h-3.5" />
                     {loadingRbr ? "Reasoning..." : "Rule Reasoning"}
                   </Button>
-                  <div className="flex-grow" />
-                  <Button type="submit" className="gap-1.5 text-xs bg-purple-600 hover:bg-purple-500">
+                  <Button
+                    onClick={form.handleSubmit(handleGenerateAI)}
+                    variant="outline"
+                    type="button"
+                    disabled={isGenerating}
+                    className="gap-1.5 text-xs text-green-300 hover:bg-green-500/10 w-full"
+                  >
+                    {isGenerating ? (
+                      <div className="w-3 h-3 border-2 border-green-400 border-t-transparent rounded-full animate-spin" />
+                    ) : (
+                      <BookOpen className="w-3.5 h-3.5" />
+                    )}
+                    {isGenerating ? "Generating..." : "Generate AI"}
+                  </Button>
+                  <Button type="submit" className="gap-1.5 text-xs bg-purple-600 hover:bg-purple-500 w-full">
                     <Send className="w-3.5 h-3.5" />
                     Submit
                   </Button>
@@ -847,6 +898,70 @@ export default function NovaPresuda() {
           </CardContent>
         </Card>
       </div>
+      
+      {/* AI GENERATION MODAL */}
+      {(isGenerating || aiModalData) && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+          <Card className="w-full max-w-2xl bg-[#0f0f15] border-white/10 shadow-2xl">
+            <CardHeader className="border-b border-white/10 pb-4">
+              <CardTitle className="text-lg flex items-center gap-2">
+                <BookOpen className="w-5 h-5 text-green-400" />
+                AI Generated Judgement Review
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="pt-6 space-y-4">
+              {isGenerating ? (
+                <div className="flex flex-col items-center justify-center py-10 space-y-4">
+                  <div className="w-8 h-8 border-4 border-green-500 border-t-transparent rounded-full animate-spin" />
+                  <p className="text-sm text-muted-foreground">Generating professional legal judgement based on context...</p>
+                </div>
+              ) : (
+                aiModalData && (
+                  <div className="space-y-4">
+                    <div className="space-y-2">
+                      <label className="text-xs text-muted-foreground font-semibold uppercase">Suggested Punishment</label>
+                      <Textarea 
+                        value={aiModalData.sankcija} 
+                        onChange={(e) => setAiModalData({...aiModalData, sankcija: e.target.value})}
+                        className="min-h-[100px] text-sm bg-white/5 border-white/10"
+                      />
+                    </div>
+                    <div className="space-y-2">
+                      <label className="text-xs text-muted-foreground font-semibold uppercase">Suggested Explanation</label>
+                      <Textarea 
+                        value={aiModalData.obrazlozenje}
+                        onChange={(e) => setAiModalData({...aiModalData, obrazlozenje: e.target.value})}
+                        className="min-h-[150px] text-sm bg-white/5 border-white/10"
+                      />
+                    </div>
+                  </div>
+                )
+              )}
+            </CardContent>
+            <CardFooter className="border-t border-white/10 pt-4 flex justify-end gap-3">
+              <Button variant="ghost" type="button" onClick={() => { setIsGenerating(false); setAiModalData(null); }} className="text-xs text-white/70 hover:text-white">
+                Cancel
+              </Button>
+              {!isGenerating && (
+                <Button 
+                  type="button"
+                  onClick={() => {
+                    if (aiModalData) {
+                      form.setValue("sankcija", aiModalData.sankcija);
+                      form.setValue("obrazlozenje", aiModalData.obrazlozenje);
+                      setAiModalData(null);
+                    }
+                  }} 
+                  className="bg-green-600 hover:bg-green-500 text-xs gap-1.5"
+                >
+                  <CheckCircle2 className="w-4 h-4" />
+                  Use this Text
+                </Button>
+              )}
+            </CardFooter>
+          </Card>
+        </div>
+      )}
     </div>
   );
 }

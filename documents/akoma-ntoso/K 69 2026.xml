@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>Osnovni Sud u Herceg Novom</FRBRauthor>
+					<FRBRdate date="2026-03-08">2026-03-08</FRBRdate>
+					<FRBRtitle>K 69/2026</FRBRtitle>
+					<FRBRcountry>CG</FRBRcountry>
+				</FRBRWork>
+			</identification>
+		</meta>
+		<judgmentBody>
+			<p>
+				<organization id="court">Osnovni Sud u Herceg Novom</organization>, sudija <party as="#judge">Marko V.</party>, optuženi <party as="#defendant">G.G.</party>, krivično djelo <ref href="/pdf/krivicni-zakonik.html#art_241">cl. 241</ref>.
+			</p>
+			<p style="text-align: center;">P R E S U D U</p>
+			<p>Okrivljeni <party as="#defendant">G.G.</party> je KRIV.</p>
+			<p>OSUĐUJE SE na Kazna zatvora od 8 godina..</p>
+			<conclusions>
+				<p>Obrazloženje: </p>
+			</conclusions>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>

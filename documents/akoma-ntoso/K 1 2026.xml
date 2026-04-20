@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>Osnovni Sud u Bijelom Polju</FRBRauthor>
+					<FRBRdate date="2026-03-08">2026-03-08</FRBRdate>
+					<FRBRtitle>K 1/2026</FRBRtitle>
+					<FRBRcountry>CG</FRBRcountry>
+				</FRBRWork>
+			</identification>
+		</meta>
+		<judgmentBody>
+			<p>
+				<organization id="court">Osnovni Sud u Bijelom Polju</organization>, sudija <party as="#judge">Zonda</party>, optuženi <party as="#defendant">Z.M.</party>, krivično djelo <ref href="/pdf/krivicni-zakonik.html#art_239">cl. 239</ref>.
+			</p>
+			<p style="text-align: center;">P R E S U D U</p>
+			<p>Okrivljeni <party as="#defendant">Z.M.</party> je KRIV.</p>
+			<p>OSUĐUJE SE na Kazna od 5 meseci..</p>
+			<conclusions>
+				<p>Obrazloženje: Uvidom u dokaze, sud je zaključio da je optuženik Z.M. kriv za kradju u iznosu od 800 EUR, koja je izvršena za sopstvenu ilegalnu korist, u skladu sa članom 239. Zakonom o krivičnom pravu. Sud je razmotrio sve dokaze i zaključio da je optuženik kriv za krivično delo.</p>
+			</conclusions>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>

@@ -241,22 +241,4 @@
      <rdfs:domain rdf:resource='&export;competition_outcome_arrangement_lv3'/>
 </rdf:Property>
 
-<export:max_imprisonment_robbery_1 rdf:about='&export;max_imprisonment_robbery_11'>
-     <export:value>8</export:value>
-     <defeasible:truthStatus>defeasibly-proven-positive</defeasible:truthStatus>
-     <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof1</defeasible:proof>
-</export:max_imprisonment_robbery_1>
-
-<export:min_imprisonment_robbery_1 rdf:about='&export;min_imprisonment_robbery_11'>
-     <export:value>1</export:value>
-     <defeasible:truthStatus>defeasibly-proven-positive</defeasible:truthStatus>
-     <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof3</defeasible:proof>
-</export:min_imprisonment_robbery_1>
-
-<export:robbery_lv1 rdf:about='&export;robbery_lv11'>
-     <export:defendant>D.Z.</export:defendant>
-     <defeasible:truthStatus>defeasibly-proven-positive</defeasible:truthStatus>
-     <defeasible:proof rdf:datatype='&xsd;anyURI'>&proof-export;proof2</defeasible:proof>
-</export:robbery_lv1>
-
 </rdf:RDF>
